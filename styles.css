@@ -702,3 +702,261 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 400; letter-spacing:
   color: var(--text);
   font-weight: 500;
 }
+
+/* --- Pricing Page --- */
+.pricing-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem 5rem;
+}
+
+.pricing-section--addons {
+  padding-bottom: 3rem;
+}
+
+.pricing-section--book {
+  padding-bottom: 4rem;
+}
+
+.pricing-section__header {
+  margin-bottom: 2.5rem;
+}
+
+.pricing-section__title {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  margin-bottom: 0.6rem;
+}
+
+.pricing-section__desc {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  line-height: 1.7;
+  max-width: 600px;
+}
+
+/* Pricing groups (sub-categories within a section) */
+.pricing-group {
+  margin-bottom: 3rem;
+}
+
+.pricing-group__label {
+  font-family: var(--font);
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.4rem;
+}
+
+.pricing-group__desc {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  max-width: 550px;
+}
+
+/* Pricing cards grid */
+.pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+}
+
+.pricing-cards--two {
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 733px;
+}
+
+.pricing-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  padding: 2rem;
+  transition: border-color var(--transition);
+}
+
+.pricing-card:hover {
+  border-color: #2a2a2a;
+}
+
+.pricing-card__name {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 0.6rem;
+}
+
+.pricing-card__price {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  color: var(--accent);
+  margin-bottom: 0.2rem;
+}
+
+.pricing-card__plus {
+  font-size: 1.2rem;
+}
+
+.pricing-card__images {
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 1.5rem;
+}
+
+.pricing-card__features {
+  list-style: none;
+}
+
+.pricing-card__features li {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  line-height: 1.6;
+  padding: 0.3rem 0;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.pricing-card__features li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.7rem;
+  width: 4px;
+  height: 4px;
+  background: var(--accent);
+  border-radius: 50%;
+}
+
+/* Add-ons */
+.pricing-addons {
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  padding: 2rem;
+  margin-top: 1.5rem;
+}
+
+.pricing-addons__title {
+  font-family: var(--font);
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 1.2rem;
+}
+
+.pricing-addons__list {
+  list-style: none;
+}
+
+.pricing-addons__list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.pricing-addons__list li:last-child {
+  border-bottom: none;
+}
+
+.pricing-addons__list li span:last-child {
+  color: var(--accent);
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  white-space: nowrap;
+  margin-left: 1rem;
+}
+
+/* How to Book */
+.pricing-book {
+  text-align: center;
+  border-top: 1px solid var(--border);
+  padding-top: 4rem;
+}
+
+.pricing-book__title {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  margin-bottom: 2.5rem;
+}
+
+.pricing-book__steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+.pricing-book__step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.pricing-book__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-family: var(--font-display);
+  font-size: 1rem;
+  border-radius: 50%;
+}
+
+.pricing-book__step p {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+
+.pricing-book__payment {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  margin-bottom: 2rem;
+}
+
+.pricing-book__cta {
+  display: inline-block;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 0.8rem 2.5rem;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  transition: all var(--transition);
+}
+
+.pricing-book__cta:hover {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+@media (max-width: 768px) {
+  .pricing-cards {
+    grid-template-columns: 1fr;
+  }
+  .pricing-cards--two {
+    grid-template-columns: 1fr;
+  }
+  .pricing-book__steps {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricing-book__steps {
+    grid-template-columns: 1fr;
+  }
+}
