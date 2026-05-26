@@ -877,6 +877,9 @@ h1, h2, h3, h4 {
   .case, .case--reversed { grid-template-columns: 1fr; gap: 24px; }
   .case--reversed .case__images { order: 1; }
   .case--reversed .case__body { order: 2; }
+  /* Mobile: featured cards stack big; regular cases go side-by-side */
+  .case--featured .case__images { grid-template-columns: 1fr; }
+  .case:not(.case--featured) .case__images { grid-template-columns: 1fr 1fr; }
 }
 
 /* --- Contact form (Netlify) --- */
