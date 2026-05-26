@@ -225,7 +225,10 @@ h1, h2, h3, h4 {
 .hero {
   position: relative;
   width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
   height: 100vh;
+  /* height: 100dvh; */
   min-height: 560px;
   overflow: hidden;
   display: flex;
@@ -246,7 +249,7 @@ h1, h2, h3, h4 {
   object-fit: cover;
   object-position: center 18%;
   opacity: 0;
-  animation: hero-cycle 18s infinite ease;
+  animation: hero-cycle 24s infinite ease;
 }
 
 .hero__image:nth-child(1) { animation-delay: -1s; }
@@ -288,6 +291,23 @@ h1, h2, h3, h4 {
   max-width: 640px;
 }
 
+@media (max-width: 768px) {
+  /* Lighter side + bottom vignette so the portrait reads on a narrow screen */
+  .hero__overlay {
+    background: none;
+  }
+  .hero__content {
+    /* uses moody-bg with transparency and fading to transparent at the top*/
+    background: 
+      linear-gradient(to top,
+        rgba(16, 12, 8, 0.92) 80%,
+        transparent 100%
+      );
+    padding: 2.5rem 1.75rem;
+    padding-bottom: calc(2.5rem + env(safe-area-inset-bottom));
+  }
+}
+
 .hero__subtitle {
   font-family: var(--font);
   font-size: 0.78rem;
@@ -319,6 +339,14 @@ h1, h2, h3, h4 {
   background: transparent;
   transition: background var(--transition), color var(--transition);
   cursor: pointer;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  /* Small margin for mobile */
+  .hero__cta {
+    margin-bottom: 52px;
+  }
 }
 
 .hero__cta:hover {
@@ -795,6 +823,23 @@ h1, h2, h3, h4 {
 .case--reversed { grid-template-columns: 1fr 1.4fr; }
 .case--reversed .case__images { order: 2; }
 .case--reversed .case__body { order: 1; }
+/* Featured lead case — full width, cards on top, centered writeup */
+.case--featured { display: block; }
+.case--featured .case__images {
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  margin-bottom: var(--s-5);
+}
+.case--featured .case__body {
+  max-width: 680px;
+  margin: 0 auto;
+}
+.case--featured .case__client,
+.case--featured .case__meta { text-align: center; }
+.case--featured .case__title {
+  text-align: center;
+  font-size: clamp(2.1rem, 4vw, 3rem);
+}
 .case__images { display: grid; gap: 6px; }
 .case__images img { width: 100%; height: auto; display: block; }
 .case__client {
@@ -918,7 +963,8 @@ h1, h2, h3, h4 {
 .footer__links {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  flex-wrap: wrap;
+  gap: 0.75rem 2rem;
   margin-bottom: 14px;
 }
 
