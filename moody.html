@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" class="page--moody">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product &middot; Moody — Aimeri Baddouh Photography</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Product · Moody — Aimeri Baddouh Photography</title>
   <meta name="description" content="Dark, dramatic product photography by Aimeri Baddouh. Sculpted light, deep shadows, studio precision.">
+  <meta name="theme-color" content="#0b0908">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="canonical" href="https://aimeribaddouh.com/moody">
 
@@ -20,139 +21,151 @@
   <meta name="twitter:title" content="Product · Moody — Aimeri Baddouh Photography">
   <meta name="twitter:description" content="Dark backgrounds, a single sculpted light, deep shadow. Product photography by Aimeri Baddouh.">
   <meta name="twitter:image" content="https://aimeribaddouh.com/images/product-moody/pocket-watch.png">
-  <link rel="stylesheet" href="styles.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=Inter:opsz,wght@14..32,300..600&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+  <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 
-  <nav class="nav">
-    <a href="/" class="nav__logo">
-      Aimeri Baddouh
-      <span>Photography</span>
-    </a>
-    <input type="checkbox" id="nav-toggle" class="nav__toggle sr-only">
-    <label for="nav-toggle" class="nav__toggle-label"><span></span></label>
-    <ul class="nav__links">
-      <li><a href="/portraits">Portraits</a></li>
-      <li><a href="/moody" class="active">Product &middot; Moody</a></li>
-      <li><a href="/color">Product &middot; Color</a></li>
-      <li><a href="/selected-work">Selected Work</a></li>
-      <li><a href="/about">About</a></li>
-    </ul>
-  </nav>
+  <a class="skip" href="#main">Skip to content</a>
 
-  <header class="page-header">
-    <p class="page-header__eyebrow">Gallery II</p>
-    <h1 class="page-header__title">Product &middot; Moody</h1>
-    <p class="page-header__desc">Dark backgrounds, a single sculpted light, deep shadow.</p>
-    <div class="page-header__divider"></div>
+  <header class="nav">
+    <a href="/" class="nav__logo">Aimeri Baddouh <small>Photography</small></a>
+    <nav aria-label="Primary">
+      <ul class="nav__links">
+        <li><a href="/portraits">Portraits</a></li>
+        <li><a href="/moody" aria-current="page">Product&nbsp;&middot; Moody</a></li>
+        <li><a href="/color">Product&nbsp;&middot; Color</a></li>
+        <li><a href="/selected-work">Selected Work</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+    <button type="button" class="nav__menu" aria-expanded="false" aria-controls="menu">
+      <span class="label-closed">Menu</span><span class="label-open">Close</span><i aria-hidden="true"></i>
+    </button>
   </header>
 
-  <div class="gallery-grid gallery-grid--moody">
-    <div class="gallery-item"><a href="#m1"><img src="images/product-moody/pipe.png" alt="Tobacco pipe, dark background, single sculpted light"></a></div>
-    <div class="gallery-item"><a href="#m2"><img src="images/product-moody/wine.jpeg" alt="Apothic Red wine bottle, dramatic dark studio"></a></div>
-    <div class="gallery-item"><a href="#m3"><img src="images/product-moody/pocket-watch.png" alt="Gold pocket watch on black velvet"></a></div>
-    <div class="gallery-item"><a href="#m4"><img src="images/product-moody/watch-macro.png" alt="Watch movement macro — gold gears and hands"></a></div>
-    <div class="gallery-item"><a href="#m5"><img src="images/product-moody/parfait.jpeg" alt="Berry parfait, dark gradient background"></a></div>
-    <div class="gallery-item"><a href="#m6"><img src="images/product-moody/candle-bokeh.png" alt="Concrete candle with bokeh fairy lights"></a></div>
-    <div class="gallery-item"><a href="#m7"><img src="images/product-moody/candle-flowers.png" alt="Lit candle with dried flowers and fairy lights"></a></div>
-    <div class="gallery-item"><a href="#m8"><img src="images/product-moody/origami.png" alt="Origami cranes on wooden box, dark dramatic"></a></div>
-    <div class="gallery-item"><a href="#m9"><img src="images/product-moody/flower-vase.jpg" alt="Flower arrangement in teal ceramic vase, dark background"></a></div>
-    <div class="gallery-item"><a href="#m10"><img src="images/product-moody/silhouette-red.jpeg" alt="Figurine silhouette against deep red backlight"></a></div>
-    <div class="gallery-item"><a href="#m11"><img src="images/product-moody/petit-prince.jpeg" alt="The Little Prince figurine, colorful dramatic lighting"></a></div>
-    <div class="gallery-item"><a href="#m12"><img src="images/product-moody/hotsauce-hero.jpeg" alt="Fire Belly Farm hot sauce hero shot with peppers"></a></div>
-    <div class="gallery-item"><a href="#m13"><img src="images/product-moody/hotsauce-lineup.jpeg" alt="Fire Belly Farm hot sauce full product lineup"></a></div>
-    <div class="gallery-item"><a href="#m14"><img src="images/product-moody/peppers.jpeg" alt="Fresh peppers close-up, vibrant on dark"></a></div>
+  <div class="menu" id="menu" aria-hidden="true">
+    <ul class="menu__list">
+      <li><a class="menu__link" href="/portraits" style="--i:0"><small>01</small>Portraits<img class="menu__thumb" src="/images/opt/portraits/dark-coat-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/moody" style="--i:1"><small>02</small>Product&nbsp;&middot; Moody<img class="menu__thumb" src="/images/opt/product-moody/pocket-watch-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/color" style="--i:2"><small>03</small>Product&nbsp;&middot; Color<img class="menu__thumb" src="/images/opt/product-pop/tarot-sun-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/selected-work" style="--i:3"><small>04</small>Selected Work<img class="menu__thumb" src="/images/opt/product-pop/fan-earrings-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/about" style="--i:4"><small>05</small>About<img class="menu__thumb" src="/images/opt/about/photographer-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+    </ul>
+    <div class="menu__foot">
+      <a href="mailto:aimeri@baddouh.me">aimeri@baddouh.me</a>
+      <a href="https://instagram.com/aimeribaddouh" target="_blank" rel="noopener">Instagram</a>
+      <span>Cuenca, Ecuador</span>
+    </div>
   </div>
 
-  <!-- Lightboxes -->
-  <div id="m1" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-moody/pipe.png" alt="Tobacco pipe, dark background">
-    <div class="lightbox__nav"><a href="#m14">&larr; Prev</a><a href="#m2">Next &rarr;</a></div>
-  </div>
-  <div id="m2" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-moody/wine.jpeg" alt="Apothic Red wine bottle">
-    <div class="lightbox__nav"><a href="#m1">&larr; Prev</a><a href="#m3">Next &rarr;</a></div>
-  </div>
-  <div id="m3" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-moody/pocket-watch.png" alt="Gold pocket watch on black">
-    <div class="lightbox__nav"><a href="#m2">&larr; Prev</a><a href="#m4">Next &rarr;</a></div>
-  </div>
-  <div id="m4" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-moody/watch-macro.png" alt="Watch movement macro">
-    <div class="lightbox__nav"><a href="#m3">&larr; Prev</a><a href="#m5">Next &rarr;</a></div>
-  </div>
-  <div id="m5" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-moody/parfait.jpeg" alt="Berry parfait dark background">
-    <div class="lightbox__nav"><a href="#m4">&larr; Prev</a><a href="#m6">Next &rarr;</a></div>
-  </div>
-  <div id="m6" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-moody/candle-bokeh.png" alt="Candle with bokeh lights">
-    <div class="lightbox__nav"><a href="#m5">&larr; Prev</a><a href="#m7">Next &rarr;</a></div>
-  </div>
-  <div id="m7" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-moody/candle-flowers.png" alt="Lit candle with flowers">
-    <div class="lightbox__nav"><a href="#m6">&larr; Prev</a><a href="#m8">Next &rarr;</a></div>
-  </div>
-  <div id="m8" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-moody/origami.png" alt="Origami cranes on dark">
-    <div class="lightbox__nav"><a href="#m7">&larr; Prev</a><a href="#m9">Next &rarr;</a></div>
-  </div>
-  <div id="m9" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-moody/flower-vase.jpg" alt="Flower arrangement dark background">
-    <div class="lightbox__nav"><a href="#m8">&larr; Prev</a><a href="#m10">Next &rarr;</a></div>
-  </div>
-  <div id="m10" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-moody/silhouette-red.jpeg" alt="Figurine silhouette red backlight">
-    <div class="lightbox__nav"><a href="#m9">&larr; Prev</a><a href="#m11">Next &rarr;</a></div>
-  </div>
-  <div id="m11" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-moody/petit-prince.jpeg" alt="Little Prince figurine dramatic light">
-    <div class="lightbox__nav"><a href="#m10">&larr; Prev</a><a href="#m12">Next &rarr;</a></div>
-  </div>
-  <div id="m12" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-moody/hotsauce-hero.jpeg" alt="Hot sauce hero shot">
-    <div class="lightbox__nav"><a href="#m11">&larr; Prev</a><a href="#m13">Next &rarr;</a></div>
-  </div>
-  <div id="m13" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-moody/hotsauce-lineup.jpeg" alt="Hot sauce lineup">
-    <div class="lightbox__nav"><a href="#m12">&larr; Prev</a><a href="#m14">Next &rarr;</a></div>
-  </div>
-  <div id="m14" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-moody/peppers.jpeg" alt="Fresh peppers close-up">
-    <div class="lightbox__nav"><a href="#m13">&larr; Prev</a><a href="#m1">Next &rarr;</a></div>
-  </div>
+  <main id="main">
+    <header class="ghead wrap">
+      <div class="ghead__top">
+        <p class="eyebrow eyebrow--accent">Gallery II</p>
+        <p class="ghead__count mono">14 photographs</p>
+      </div>
+      <h1 class="ghead__title">Product&nbsp;&middot; <em>Moody</em></h1>
+      <div class="ghead__row">
+        <p class="ghead__desc">Dark backgrounds, a single sculpted light, deep shadow.</p>
+        <a class="btn" href="/about#contact">Book a session <span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </div>
+    </header>
 
-  <div style="text-align:center; padding: 2rem;">
-    <a href="/" class="back-link">Back to galleries</a>
-  </div>
+    <section class="gallery wrap" data-lightbox aria-label="Product · Moody — Aimeri Baddouh Photography gallery">
+      <div class="justified" data-rows="0.5,0.4,0.58">
+<figure class="ph ph--lead" data-w="1920" data-h="1280" style="--avg:#382D1E;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAUGAv/EACUQAAIBAgUDBQAAAAAAAAAAAAECAwAEBQYRIUESMVETFCJhcf/EABQBAQAAAAAAAAAAAAAAAAAAAAP/xAAYEQADAQEAAAAAAAAAAAAAAAAAARECEv/aAAwDAQACEQMRAD8AiLSxnvEneFQVgTrfU8U3uss4icMS/ESBViHWgPyH3p+aUuwq6W2lcSsVRhvp5HYVSXGaLRbKf2vqmaZQCjbKp535om9dSCJZhGsCraMCD4NFbmlknkMkrl3Pck0UoZ//2Q==)">
+    <a class="ph__link" href="/images/opt/product-moody/pocket-watch-1920.webp" data-srcset="/images/opt/product-moody/pocket-watch-480.webp 480w, /images/opt/product-moody/pocket-watch-960.webp 960w, /images/opt/product-moody/pocket-watch-1440.webp 1440w, /images/opt/product-moody/pocket-watch-1920.webp 1920w" data-caption="Gold pocket watch on black velvet" aria-label="Open: Gold pocket watch on black velvet"><img src="/images/opt/product-moody/pocket-watch-960.webp" srcset="/images/opt/product-moody/pocket-watch-480.webp 480w, /images/opt/product-moody/pocket-watch-960.webp 960w, /images/opt/product-moody/pocket-watch-1440.webp 1440w, /images/opt/product-moody/pocket-watch-1920.webp 1920w" sizes="(max-width: 719px) 100vw, 45vw" width="1920" height="1280" alt="Gold pocket watch on black velvet" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Gold pocket watch on black velvet</span><span class="mono">01 / 14</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1536" data-h="1920" style="--avg:#131313;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABMDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAMCBAb/xAAcEAEBAAICAwAAAAAAAAAAAAABAAIRAyETQVH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A4XDCo8Q4LOPsD7U16g1HHuVcg2yDHjzRNOkqeQB73JBJy2ySD//Z)">
+    <a class="ph__link" href="/images/opt/product-moody/pipe-1536.webp" data-srcset="/images/opt/product-moody/pipe-480.webp 480w, /images/opt/product-moody/pipe-960.webp 960w, /images/opt/product-moody/pipe-1440.webp 1440w, /images/opt/product-moody/pipe-1536.webp 1536w" data-caption="Tobacco pipe, single sculpted light" aria-label="Open: Tobacco pipe, single sculpted light"><img src="/images/opt/product-moody/pipe-960.webp" srcset="/images/opt/product-moody/pipe-480.webp 480w, /images/opt/product-moody/pipe-960.webp 960w, /images/opt/product-moody/pipe-1440.webp 1440w, /images/opt/product-moody/pipe-1536.webp 1536w" sizes="(max-width: 719px) 50vw, 45vw" width="1536" height="1920" alt="Tobacco pipe, single sculpted light" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Tobacco pipe, single sculpted light</span><span class="mono">02 / 14</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1280" data-h="1920" style="--avg:#1C110E;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgAEBv/EACMQAAEDAwIHAAAAAAAAAAAAAAEAAhEDEjEEQQUTFSEiUWH/xAAWAQEBAQAAAAAAAAAAAAAAAAADAQL/xAAYEQEAAwEAAAAAAAAAAAAAAAAAARJBQv/aAAwDAQACEQMRAD8A4FsXCcT3SrBorPsiy4xHpKmyXCcJ6lo5niABa3A+BTWuWvpupFO5tIuI2CbeFaqoy57RTJ2dlSkN5LSH/9k=)">
+    <a class="ph__link" href="/images/opt/product-moody/wine-1280.webp" data-srcset="/images/opt/product-moody/wine-480.webp 480w, /images/opt/product-moody/wine-960.webp 960w, /images/opt/product-moody/wine-1280.webp 1280w" data-caption="Apothic Red, dark studio" aria-label="Open: Apothic Red, dark studio"><img src="/images/opt/product-moody/wine-960.webp" srcset="/images/opt/product-moody/wine-480.webp 480w, /images/opt/product-moody/wine-960.webp 960w, /images/opt/product-moody/wine-1280.webp 1280w" sizes="(max-width: 719px) 50vw, 45vw" width="1280" height="1920" alt="Apothic Red, dark studio" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Apothic Red, dark studio</span><span class="mono">03 / 14</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1536" data-h="1920" style="--avg:#6B532C;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABMDASIAAhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAAAAIDAQQFBv/EACQQAAICAgEDBAMAAAAAAAAAAAECAAMEESESEzEFIjJBUWHw/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAIEAQP/xAAYEQADAQEAAAAAAAAAAAAAAAAAARECEv/aAAwDAQACEQMRAD8A89j4ZetXsVV6Tpi5nRqxa+grkUoo15UaOj9gyWFb3KQMilWNblU4+Q/czaWuZ0RT0VH3L+JHrbpQsqHJsxKK7GQ9xtHyNcxLmvLHYpYD64JidLoSIsT1HGuwnS1O0yaC2KNkiQfPSt3WvhreWY/3ERG4VM6ZonDzGO0V3U8hl8GIiHTDk//Z)">
+    <a class="ph__link" href="/images/opt/product-moody/watch-macro-1536.webp" data-srcset="/images/opt/product-moody/watch-macro-480.webp 480w, /images/opt/product-moody/watch-macro-960.webp 960w, /images/opt/product-moody/watch-macro-1440.webp 1440w, /images/opt/product-moody/watch-macro-1536.webp 1536w" data-caption="Watch movement macro, gold gears and hands" aria-label="Open: Watch movement macro, gold gears and hands"><img src="/images/opt/product-moody/watch-macro-960.webp" srcset="/images/opt/product-moody/watch-macro-480.webp 480w, /images/opt/product-moody/watch-macro-960.webp 960w, /images/opt/product-moody/watch-macro-1440.webp 1440w, /images/opt/product-moody/watch-macro-1536.webp 1536w" sizes="(max-width: 719px) 50vw, 45vw" width="1536" height="1920" alt="Watch movement macro, gold gears and hands" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Watch movement macro, gold gears and hands</span><span class="mono">04 / 14</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1280" style="--avg:#2C221A;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQDBQb/xAAfEAACAgMAAgMAAAAAAAAAAAABAgADBBExIUEFEmH/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAwDAQACEQMRAD8AxCqW4DLBPhrvoHvtqx0PuxtRJbSAFPBz8jOXk15Tq7EgqoXXdwu7MChvxLKQG8Oh4y8MIPkMCwSxirDzv3CU2Ll//9k=)">
+    <a class="ph__link" href="/images/opt/product-moody/candle-flowers-1920.webp" data-srcset="/images/opt/product-moody/candle-flowers-480.webp 480w, /images/opt/product-moody/candle-flowers-960.webp 960w, /images/opt/product-moody/candle-flowers-1440.webp 1440w, /images/opt/product-moody/candle-flowers-1920.webp 1920w" data-caption="Lit candle with dried flowers and fairy lights" aria-label="Open: Lit candle with dried flowers and fairy lights"><img src="/images/opt/product-moody/candle-flowers-960.webp" srcset="/images/opt/product-moody/candle-flowers-480.webp 480w, /images/opt/product-moody/candle-flowers-960.webp 960w, /images/opt/product-moody/candle-flowers-1440.webp 1440w, /images/opt/product-moody/candle-flowers-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1280" alt="Lit candle with dried flowers and fairy lights" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Lit candle with dried flowers and fairy lights</span><span class="mono">05 / 14</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1280" style="--avg:#26221B;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAb/xAAhEAACAgEDBQEAAAAAAAAAAAABAgARAyExQQQSE1Jikf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8AxePtunujyOIzxDYOpvY3pIxMBoTUcGT2H7M7qwjJjCbOrH5uEs4+oTGWBohhUIpH/9k=)">
+    <a class="ph__link" href="/images/opt/product-moody/origami-1920.webp" data-srcset="/images/opt/product-moody/origami-480.webp 480w, /images/opt/product-moody/origami-960.webp 960w, /images/opt/product-moody/origami-1440.webp 1440w, /images/opt/product-moody/origami-1920.webp 1920w" data-caption="Origami cranes on a wooden box" aria-label="Open: Origami cranes on a wooden box"><img src="/images/opt/product-moody/origami-960.webp" srcset="/images/opt/product-moody/origami-480.webp 480w, /images/opt/product-moody/origami-960.webp 960w, /images/opt/product-moody/origami-1440.webp 1440w, /images/opt/product-moody/origami-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1280" alt="Origami cranes on a wooden box" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Origami cranes on a wooden box</span><span class="mono">06 / 14</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1536" data-h="1920" style="--avg:#422A2C;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABMDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMEAQb/xAAkEAACAgICAQMFAAAAAAAAAAABAgADBBESITEFE1IUQVFhgf/EABkBAAIDAQAAAAAAAAAAAAAAAAMFAAECBP/EAB0RAAIBBAMAAAAAAAAAAAAAAAABAgMREiFB0vD/2gAMAwEAAhEDEQA/APNelYi5mUtVtwrQjZIXZlMj05qLLWNypSuwlhXRY/Ya8zLhEpkowQBl7B3ruVz67a7k51d672Dx3/ZKkpZpJmqGHK2VS8KgH1tnXxXqJNbbAoHvVr+gPEQ9x6p692M+JlmiqxOKtz/KAzltrWIA1jEfHXQiJzNK9xJBJkfEREsJkz//2Q==)">
+    <a class="ph__link" href="/images/opt/product-moody/petit-prince-1536.webp" data-srcset="/images/opt/product-moody/petit-prince-480.webp 480w, /images/opt/product-moody/petit-prince-960.webp 960w, /images/opt/product-moody/petit-prince-1440.webp 1440w, /images/opt/product-moody/petit-prince-1536.webp 1536w" data-caption="The Little Prince, gelled light" aria-label="Open: The Little Prince, gelled light"><img src="/images/opt/product-moody/petit-prince-960.webp" srcset="/images/opt/product-moody/petit-prince-480.webp 480w, /images/opt/product-moody/petit-prince-960.webp 960w, /images/opt/product-moody/petit-prince-1440.webp 1440w, /images/opt/product-moody/petit-prince-1536.webp 1536w" sizes="(max-width: 719px) 50vw, 45vw" width="1536" height="1920" alt="The Little Prince, gelled light" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>The Little Prince, gelled light</span><span class="mono">07 / 14</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1536" data-h="1920" style="--avg:#490911;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABMDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwb/xAAjEAACAgECBgMAAAAAAAAAAAABAgAREgMhBBMUIzEyQVFx/8QAGQEAAgMBAAAAAAAAAAAAAAAAAQIAAwQF/8QAHREAAwACAgMAAAAAAAAAAAAAAAECERIDITFBUf/aAAwDAQACEQMRAD8A4tQFXIi5t230Q1USaqFA6ZjV7SODClmtdwPaVt9ZOnEubmF7RkwokfUS+pXMaIUxK4kmzLNsSuRo/EhWZfViPwxEfBh2rzkFifJMREgNn9P/2Q==)">
+    <a class="ph__link" href="/images/opt/product-moody/silhouette-red-1536.webp" data-srcset="/images/opt/product-moody/silhouette-red-480.webp 480w, /images/opt/product-moody/silhouette-red-960.webp 960w, /images/opt/product-moody/silhouette-red-1440.webp 1440w, /images/opt/product-moody/silhouette-red-1536.webp 1536w" data-caption="Figurine silhouette against deep red backlight" aria-label="Open: Figurine silhouette against deep red backlight"><img src="/images/opt/product-moody/silhouette-red-960.webp" srcset="/images/opt/product-moody/silhouette-red-480.webp 480w, /images/opt/product-moody/silhouette-red-960.webp 960w, /images/opt/product-moody/silhouette-red-1440.webp 1440w, /images/opt/product-moody/silhouette-red-1536.webp 1536w" sizes="(max-width: 719px) 50vw, 45vw" width="1536" height="1920" alt="Figurine silhouette against deep red backlight" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Figurine silhouette against deep red backlight</span><span class="mono">08 / 14</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1920" style="--avg:#312A29;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQGAf/EACUQAAEDAwQABwAAAAAAAAAAAAEAAgMEESEFEjFRBhMyQWGh8P/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAECEf/aAAwDAQACEQMRAD8AxMIGFZLTuYfQQCSBj92pIXWselpa/wAR+dqxaIWhjLAG3PZRTGckbhF2VwJJ+USF0egTlp21EJ9hzn6XanT5xXbhA4AWBcERCprkSTUFQwEuYQL24RESl//Z)">
+    <a class="ph__link" href="/images/opt/product-moody/parfait-1920.webp" data-srcset="/images/opt/product-moody/parfait-480.webp 480w, /images/opt/product-moody/parfait-960.webp 960w, /images/opt/product-moody/parfait-1440.webp 1440w, /images/opt/product-moody/parfait-1920.webp 1920w" data-caption="Berry parfait on a dark gradient" aria-label="Open: Berry parfait on a dark gradient"><img src="/images/opt/product-moody/parfait-960.webp" srcset="/images/opt/product-moody/parfait-480.webp 480w, /images/opt/product-moody/parfait-960.webp 960w, /images/opt/product-moody/parfait-1440.webp 1440w, /images/opt/product-moody/parfait-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1920" alt="Berry parfait on a dark gradient" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Berry parfait on a dark gradient</span><span class="mono">09 / 14</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1280" data-h="1920" style="--avg:#404B4D;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQAD/8QAIxAAAgEDAgcBAAAAAAAAAAAAAQIDAAQREiEFEyIxQVFhMv/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREAAwADAAAAAAAAAAAAAAAAAAERAhIh/9oADAMBAAIRAxEAPwAeYg46hk+KynsJ4wxlCriPmfoHbx291vJBrAHNKAN1APjI+UWutUK5Glh3B7jNLYKC9nfW1rLAWDyzMcyOwISMYOwHk/aO4tdNcXjGNiyDYehVVTeQhYran//Z)">
+    <a class="ph__link" href="/images/opt/product-moody/flower-vase-1280.webp" data-srcset="/images/opt/product-moody/flower-vase-480.webp 480w, /images/opt/product-moody/flower-vase-960.webp 960w, /images/opt/product-moody/flower-vase-1280.webp 1280w" data-caption="Flowers in a teal ceramic vase" aria-label="Open: Flowers in a teal ceramic vase"><img src="/images/opt/product-moody/flower-vase-960.webp" srcset="/images/opt/product-moody/flower-vase-480.webp 480w, /images/opt/product-moody/flower-vase-960.webp 960w, /images/opt/product-moody/flower-vase-1280.webp 1280w" sizes="(max-width: 719px) 50vw, 45vw" width="1280" height="1920" alt="Flowers in a teal ceramic vase" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Flowers in a teal ceramic vase</span><span class="mono">10 / 14</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1280" style="--avg:#23201D;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAQb/xAAiEAACAQMEAgMAAAAAAAAAAAABAgMABBESITFRQXEFQmH/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A4YAkHAzjn8qpZ/GwNbLdXcwjgYkFhuQR4x3UyN9DZ5B2IzzTrXNsYRGUl0eUVxjPe4oJe5a3a4Y2yOsX1DHJ9mismkikAEcKwgdEsT7JopD/2Q==)">
+    <a class="ph__link" href="/images/opt/product-moody/candle-bokeh-1920.webp" data-srcset="/images/opt/product-moody/candle-bokeh-480.webp 480w, /images/opt/product-moody/candle-bokeh-960.webp 960w, /images/opt/product-moody/candle-bokeh-1440.webp 1440w, /images/opt/product-moody/candle-bokeh-1920.webp 1920w" data-caption="Concrete candle with bokeh fairy lights" aria-label="Open: Concrete candle with bokeh fairy lights"><img src="/images/opt/product-moody/candle-bokeh-960.webp" srcset="/images/opt/product-moody/candle-bokeh-480.webp 480w, /images/opt/product-moody/candle-bokeh-960.webp 960w, /images/opt/product-moody/candle-bokeh-1440.webp 1440w, /images/opt/product-moody/candle-bokeh-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1280" alt="Concrete candle with bokeh fairy lights" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Concrete candle with bokeh fairy lights</span><span class="mono">11 / 14</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1280" style="--avg:#5F524A;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAgb/xAAkEAABAwMEAQUAAAAAAAAAAAABAAIRAwQSBRMhMRQiQVFhgf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAGxEAAwACAwAAAAAAAAAAAAAAAAECERJBUWH/2gAMAwEAAhEDEQA/AOdaeU3aecKnGBaeP1PfptWzbuXNMnIHbaJ9RA9/hVdPOOmMoXb3sLmEeOZBjKZ6jr7QdJZ8KTPfJIbTAElC1FS5vCLdpbQcTgXSeEJxSpZROlqf/9k=)">
+    <a class="ph__link" href="/images/opt/product-moody/hotsauce-hero-1920.webp" data-srcset="/images/opt/product-moody/hotsauce-hero-480.webp 480w, /images/opt/product-moody/hotsauce-hero-960.webp 960w, /images/opt/product-moody/hotsauce-hero-1440.webp 1440w, /images/opt/product-moody/hotsauce-hero-1920.webp 1920w" data-caption="Firebelly Farms hot sauce, hero shot with peppers" aria-label="Open: Firebelly Farms hot sauce, hero shot with peppers"><img src="/images/opt/product-moody/hotsauce-hero-960.webp" srcset="/images/opt/product-moody/hotsauce-hero-480.webp 480w, /images/opt/product-moody/hotsauce-hero-960.webp 960w, /images/opt/product-moody/hotsauce-hero-1440.webp 1440w, /images/opt/product-moody/hotsauce-hero-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1280" alt="Firebelly Farms hot sauce, hero shot with peppers" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Firebelly Farms hot sauce, hero shot with peppers</span><span class="mono">12 / 14</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1280" style="--avg:#914B2A;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAlEAACAgEDAwQDAAAAAAAAAAABAgMEABESIQUxQhRBUWFxgaH/xAAWAQEBAQAAAAAAAAAAAAAAAAAABAX/xAAfEQACAQMFAQAAAAAAAAAAAAABAgADESEEFDFhkfD/2gAMAwEAAhEDEQA/AE0HTrNkbq8Lug43kaD+5MUpEjZ5BtVTp3HJ+vnG9mal0+vLvkkneUhirED24Gg7LiB70tyUsUZ1TwUHao/XbIkrO2RxNLbKLM+Opq9FMFDNE6ofIrx94Zb02/UeJ69qOR92uhRn0P55wwa7LgiE0YYXB+9n/9k=)">
+    <a class="ph__link" href="/images/opt/product-moody/peppers-1920.webp" data-srcset="/images/opt/product-moody/peppers-480.webp 480w, /images/opt/product-moody/peppers-960.webp 960w, /images/opt/product-moody/peppers-1440.webp 1440w, /images/opt/product-moody/peppers-1920.webp 1920w" data-caption="Fresh peppers, close-up" aria-label="Open: Fresh peppers, close-up"><img src="/images/opt/product-moody/peppers-960.webp" srcset="/images/opt/product-moody/peppers-480.webp 480w, /images/opt/product-moody/peppers-960.webp 960w, /images/opt/product-moody/peppers-1440.webp 1440w, /images/opt/product-moody/peppers-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1280" alt="Fresh peppers, close-up" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Fresh peppers, close-up</span><span class="mono">13 / 14</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1280" style="--avg:#695855;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYDBAX/xAAkEAACAgIBAwQDAAAAAAAAAAABAgMRAAQhEhMxBQYiQWFxof/EABYBAQEBAAAAAAAAAAAAAAAAAAIBA//EABkRAQEBAAMAAAAAAAAAAAAAAAEAEQIhMf/aAAwDAQACEQMRAD8AWINWXYin7SliiBjQJPkZJJpzxsnUp+QLABTdcfj94z6Pt+f05pQzSy9aqbhWhw115ByxtCaOSMk7jHt8x9tjR6r+jX9w+2mAdyh2XQsJFIN/YrDNPdh2JXiVdbbYKOXdDYs345wyjHkZf//Z)">
+    <a class="ph__link" href="/images/opt/product-moody/hotsauce-lineup-1920.webp" data-srcset="/images/opt/product-moody/hotsauce-lineup-480.webp 480w, /images/opt/product-moody/hotsauce-lineup-960.webp 960w, /images/opt/product-moody/hotsauce-lineup-1440.webp 1440w, /images/opt/product-moody/hotsauce-lineup-1920.webp 1920w" data-caption="Firebelly Farms, the full lineup" aria-label="Open: Firebelly Farms, the full lineup"><img src="/images/opt/product-moody/hotsauce-lineup-960.webp" srcset="/images/opt/product-moody/hotsauce-lineup-480.webp 480w, /images/opt/product-moody/hotsauce-lineup-960.webp 960w, /images/opt/product-moody/hotsauce-lineup-1440.webp 1440w, /images/opt/product-moody/hotsauce-lineup-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1280" alt="Firebelly Farms, the full lineup" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Firebelly Farms, the full lineup</span><span class="mono">14 / 14</span></figcaption>
+  </figure>
+      </div>
+    </section>
+
+    <section class="gnext wrap">
+      <a class="gnext__link" href="/color">
+        <span class="gnext__text">
+          <span class="eyebrow">Next gallery</span>
+          <span class="gnext__title display">Product&nbsp;&middot; <em>Color</em></span>
+          <span class="btn">View gallery <span class="arrow" aria-hidden="true">&rarr;</span></span>
+        </span>
+        <figure class="ph" data-w="1920" data-h="1920" style="--avg:#54B7DB;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAECAwT/xAAfEAACAgEEAwAAAAAAAAAAAAABAgARMQMSIXFBYYH/xAAXAQADAQAAAAAAAAAAAAAAAAABBAUG/8QAIxEAAQMDAgcAAAAAAAAAAAAAAQACAwQREmHwBSEiMUFRsf/aAAwDAQACEQMRAD8A71HEtULsCVcSsoZCrYOZRN/CgNDbjLstLbQKsDqJk21QAKAGBEIKcFMHcxE92u2n6ojHaKau/MiKVBOpqtqMfgHQiIMRldKR1EkQ6DbftR2VKsAFuR7iIgabrQQcPZPE2SR7iTqv/9k=)">
+    <span class="ph__frame"><img src="/images/opt/product-pop/bubblegum-960.webp" srcset="/images/opt/product-pop/bubblegum-480.webp 480w, /images/opt/product-pop/bubblegum-960.webp 960w, /images/opt/product-pop/bubblegum-1440.webp 1440w, /images/opt/product-pop/bubblegum-1920.webp 1920w" sizes="(min-width: 720px) 50vw, 100vw" width="1920" height="1920" alt="" loading="lazy" decoding="async"></span>
+  </figure>
+      </a>
+    </section>
+  </main>
 
   <footer class="footer">
-    <p class="footer__name">Aimeri Baddouh Photography</p>
-    <div class="footer__links">
-      <a href="/portraits">Portraits</a>
-      <a href="/moody">Moody</a>
-      <a href="/color">Color</a>
-      <a href="/about">About</a>
-      <a href="https://instagram.com/aimeribaddouh" target="_blank" rel="noopener">Instagram</a>
+    <div class="wrap footer__inner">
+      <p class="footer__name">Aimeri Baddouh <small>Photography</small></p>
+      <ul class="footer__links">
+        <li><a href="/portraits">Portraits</a></li>
+        <li><a href="/moody">Moody</a></li>
+        <li><a href="/color">Color</a></li>
+        <li><a href="/selected-work">Selected Work</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="https://instagram.com/aimeribaddouh" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+      <p class="footer__copy"><span>&copy; 2026 Aimeri Baddouh &middot; Cuenca, Ecuador</span><a href="mailto:aimeri@baddouh.me">aimeri@baddouh.me</a></p>
     </div>
-    <p class="footer__copy">&copy; 2026 Aimeri Baddouh &middot; Cuenca, Ecuador</p>
   </footer>
 
+  <script src="/site.js" defer></script>
 </body>
 </html>

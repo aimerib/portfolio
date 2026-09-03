@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="cream">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Portraits — Aimeri Baddouh Photography</title>
   <meta name="description" content="Portrait photography by Aimeri Baddouh. Studio and on-location sessions. Cuenca, Ecuador.">
+  <meta name="theme-color" content="#f3ede3">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="canonical" href="https://aimeribaddouh.com/portraits">
 
@@ -20,157 +21,179 @@
   <meta name="twitter:title" content="Portraits — Aimeri Baddouh Photography">
   <meta name="twitter:description" content="Studio sittings and on-location portrait work around Cuenca and beyond.">
   <meta name="twitter:image" content="https://aimeribaddouh.com/images/portraits/dark-coat.png">
-  <link rel="stylesheet" href="styles.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=Inter:opsz,wght@14..32,300..600&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+  <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 
-  <nav class="nav">
-    <a href="/" class="nav__logo">
-      Aimeri Baddouh
-      <span>Photography</span>
-    </a>
-    <input type="checkbox" id="nav-toggle" class="nav__toggle sr-only">
-    <label for="nav-toggle" class="nav__toggle-label"><span></span></label>
-    <ul class="nav__links">
-      <li><a href="/portraits" class="active">Portraits</a></li>
-      <li><a href="/moody">Product &middot; Moody</a></li>
-      <li><a href="/color">Product &middot; Color</a></li>
-      <li><a href="/selected-work">Selected Work</a></li>
-      <li><a href="/about">About</a></li>
-    </ul>
-  </nav>
+  <a class="skip" href="#main">Skip to content</a>
 
-  <header class="page-header">
-    <p class="page-header__eyebrow">Gallery I</p>
-    <h1 class="page-header__title">Portraits</h1>
-    <p class="page-header__desc">Studio sittings and on-location work around Cuenca and beyond.</p>
-    <div class="page-header__divider"></div>
+  <header class="nav">
+    <a href="/" class="nav__logo">Aimeri Baddouh <small>Photography</small></a>
+    <nav aria-label="Primary">
+      <ul class="nav__links">
+        <li><a href="/portraits" aria-current="page">Portraits</a></li>
+        <li><a href="/moody">Product&nbsp;&middot; Moody</a></li>
+        <li><a href="/color">Product&nbsp;&middot; Color</a></li>
+        <li><a href="/selected-work">Selected Work</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+    <button type="button" class="nav__menu" aria-expanded="false" aria-controls="menu">
+      <span class="label-closed">Menu</span><span class="label-open">Close</span><i aria-hidden="true"></i>
+    </button>
   </header>
 
-  <div class="gallery-grid gallery-grid--portraits">
-    <div class="gallery-item"><a href="#p1"><img src="images/portraits/dark-coat.png" alt="Man in dark coat, dramatic half-light portrait"></a></div>
-    <div class="gallery-item"><a href="#p2"><img src="images/portraits/cyberpunk.jpg" alt="Cyberpunk portrait, man with peacoat and dramatic lighting"></a></div>
-    <div class="gallery-item"><a href="#p3"><img src="images/portraits/soft-light.png" alt="Woman in soft directional light"></a></div>
-    <div class="gallery-item"><a href="#p4"><img src="images/portraits/leather-jacket.jpeg" alt="Contemplative portrait, leather jacket"></a></div>
-    <div class="gallery-item"><a href="#p5"><img src="images/portraits/red-dress-studio.jpg" alt="Studio portrait in red dress"></a></div>
-    <div class="gallery-item"><a href="#p6"><img src="images/portraits/evening-gown.jpg" alt="Full-length black and white portrait, evening gown"></a></div>
-    <div class="gallery-item"><a href="#p7"><img src="images/portraits/red-dress-pose.png" alt="Portrait session, red dress second pose"></a></div>
-    <div class="gallery-item"><a href="#p8"><img src="images/portraits/red-dress-sunset.jpg" alt="Outdoor portrait at golden hour on open road"></a></div>
-    <div class="gallery-item"><a href="#p9"><img src="images/portraits/foliage.jpg" alt="Environmental portrait through natural foliage"></a></div>
-    <div class="gallery-item"><a href="#p10"><img src="images/portraits/street-portrait.png" alt="Black and white street portrait"></a></div>
-    <div class="gallery-item"><a href="#p11"><img src="images/portraits/aimeri-pixie.jpeg" alt="Photographer with his dog Pixie"></a></div>
-    <div class="gallery-item"><a href="#p12"><img src="images/portraits/pixie-held.png" alt="Dog portrait — Pixie held aloft"></a></div>
-    <div class="gallery-item"><a href="#p13"><img src="images/portraits/mother-child.png" alt="Mother and child, natural light outdoor portrait"></a></div>
-    <div class="gallery-item"><a href="#p14"><img src="images/portraits/IMG_4087.jpg" alt="Classic black and white portrait of a woman in long dress with dramatic lighting"></a></div>
-    <div class="gallery-item"><a href="#p15"><img src="images/portraits/foggy-gate.jpg" alt="Foggy gate at dusk — Texas atmosphere, sculpted natural light"></a></div>
-    <div class="gallery-item"><a href="#p16"><img src="images/portraits/windmill-silhouette.png" alt="Windmill silhouette at golden hour"></a></div>
-    <div class="gallery-item"><a href="#p17"><img src="images/portraits/sunflowers.png" alt="Wild sunflowers, shallow depth of field, warm natural light"></a></div>
+  <div class="menu" id="menu" aria-hidden="true">
+    <ul class="menu__list">
+      <li><a class="menu__link" href="/portraits" style="--i:0"><small>01</small>Portraits<img class="menu__thumb" src="/images/opt/portraits/dark-coat-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/moody" style="--i:1"><small>02</small>Product&nbsp;&middot; Moody<img class="menu__thumb" src="/images/opt/product-moody/pocket-watch-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/color" style="--i:2"><small>03</small>Product&nbsp;&middot; Color<img class="menu__thumb" src="/images/opt/product-pop/tarot-sun-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/selected-work" style="--i:3"><small>04</small>Selected Work<img class="menu__thumb" src="/images/opt/product-pop/fan-earrings-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/about" style="--i:4"><small>05</small>About<img class="menu__thumb" src="/images/opt/about/photographer-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+    </ul>
+    <div class="menu__foot">
+      <a href="mailto:aimeri@baddouh.me">aimeri@baddouh.me</a>
+      <a href="https://instagram.com/aimeribaddouh" target="_blank" rel="noopener">Instagram</a>
+      <span>Cuenca, Ecuador</span>
+    </div>
   </div>
 
-  <!-- CSS-only Lightbox overlays -->
-  <div id="p1" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/portraits/dark-coat.png" alt="Man in dark coat, dramatic half-light portrait">
-    <div class="lightbox__nav"><a href="#p17">&larr; Prev</a><a href="#p2">Next &rarr;</a></div>
-  </div>
-  <div id="p2" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/portraits/cyberpunk.jpg" alt="Cyberpunk portrait, man with peacoat and dramatic lighting">
-    <div class="lightbox__nav"><a href="#p1">&larr; Prev</a><a href="#p3">Next &rarr;</a></div>
-  </div>
-  <div id="p3" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/portraits/soft-light.png" alt="Woman in soft directional light">
-    <div class="lightbox__nav"><a href="#p2">&larr; Prev</a><a href="#p4">Next &rarr;</a></div>
-  </div>
-  <div id="p4" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/portraits/leather-jacket.jpeg" alt="Contemplative portrait, leather jacket">
-    <div class="lightbox__nav"><a href="#p3">&larr; Prev</a><a href="#p5">Next &rarr;</a></div>
-  </div>
-  <div id="p5" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/portraits/red-dress-studio.jpg" alt="Studio portrait in red dress">
-    <div class="lightbox__nav"><a href="#p4">&larr; Prev</a><a href="#p6">Next &rarr;</a></div>
-  </div>
-  <div id="p6" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/portraits/evening-gown.jpg" alt="Full-length black and white portrait, evening gown">
-    <div class="lightbox__nav"><a href="#p5">&larr; Prev</a><a href="#p7">Next &rarr;</a></div>
-  </div>
-  <div id="p7" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/portraits/red-dress-pose.png" alt="Portrait session, red dress second pose">
-    <div class="lightbox__nav"><a href="#p6">&larr; Prev</a><a href="#p8">Next &rarr;</a></div>
-  </div>
-  <div id="p8" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/portraits/red-dress-sunset.jpg" alt="Outdoor portrait at golden hour on open road">
-    <div class="lightbox__nav"><a href="#p7">&larr; Prev</a><a href="#p9">Next &rarr;</a></div>
-  </div>
-  <div id="p9" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/portraits/foliage.jpg" alt="Environmental portrait through natural foliage">
-    <div class="lightbox__nav"><a href="#p8">&larr; Prev</a><a href="#p10">Next &rarr;</a></div>
-  </div>
-  <div id="p10" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/portraits/street-portrait.png" alt="Black and white street portrait">
-    <div class="lightbox__nav"><a href="#p9">&larr; Prev</a><a href="#p11">Next &rarr;</a></div>
-  </div>
-  <div id="p11" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/portraits/aimeri-pixie.jpeg" alt="Photographer with his dog Pixie">
-    <div class="lightbox__nav"><a href="#p10">&larr; Prev</a><a href="#p12">Next &rarr;</a></div>
-  </div>
-  <div id="p12" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/portraits/pixie-held.png" alt="Dog portrait — Pixie held aloft">
-    <div class="lightbox__nav"><a href="#p11">&larr; Prev</a><a href="#p13">Next &rarr;</a></div>
-  </div>
-  <div id="p13" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/portraits/mother-child.png" alt="Mother and child, natural light outdoor portrait">
-    <div class="lightbox__nav"><a href="#p12">&larr; Prev</a><a href="#p1">Next &rarr;</a></div>
-  </div>
-  <div id="p14" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/portraits/IMG_4087.jpg" alt="Classic black and white portrait of a woman in long dress with dramatic lighting">
-    <div class="lightbox__nav"><a href="#p13">&larr; Prev</a><a href="#p15">Next &rarr;</a></div>
-  </div>
-  <div id="p15" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/portraits/foggy-gate.jpg" alt="Foggy gate at dusk — Texas atmosphere">
-    <div class="lightbox__nav"><a href="#p14">&larr; Prev</a><a href="#p16">Next &rarr;</a></div>
-  </div>
-  <div id="p16" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/portraits/windmill-silhouette.png" alt="Windmill silhouette at golden hour">
-    <div class="lightbox__nav"><a href="#p15">&larr; Prev</a><a href="#p17">Next &rarr;</a></div>
-  </div>
-  <div id="p17" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/portraits/sunflowers.png" alt="Wild sunflowers, warm natural light">
-    <div class="lightbox__nav"><a href="#p16">&larr; Prev</a><a href="#p1">Next &rarr;</a></div>
-  </div>
+  <main id="main">
+    <header class="ghead wrap">
+      <div class="ghead__top">
+        <p class="eyebrow eyebrow--accent">Gallery I</p>
+        <p class="ghead__count mono">21 photographs</p>
+      </div>
+      <h1 class="ghead__title">Portraits</h1>
+      <div class="ghead__row">
+        <p class="ghead__desc">Studio sittings and on-location work around Cuenca and beyond.</p>
+        <a class="btn" href="/about#contact">Book a session <span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </div>
+    </header>
 
-  <div style="text-align:center; padding: 2rem;">
-    <a href="/" class="back-link">Back to galleries</a>
-  </div>
+    <section class="gallery wrap" data-lightbox aria-label="Portraits — Aimeri Baddouh Photography gallery">
+      <div class="justified" data-rows="0.56,0.38,0.46">
+<figure class="ph ph--lead" data-w="1280" data-h="1920" style="--avg:#746E68;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAUGAgP/xAAjEAACAAQGAwEAAAAAAAAAAAABAgADBBEFBiExQXETFCRR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAYEQEBAAMAAAAAAAAAAAAAAAAAASExQf/aAAwDAQACEQMRAD8A7+RKSUjMpYswVQCBcw6kygU1UqeQYksw15pVpURVLBjM16I2hlljH/fV6eqb6LllPBH4OomKwlswTzOrZe1llgCMYAxTGKZgbWbXq0EEM0Ov/9k=)">
+    <a class="ph__link" href="/images/opt/portraits/dark-coat-1280.webp" data-srcset="/images/opt/portraits/dark-coat-480.webp 480w, /images/opt/portraits/dark-coat-960.webp 960w, /images/opt/portraits/dark-coat-1280.webp 1280w" data-caption="Man in a dark coat, dramatic half-light" aria-label="Open: Man in a dark coat, dramatic half-light"><img src="/images/opt/portraits/dark-coat-960.webp" srcset="/images/opt/portraits/dark-coat-480.webp 480w, /images/opt/portraits/dark-coat-960.webp 960w, /images/opt/portraits/dark-coat-1280.webp 1280w" sizes="(max-width: 719px) 100vw, 45vw" width="1280" height="1920" alt="Man in a dark coat, dramatic half-light" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Man in a dark coat, dramatic half-light</span><span class="mono">01 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1280" data-h="1920" style="--avg:#7E6F65;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAACBf/EACcQAAIBBAADCQEAAAAAAAAAAAEDAgAEBRESIWEGExQiMUFRcbHR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwH/xAAYEQEBAAMAAAAAAAAAAAAAAAAAERIhQv/aAAwDAQACEQMRAD8Ax2RyrltetsptgF7ESeQI9P5RM7lbm5YDcpMJaBAB3EDoaSLLwWJu4oHmmsg9aAvGSfjUMWdEw5x3+UWMJzXaY09zMQGzwkAfJ1RsWGqsFpfHhlDcfse1VVIl1H//2Q==)">
+    <a class="ph__link" href="/images/opt/portraits/red-dress-sunset-1280.webp" data-srcset="/images/opt/portraits/red-dress-sunset-480.webp 480w, /images/opt/portraits/red-dress-sunset-960.webp 960w, /images/opt/portraits/red-dress-sunset-1280.webp 1280w" data-caption="Red dress at golden hour on an open road" aria-label="Open: Red dress at golden hour on an open road"><img src="/images/opt/portraits/red-dress-sunset-960.webp" srcset="/images/opt/portraits/red-dress-sunset-480.webp 480w, /images/opt/portraits/red-dress-sunset-960.webp 960w, /images/opt/portraits/red-dress-sunset-1280.webp 1280w" sizes="(max-width: 719px) 50vw, 45vw" width="1280" height="1920" alt="Red dress at golden hour on an open road" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Red dress at golden hour on an open road</span><span class="mono">02 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1536" data-h="1920" style="--avg:#442031;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABMDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAUEBgH/xAAiEAACAgEEAQUAAAAAAAAAAAABAgADEQQSITFBBQYTMoH/xAAXAQADAQAAAAAAAAAAAAAAAAACBAUA/8QAHBEAAgMAAwEAAAAAAAAAAAAAAAECAxExMmFx/9oADAMBAAIRAxEAPwDnrqmWtin2xxJ9d1i2gMSQTggy/rmq0abrfPAXy05tzmxmBHeeJo8+DV+RaxlQ0c9RNmnsqt09bvYgZlyRuHcSgqItbo8qYNbph9xWb/VXXGPjAXvvjP53JkRJ1XRfCRN7JnkREME//9k=)">
+    <a class="ph__link" href="/images/opt/portraits/cyberpunk-1536.webp" data-srcset="/images/opt/portraits/cyberpunk-480.webp 480w, /images/opt/portraits/cyberpunk-960.webp 960w, /images/opt/portraits/cyberpunk-1440.webp 1440w, /images/opt/portraits/cyberpunk-1536.webp 1536w" data-caption="Peacoat and gelled light, cyberpunk portrait" aria-label="Open: Peacoat and gelled light, cyberpunk portrait"><img src="/images/opt/portraits/cyberpunk-960.webp" srcset="/images/opt/portraits/cyberpunk-480.webp 480w, /images/opt/portraits/cyberpunk-960.webp 960w, /images/opt/portraits/cyberpunk-1440.webp 1440w, /images/opt/portraits/cyberpunk-1536.webp 1536w" sizes="(max-width: 719px) 50vw, 45vw" width="1536" height="1920" alt="Peacoat and gelled light, cyberpunk portrait" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Peacoat and gelled light, cyberpunk portrait</span><span class="mono">03 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1280" style="--avg:#908684;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFBAf/xAAjEAACAgIBBAIDAAAAAAAAAAABAgMEABEFEiExQQYiMpHB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/EABcRAQEBAQAAAAAAAAAAAAAAAAAhATH/2gAMAwEAAhEDEQA/AN13lUo6URl2PrF0eQsWr8kot9MSuqrXCbBU68n95D5u8tixqL8B9er2cTx0CO80LNIBIpCkNob898NOZ10XesMg/HLsk3GtHO5aWByhJPfXr+4Yhf/Z)">
+    <a class="ph__link" href="/images/opt/portraits/leather-jacket-1920.webp" data-srcset="/images/opt/portraits/leather-jacket-480.webp 480w, /images/opt/portraits/leather-jacket-960.webp 960w, /images/opt/portraits/leather-jacket-1440.webp 1440w, /images/opt/portraits/leather-jacket-1920.webp 1920w" data-caption="Contemplative portrait, leather jacket" aria-label="Open: Contemplative portrait, leather jacket"><img src="/images/opt/portraits/leather-jacket-960.webp" srcset="/images/opt/portraits/leather-jacket-480.webp 480w, /images/opt/portraits/leather-jacket-960.webp 960w, /images/opt/portraits/leather-jacket-1440.webp 1440w, /images/opt/portraits/leather-jacket-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1280" alt="Contemplative portrait, leather jacket" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Contemplative portrait, leather jacket</span><span class="mono">04 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1280" data-h="1920" style="--avg:#8F8984;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQGBf/EACIQAAICAQMEAwAAAAAAAAAAAAECAxEABAUSEyExcRRBYf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABcRAAMBAAAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/AGykOiSFAgaWZuCKTVn9x9tGGBjmjVXq6U2KxDe4w+2/IVQXgIcevBzWingkWJlZA8iclXl3I8+8zXRizSS3Xemi0cMMDW7d39fWT0Wpmj1Kzh26isDd4YYoj//Z)">
+    <a class="ph__link" href="/images/opt/portraits/soft-light-1280.webp" data-srcset="/images/opt/portraits/soft-light-480.webp 480w, /images/opt/portraits/soft-light-960.webp 960w, /images/opt/portraits/soft-light-1280.webp 1280w" data-caption="Woman in soft directional light" aria-label="Open: Woman in soft directional light"><img src="/images/opt/portraits/soft-light-960.webp" srcset="/images/opt/portraits/soft-light-480.webp 480w, /images/opt/portraits/soft-light-960.webp 960w, /images/opt/portraits/soft-light-1280.webp 1280w" sizes="(max-width: 719px) 50vw, 45vw" width="1280" height="1920" alt="Woman in soft directional light" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Woman in soft directional light</span><span class="mono">05 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1280" data-h="1920" style="--avg:#4C4C53;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAQL/xAAhEAABBAEEAwEAAAAAAAAAAAABAgMEEQAFEhMhIjFBcf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AJ2nxlOtKS0UhyvEq9X7zsKRLh8qUbDZBSfhxMOUGozpBo7SAf3rMhvJGmpoUVEk397zQjImDi20R2O8YiYG2A2QTV1RwwyD/9k=)">
+    <a class="ph__link" href="/images/opt/portraits/IMG_4087-1280.webp" data-srcset="/images/opt/portraits/IMG_4087-480.webp 480w, /images/opt/portraits/IMG_4087-960.webp 960w, /images/opt/portraits/IMG_4087-1280.webp 1280w" data-caption="Black and white portrait in a long dress, dramatic light" aria-label="Open: Black and white portrait in a long dress, dramatic light"><img src="/images/opt/portraits/IMG_4087-960.webp" srcset="/images/opt/portraits/IMG_4087-480.webp 480w, /images/opt/portraits/IMG_4087-960.webp 960w, /images/opt/portraits/IMG_4087-1280.webp 1280w" sizes="(max-width: 719px) 50vw, 45vw" width="1280" height="1920" alt="Black and white portrait in a long dress, dramatic light" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Black and white portrait in a long dress, dramatic light</span><span class="mono">06 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1600" data-h="2400" style="--avg:#838082;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADAREAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAQUDBAb/xAAlEAACAAYBAgcAAAAAAAAAAAABAgADBAUREiEGIxMUIiUxQVH/xAAXAQEBAQEAAAAAAAAAAAAAAAACAAMB/8QAHBEAAgIDAQEAAAAAAAAAAAAAAAECEQMhMQQi/9oADAMBAAIRAxEAPwDTY7LasFbU4Y/RgCSti23V3n6buIVnIoEwYxzF0mqKV+q/Z31JBLr8HEb+anPZnltR0RdOzgLczsPWTy37GMtSY1xCGuucyppPB0AGwPGYeCSjK2WSNrQKC4zaSmMoBWGc85gZGnJ0divlWf/Z)">
+    <a class="ph__link" href="/images/opt/portraits/blue-gown-1600.webp" data-srcset="/images/opt/portraits/blue-gown-480.webp 480w, /images/opt/portraits/blue-gown-960.webp 960w, /images/opt/portraits/blue-gown-1440.webp 1440w, /images/opt/portraits/blue-gown-1600.webp 1600w" data-caption="Blue gown, studio" aria-label="Open: Blue gown, studio"><img src="/images/opt/portraits/blue-gown-960.webp" srcset="/images/opt/portraits/blue-gown-480.webp 480w, /images/opt/portraits/blue-gown-960.webp 960w, /images/opt/portraits/blue-gown-1440.webp 1440w, /images/opt/portraits/blue-gown-1600.webp 1600w" sizes="(max-width: 719px) 50vw, 45vw" width="1600" height="2400" alt="Blue gown, studio" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Blue gown, studio</span><span class="mono">07 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1280" style="--avg:#3D3C4C;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EAB4QAAICAgIDAAAAAAAAAAAAAAECABEDBAUxEiFR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAD/8QAGBEBAQEBAQAAAAAAAAAAAAAAAQARAlH/2gAMAwEAAhEDEQA/AMHXRTKVUEkAXUyMW4F+x68gVBo99zR5ofZ+yii4SDLt+V2fcIhkbf/Z)">
+    <a class="ph__link" href="/images/opt/portraits/foggy-gate-1920.webp" data-srcset="/images/opt/portraits/foggy-gate-480.webp 480w, /images/opt/portraits/foggy-gate-960.webp 960w, /images/opt/portraits/foggy-gate-1440.webp 1440w, /images/opt/portraits/foggy-gate-1920.webp 1920w" data-caption="Foggy gate at dusk, Texas" aria-label="Open: Foggy gate at dusk, Texas"><img src="/images/opt/portraits/foggy-gate-960.webp" srcset="/images/opt/portraits/foggy-gate-480.webp 480w, /images/opt/portraits/foggy-gate-960.webp 960w, /images/opt/portraits/foggy-gate-1440.webp 1440w, /images/opt/portraits/foggy-gate-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1280" alt="Foggy gate at dusk, Texas" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Foggy gate at dusk, Texas</span><span class="mono">08 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1280" data-h="1920" style="--avg:#A48287;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EACQQAAIBBAEEAgMAAAAAAAAAAAECAwAEERIhBQYxURMUQWGx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQID/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECESEiMv/aAAwDAQACEQMRAD8Ao9WlvIfhisSyto8rlY9ttcYXn2TTEVx9qMkxtGfyrDBFK9y3FxFZxPaTtGUyZAp51PAJHrP9rLpErGOLZizPCjEnyTii8mzjrZH7junh6hb3CNnMWMHxgE5B/RzTdjclb1FKCPUahAchRjgUUUMt8I//2Q==)">
+    <a class="ph__link" href="/images/opt/portraits/red-dress-studio-1280.webp" data-srcset="/images/opt/portraits/red-dress-studio-480.webp 480w, /images/opt/portraits/red-dress-studio-960.webp 960w, /images/opt/portraits/red-dress-studio-1280.webp 1280w" data-caption="Studio portrait in a red dress" aria-label="Open: Studio portrait in a red dress"><img src="/images/opt/portraits/red-dress-studio-960.webp" srcset="/images/opt/portraits/red-dress-studio-480.webp 480w, /images/opt/portraits/red-dress-studio-960.webp 960w, /images/opt/portraits/red-dress-studio-1280.webp 1280w" sizes="(max-width: 719px) 50vw, 45vw" width="1280" height="1920" alt="Studio portrait in a red dress" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Studio portrait in a red dress</span><span class="mono">09 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1310" data-h="2400" style="--avg:#837875;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYAA0DAREAAhEBAxEB/8QAFgAAAwAAAAAAAAAAAAAAAAAABAUG/8QAJRAAAgEDAwIHAAAAAAAAAAAAAQMCAAQRBRIhBjETIjJBgZGh/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEDAv/EABkRAQEBAAMAAAAAAAAAAAAAAAABEQIhIv/aAAwDAQACEQMRAD8AKvL+Ni9C5pJWziTM+knOOPijTwSNjYiUexoIr1ucDqKLQTkZswBjsMbuT9/lZtUk80wt4+HAryDs4zTlTSWrX8rfqFr1gSksgDd71nOlpl44o9Na64tg9kBAs823PbNGpV//2Q==)">
+    <a class="ph__link" href="/images/opt/portraits/red-dress-turn-1310.webp" data-srcset="/images/opt/portraits/red-dress-turn-480.webp 480w, /images/opt/portraits/red-dress-turn-960.webp 960w, /images/opt/portraits/red-dress-turn-1310.webp 1310w" data-caption="Red dress, over the shoulder" aria-label="Open: Red dress, over the shoulder"><img src="/images/opt/portraits/red-dress-turn-960.webp" srcset="/images/opt/portraits/red-dress-turn-480.webp 480w, /images/opt/portraits/red-dress-turn-960.webp 960w, /images/opt/portraits/red-dress-turn-1310.webp 1310w" sizes="(max-width: 719px) 50vw, 45vw" width="1310" height="2400" alt="Red dress, over the shoulder" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Red dress, over the shoulder</span><span class="mono">10 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1280" data-h="1920" style="--avg:#825C34;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBAwQG/8QAJxAAAgEDAgMJAAAAAAAAAAAAAQIDAAUSESEEMUETFiJRUpGhscH/xAAVAQEBAAAAAAAAAAAAAAAAAAADBP/EABcRAQEBAQAAAAAAAAAAAAAAAAARIUH/2gAMAwEAAhEDEQA/AFlm4ooihpURYwTv18h8Vp7yNIxgkjAiO2W+QFK4rbcDC2MIw9TMF+zULZLgfEIQSDyDg/tSZVOunm4mF4iFnXmANWqlnhK9nxMmkRYaHLTFuh29qKKOG4//2Q==)">
+    <a class="ph__link" href="/images/opt/portraits/evening-gown-1280.webp" data-srcset="/images/opt/portraits/evening-gown-480.webp 480w, /images/opt/portraits/evening-gown-960.webp 960w, /images/opt/portraits/evening-gown-1280.webp 1280w" data-caption="Wooden boardwalk at golden hour" aria-label="Open: Wooden boardwalk at golden hour"><img src="/images/opt/portraits/evening-gown-960.webp" srcset="/images/opt/portraits/evening-gown-480.webp 480w, /images/opt/portraits/evening-gown-960.webp 960w, /images/opt/portraits/evening-gown-1280.webp 1280w" sizes="(max-width: 719px) 50vw, 45vw" width="1280" height="1920" alt="Wooden boardwalk at golden hour" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Wooden boardwalk at golden hour</span><span class="mono">11 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1246" data-h="1920" style="--avg:#7B7B7B;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/wAALCAAYABABAREA/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgMFBP/EACQQAAIBAwMDBQAAAAAAAAAAAAEDAgAEEQUiMRIhUQYTQmGR/9oACAEBAAA/AJtveWlojqg1hcZHaJnBHkit6dRldtgtM8LMgBs74zSdRsbSzEWqRFnUSBHg5803R7L2EOnMGKIyiYiR3A8EftUY+nAuRZeOa1uc89qNl7a6W1AahZDScTl8fviv/9k=)">
+    <a class="ph__link" href="/images/opt/portraits/street-portrait-1246.webp" data-srcset="/images/opt/portraits/street-portrait-480.webp 480w, /images/opt/portraits/street-portrait-960.webp 960w, /images/opt/portraits/street-portrait-1246.webp 1246w" data-caption="Black and white street portrait" aria-label="Open: Black and white street portrait"><img src="/images/opt/portraits/street-portrait-960.webp" srcset="/images/opt/portraits/street-portrait-480.webp 480w, /images/opt/portraits/street-portrait-960.webp 960w, /images/opt/portraits/street-portrait-1246.webp 1246w" sizes="(max-width: 719px) 50vw, 45vw" width="1246" height="1920" alt="Black and white street portrait" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Black and white street portrait</span><span class="mono">12 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1280" data-h="1920" style="--avg:#2B2A0D;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAGQAAAQUAAAAAAAAAAAAAAAAAAAIDBAUG/8QAIRAAAgEEAgIDAAAAAAAAAAAAAQIDABESIQQxEyJBYYH/xAAWAQEBAQAAAAAAAAAAAAAAAAACAwT/xAAYEQADAQEAAAAAAAAAAAAAAAAAAREhMf/aAAwDAQACEQMRAD8AyJUKD966vQ0eIAvSllMckUi45K4Pt1381N5skLczk2Maqqr4/AoKtrrX7us+wS5SraVhZlVTiNg00s5Y2Ki5ooqqSgT/2Q==)">
+    <a class="ph__link" href="/images/opt/portraits/foliage-1280.webp" data-srcset="/images/opt/portraits/foliage-480.webp 480w, /images/opt/portraits/foliage-960.webp 960w, /images/opt/portraits/foliage-1280.webp 1280w" data-caption="Environmental portrait through natural foliage" aria-label="Open: Environmental portrait through natural foliage"><img src="/images/opt/portraits/foliage-960.webp" srcset="/images/opt/portraits/foliage-480.webp 480w, /images/opt/portraits/foliage-960.webp 960w, /images/opt/portraits/foliage-1280.webp 1280w" sizes="(max-width: 719px) 50vw, 45vw" width="1280" height="1920" alt="Environmental portrait through natural foliage" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Environmental portrait through natural foliage</span><span class="mono">13 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1600" data-h="2400" style="--avg:#6F6744;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADAREAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAwEEBf/EACIQAAICAgEDBQAAAAAAAAAAAAECAxEAEgQFITETIkFhwf/EABgBAAMBAQAAAAAAAAAAAAAAAAECAwAF/8QAGhEAAwEBAQEAAAAAAAAAAAAAAAECESEDEv/aAAwDAQACEQMRAD8AeDlpBEFOqqD5rvf7nNmHbLN4TP1UM40cMoAyzn5WCb0ypuSEEMasqU497+K+bxvKethbK7CMlxx5zK1liSuor6yl4s0QKaaFwnqRu1XVNWGFgzBikovragkVffNQD//Z)">
+    <a class="ph__link" href="/images/opt/portraits/backlit-foliage-1600.webp" data-srcset="/images/opt/portraits/backlit-foliage-480.webp 480w, /images/opt/portraits/backlit-foliage-960.webp 960w, /images/opt/portraits/backlit-foliage-1440.webp 1440w, /images/opt/portraits/backlit-foliage-1600.webp 1600w" data-caption="Backlit in golden foliage" aria-label="Open: Backlit in golden foliage"><img src="/images/opt/portraits/backlit-foliage-960.webp" srcset="/images/opt/portraits/backlit-foliage-480.webp 480w, /images/opt/portraits/backlit-foliage-960.webp 960w, /images/opt/portraits/backlit-foliage-1440.webp 1440w, /images/opt/portraits/backlit-foliage-1600.webp 1600w" sizes="(max-width: 719px) 50vw, 45vw" width="1600" height="2400" alt="Backlit in golden foliage" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Backlit in golden foliage</span><span class="mono">14 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1280" data-h="1920" style="--avg:#96876C;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAXgBeAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAQT/xAAjEAACAQQBAwUAAAAAAAAAAAABAgMABBEhBhIxQSIjJGHB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwEE/8QAGREAAwEBAQAAAAAAAAAAAAAAAAERAgMh/9oADAMBAAIRAxEAPwDsuy1iFMkTAkEAAY1rP5WCzhliIERZVPle1I5JLLFdG39IQRjp1sE990ji13ffIDSu0IbAJOcGsz5xWi1FTk3uQwsoUtvYHiptjdRpauwJjUMB9k+aKKV5TyS+n//Z)">
+    <a class="ph__link" href="/images/opt/portraits/mother-child-1280.webp" data-srcset="/images/opt/portraits/mother-child-480.webp 480w, /images/opt/portraits/mother-child-960.webp 960w, /images/opt/portraits/mother-child-1280.webp 1280w" data-caption="Mother and child, natural light" aria-label="Open: Mother and child, natural light"><img src="/images/opt/portraits/mother-child-960.webp" srcset="/images/opt/portraits/mother-child-480.webp 480w, /images/opt/portraits/mother-child-960.webp 960w, /images/opt/portraits/mother-child-1280.webp 1280w" sizes="(max-width: 719px) 50vw, 45vw" width="1280" height="1920" alt="Mother and child, natural light" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Mother and child, natural light</span><span class="mono">15 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1280" style="--avg:#363504;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAXgBeAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEBQb/xAAhEAABBAEDBQAAAAAAAAAAAAABAAIDESESE1EEFCIxYf/EABYBAQEBAAAAAAAAAAAAAAAAAAIDBP/EABcRAQEBAQAAAAAAAAAAAAAAAAECABH/2gAMAwEAAhEDEQA/AOc7Iu6cTsNk3qHHJU0sOlzTkggHBtWQTNawB0lA4Ir2EuTRvtcwVtmz9ysU1Qo50HDmz5Y3AkEVmkJs0jDZq/KyLQryvMN//9k=)">
+    <a class="ph__link" href="/images/opt/portraits/sunflowers-1920.webp" data-srcset="/images/opt/portraits/sunflowers-480.webp 480w, /images/opt/portraits/sunflowers-960.webp 960w, /images/opt/portraits/sunflowers-1440.webp 1440w, /images/opt/portraits/sunflowers-1920.webp 1920w" data-caption="Wild sunflowers, shallow depth of field" aria-label="Open: Wild sunflowers, shallow depth of field"><img src="/images/opt/portraits/sunflowers-960.webp" srcset="/images/opt/portraits/sunflowers-480.webp 480w, /images/opt/portraits/sunflowers-960.webp 960w, /images/opt/portraits/sunflowers-1440.webp 1440w, /images/opt/portraits/sunflowers-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1280" alt="Wild sunflowers, shallow depth of field" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Wild sunflowers, shallow depth of field</span><span class="mono">16 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1600" data-h="2400" style="--avg:#7E7E7A;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQMG/8QAJhAAAQMDAgUFAAAAAAAAAAAAAQIDEQAEBSExBhITQXEUFSJhwf/EABcBAQEBAQAAAAAAAAAAAAAAAAIAAQP/xAAaEQADAAMBAAAAAAAAAAAAAAAAARECITES/9oADAMBAAIRAxEAPwCnCOad9Uu3d+SCgqSABoR38VyxUZUMzWccySuqtEDZMbAeaS30qIYvHe3svLbJLhbInvtT8kgu2x7l7iWXwYWQZTtOp1ovF9RuWmaJDkCmEhYtG0tEMGDyTqB9k/taa3XT/9k=)">
+    <a class="ph__link" href="/images/opt/portraits/red-dress-road-away-1600.webp" data-srcset="/images/opt/portraits/red-dress-road-away-480.webp 480w, /images/opt/portraits/red-dress-road-away-960.webp 960w, /images/opt/portraits/red-dress-road-away-1440.webp 1440w, /images/opt/portraits/red-dress-road-away-1600.webp 1600w" data-caption="Walking the road at golden hour" aria-label="Open: Walking the road at golden hour"><img src="/images/opt/portraits/red-dress-road-away-960.webp" srcset="/images/opt/portraits/red-dress-road-away-480.webp 480w, /images/opt/portraits/red-dress-road-away-960.webp 960w, /images/opt/portraits/red-dress-road-away-1440.webp 1440w, /images/opt/portraits/red-dress-road-away-1600.webp 1600w" sizes="(max-width: 719px) 50vw, 45vw" width="1600" height="2400" alt="Walking the road at golden hour" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Walking the road at golden hour</span><span class="mono">17 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1600" data-h="2400" style="--avg:#3A3938;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgQFBv/EACUQAAIBAgUDBQAAAAAAAAAAAAECAwARBAUhMVEGEiIUgaGx0f/EABcBAQEBAQAAAAAAAAAAAAAAAAECAAP/xAAaEQEBAAIDAAAAAAAAAAAAAAAAAQIRITFB/9oADAMBAAIRAxEAPwDIMO4i1yeAKIu7vNAJQwY21G4vuKWmU9Usiw4xOZqFmaMIpkLAa2H7tRHOdls7g9Jm0ut45PNSdyDz70q3TnTLkT4oqdGjCdvJLafRoA+q1KTQXjCgqfK3xSmV/9k=)">
+    <a class="ph__link" href="/images/opt/portraits/yellow-dress-roses-1600.webp" data-srcset="/images/opt/portraits/yellow-dress-roses-480.webp 480w, /images/opt/portraits/yellow-dress-roses-960.webp 960w, /images/opt/portraits/yellow-dress-roses-1440.webp 1440w, /images/opt/portraits/yellow-dress-roses-1600.webp 1600w" data-caption="Yellow dress and roses at blue hour" aria-label="Open: Yellow dress and roses at blue hour"><img src="/images/opt/portraits/yellow-dress-roses-960.webp" srcset="/images/opt/portraits/yellow-dress-roses-480.webp 480w, /images/opt/portraits/yellow-dress-roses-960.webp 960w, /images/opt/portraits/yellow-dress-roses-1440.webp 1440w, /images/opt/portraits/yellow-dress-roses-1600.webp 1600w" sizes="(max-width: 719px) 50vw, 45vw" width="1600" height="2400" alt="Yellow dress and roses at blue hour" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Yellow dress and roses at blue hour</span><span class="mono">18 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1920" style="--avg:#534A48;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQDAQb/xAAkEAABBAEEAgIDAAAAAAAAAAABAAIDEQQFEiExIlETJEFhcf/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/8QAGBEBAQEBAQAAAAAAAAAAAAAAABEBITH/2gAMAwEAAhEDEQA/APM4sHjYbZA69q0YmRE+JuREwCTjxu2mrANrumROmeI2VuI7KpnEsOfjR5kgbM1rjJu5sg00gftqmlkm1HkYu0HhFRJkMn+UN6Y6gfaKix0jLlgd9eLfJW6+OuvysNX1zImJYYRE/ouPLiP6iIy+nZnEWDM5rJNzr3UUREgf/9k=)">
+    <a class="ph__link" href="/images/opt/portraits/aimeri-pixie-1920.webp" data-srcset="/images/opt/portraits/aimeri-pixie-480.webp 480w, /images/opt/portraits/aimeri-pixie-960.webp 960w, /images/opt/portraits/aimeri-pixie-1440.webp 1440w, /images/opt/portraits/aimeri-pixie-1920.webp 1920w" data-caption="The photographer with his dog, Pixie" aria-label="Open: The photographer with his dog, Pixie"><img src="/images/opt/portraits/aimeri-pixie-960.webp" srcset="/images/opt/portraits/aimeri-pixie-480.webp 480w, /images/opt/portraits/aimeri-pixie-960.webp 960w, /images/opt/portraits/aimeri-pixie-1440.webp 1440w, /images/opt/portraits/aimeri-pixie-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1920" alt="The photographer with his dog, Pixie" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>The photographer with his dog, Pixie</span><span class="mono">19 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1536" data-h="1920" style="--avg:#D5C8C5;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABMDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMEBQb/xAAkEAABBAEDAwUAAAAAAAAAAAABAAIDBBETIUEFEiIjMVFx8P/EABcBAAMBAAAAAAAAAAAAAAAAAAECAwD/xAAYEQADAQEAAAAAAAAAAAAAAAAAAREhEv/aAAwDAQACEQMRAD8A9B1Oa3C6BtfTZEXgPe/J2+Ary6sMoyctO4I5Vb9V9qqWRuDXg5aT7ZWGjO51ltO/GRMMiJ/76QujzDsMeCwFFEzhh7dNxxsiNQvLKQyCRviuX1iGzFPXs1h3PicduDkclEUmyixmVtmTBJrbkkn1OScoiJoan//Z)">
+    <a class="ph__link" href="/images/opt/portraits/pixie-held-1536.webp" data-srcset="/images/opt/portraits/pixie-held-480.webp 480w, /images/opt/portraits/pixie-held-960.webp 960w, /images/opt/portraits/pixie-held-1440.webp 1440w, /images/opt/portraits/pixie-held-1536.webp 1536w" data-caption="Pixie, held aloft" aria-label="Open: Pixie, held aloft"><img src="/images/opt/portraits/pixie-held-960.webp" srcset="/images/opt/portraits/pixie-held-480.webp 480w, /images/opt/portraits/pixie-held-960.webp 960w, /images/opt/portraits/pixie-held-1440.webp 1440w, /images/opt/portraits/pixie-held-1536.webp 1536w" sizes="(max-width: 719px) 50vw, 45vw" width="1536" height="1920" alt="Pixie, held aloft" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Pixie, held aloft</span><span class="mono">20 / 21</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1920" style="--avg:#7E775D;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAXgBeAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAYHAv/EACQQAAICAQMCBwAAAAAAAAAAAAECAAMhBAYREjEFBxMUQYHx/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAMEAf/EABgRAQEBAQEAAAAAAAAAAAAAAAABAgMS/9oADAMBAAIRAxEAPwC3UTrHPGOZMpvXwi+q1TfZSTyqt0nnt3kuu6Eq14tZ79QK2BFrsOpgPjGP2S5xTLWmMsTObvMHX+5ZqaafRJwjDI+4mXloekdERKyyIiAf/9k=)">
+    <a class="ph__link" href="/images/opt/portraits/windmill-silhouette-1920.webp" data-srcset="/images/opt/portraits/windmill-silhouette-480.webp 480w, /images/opt/portraits/windmill-silhouette-960.webp 960w, /images/opt/portraits/windmill-silhouette-1440.webp 1440w, /images/opt/portraits/windmill-silhouette-1920.webp 1920w" data-caption="Windmill silhouette at golden hour" aria-label="Open: Windmill silhouette at golden hour"><img src="/images/opt/portraits/windmill-silhouette-960.webp" srcset="/images/opt/portraits/windmill-silhouette-480.webp 480w, /images/opt/portraits/windmill-silhouette-960.webp 960w, /images/opt/portraits/windmill-silhouette-1440.webp 1440w, /images/opt/portraits/windmill-silhouette-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1920" alt="Windmill silhouette at golden hour" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Windmill silhouette at golden hour</span><span class="mono">21 / 21</span></figcaption>
+  </figure>
+      </div>
+    </section>
+
+    <section class="gnext wrap">
+      <a class="gnext__link" href="/moody">
+        <span class="gnext__text">
+          <span class="eyebrow">Next gallery</span>
+          <span class="gnext__title display">Product&nbsp;&middot; <em>Moody</em></span>
+          <span class="btn">View gallery <span class="arrow" aria-hidden="true">&rarr;</span></span>
+        </span>
+        <figure class="ph" data-w="1536" data-h="1920" style="--avg:#131313;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABMDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAMCBAb/xAAcEAEBAAICAwAAAAAAAAAAAAABAAIRAyETQVH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A4XDCo8Q4LOPsD7U16g1HHuVcg2yDHjzRNOkqeQB73JBJy2ySD//Z)">
+    <span class="ph__frame"><img src="/images/opt/product-moody/pipe-960.webp" srcset="/images/opt/product-moody/pipe-480.webp 480w, /images/opt/product-moody/pipe-960.webp 960w, /images/opt/product-moody/pipe-1440.webp 1440w, /images/opt/product-moody/pipe-1536.webp 1536w" sizes="(min-width: 720px) 50vw, 100vw" width="1536" height="1920" alt="" loading="lazy" decoding="async"></span>
+  </figure>
+      </a>
+    </section>
+  </main>
 
   <footer class="footer">
-    <p class="footer__name">Aimeri Baddouh Photography</p>
-    <div class="footer__links">
-      <a href="/portraits">Portraits</a>
-      <a href="/moody">Moody</a>
-      <a href="/color">Color</a>
-      <a href="/about">About</a>
-      <a href="https://instagram.com/aimeribaddouh" target="_blank" rel="noopener">Instagram</a>
+    <div class="wrap footer__inner">
+      <p class="footer__name">Aimeri Baddouh <small>Photography</small></p>
+      <ul class="footer__links">
+        <li><a href="/portraits">Portraits</a></li>
+        <li><a href="/moody">Moody</a></li>
+        <li><a href="/color">Color</a></li>
+        <li><a href="/selected-work">Selected Work</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="https://instagram.com/aimeribaddouh" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+      <p class="footer__copy"><span>&copy; 2026 Aimeri Baddouh &middot; Cuenca, Ecuador</span><a href="mailto:aimeri@baddouh.me">aimeri@baddouh.me</a></p>
     </div>
-    <p class="footer__copy">&copy; 2026 Aimeri Baddouh &middot; Cuenca, Ecuador</p>
   </footer>
 
+  <script src="/site.js" defer></script>
 </body>
 </html>

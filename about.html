@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="cream">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>About — Aimeri Baddouh Photography</title>
   <meta name="description" content="About Aimeri Baddouh — photographer based in Cuenca, Ecuador. Portraits and product photography.">
+  <meta name="theme-color" content="#f3ede3">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="canonical" href="https://aimeribaddouh.com/about">
 
@@ -20,93 +21,138 @@
   <meta name="twitter:title" content="About — Aimeri Baddouh Photography">
   <meta name="twitter:description" content="Brazilian photographer in Cuenca, Ecuador. Portraits and product photography for small businesses, expat families, and international brands.">
   <meta name="twitter:image" content="https://aimeribaddouh.com/images/about/photographer.jpeg">
-  <link rel="stylesheet" href="styles.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=Inter:opsz,wght@14..32,300..600&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+  <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 
-  <nav class="nav">
-    <a href="/" class="nav__logo">
-      Aimeri Baddouh
-      <span>Photography</span>
-    </a>
-    <input type="checkbox" id="nav-toggle" class="nav__toggle sr-only">
-    <label for="nav-toggle" class="nav__toggle-label"><span></span></label>
-    <ul class="nav__links">
-      <li><a href="/portraits">Portraits</a></li>
-      <li><a href="/moody">Product &middot; Moody</a></li>
-      <li><a href="/color">Product &middot; Color</a></li>
-      <li><a href="/selected-work">Selected Work</a></li>
-      <li><a href="/about" class="active">About</a></li>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <a href="/" class="nav__logo">Aimeri Baddouh <small>Photography</small></a>
+    <nav aria-label="Primary">
+      <ul class="nav__links">
+        <li><a href="/portraits">Portraits</a></li>
+        <li><a href="/moody">Product&nbsp;&middot; Moody</a></li>
+        <li><a href="/color">Product&nbsp;&middot; Color</a></li>
+        <li><a href="/selected-work">Selected Work</a></li>
+        <li><a href="/about" aria-current="page">About</a></li>
+      </ul>
+    </nav>
+    <button type="button" class="nav__menu" aria-expanded="false" aria-controls="menu">
+      <span class="label-closed">Menu</span><span class="label-open">Close</span><i aria-hidden="true"></i>
+    </button>
+  </header>
+
+  <div class="menu" id="menu" aria-hidden="true">
+    <ul class="menu__list">
+      <li><a class="menu__link" href="/portraits" style="--i:0"><small>01</small>Portraits<img class="menu__thumb" src="/images/opt/portraits/dark-coat-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/moody" style="--i:1"><small>02</small>Product&nbsp;&middot; Moody<img class="menu__thumb" src="/images/opt/product-moody/pocket-watch-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/color" style="--i:2"><small>03</small>Product&nbsp;&middot; Color<img class="menu__thumb" src="/images/opt/product-pop/tarot-sun-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/selected-work" style="--i:3"><small>04</small>Selected Work<img class="menu__thumb" src="/images/opt/product-pop/fan-earrings-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/about" style="--i:4"><small>05</small>About<img class="menu__thumb" src="/images/opt/about/photographer-480.webp" alt="" loading="lazy" decoding="async"></a></li>
     </ul>
-  </nav>
-
-  <div class="about">
-    <div class="about__image-wrap">
-      <img src="images/about/photographer.jpeg" alt="Aimeri Baddouh holding a Canon AE-1 film camera" class="about__image">
-    </div>
-    <div class="about__content">
-      <h1>Aimeri Baddouh</h1>
-      <p class="about__role">Photographer &middot; Cuenca, Ecuador</p>
-
-      <p>I photograph people and products. I got into it through the optics &mdash; once I started reading about how lenses actually work, I really lost myself in the technical side. My paid work is product photography and studio portraiture. The nature shots in the portrait gallery are personal; that&rsquo;s where I started. All of it comes back to controlling light and shadow. It&rsquo;s like an oil painting, but made with a camera and the eye.</p>
-
-      <p>My work splits into three areas. <strong>Portraits</strong> &mdash; studio sittings and on-location work around Cuenca. <strong>Product photography</strong> in two modes: dark single-light studio shots, and flat-lays on saturated paper backdrops.</p>
-
-      <p>I work with local artisans and small businesses, expat families, international e-commerce brands, and visitors who want portraits while they&rsquo;re in town. I speak <strong>English, Spanish, and Portuguese</strong>.</p>
-
-      <p>Most of my paid work has been product photography. Small businesses tend to find me on Instagram. Before I say yes, I look at the products and the brand and see if I can come up with an idea for the shoot &mdash; if nothing comes to mind, I&rsquo;ll pass. From there it&rsquo;s a few emails back and forth: brand, timeline, what you actually want from it.</p>
-
-
-      <div class="about__block">
-        <h3>Selected Clients</h3>
-        <div class="about__logos">
-          <img src="images/clients/firebelly-farms.jpg" alt="Firebelly Farms">
-          <img src="images/clients/silvia-jane.jpg" alt="Silvia Jane">
-          <img src="images/clients/mariah-oller.jpg" alt="Mariah Oller Studio">
-        </div>
-        <p><a href="/selected-work">Read the case studies &rarr;</a></p>
-      </div>
-
-      <div class="about__block">
-        <h3>Why Cuenca</h3>
-        <p>We left the U.S. because of the escalating persecution of latinos there. I&rsquo;m Brazilian. Getting out was the goal &mdash; anywhere we could move to as a family would have worked. My wife did the research and Ecuador came out on top: dollar economy, most cities are pretty safe in spite of the cartel reputation. Cuenca specifically because the city carries old European, Ca&ntilde;ari, and Inca culture all at once. It&rsquo;s affordable, beautiful, and safe. We were falling in love with it before we even moved. The Ca&ntilde;ari side of it has hit me hardest.</p>
-      </div>
-
-      <div class="about__block about__form">
-        <h3>Get in Touch</h3>
-        <form name="contact" method="POST" action="/thanks" data-netlify="true" netlify-honeypot="bot-field">
-          <p class="hp"><label>Leave this empty: <input name="bot-field"></label></p>
-          <label>
-            <span>Your name</span>
-            <input type="text" name="name" required>
-          </label>
-          <label>
-            <span>Email</span>
-            <input type="email" name="email" required>
-          </label>
-          <label>
-            <span>Tell me about the project</span>
-            <textarea name="message" rows="6" required></textarea>
-          </label>
-          <button type="submit" class="form-submit">Send</button>
-        </form>
-      </div>
+    <div class="menu__foot">
+      <a href="mailto:aimeri@baddouh.me">aimeri@baddouh.me</a>
+      <a href="https://instagram.com/aimeribaddouh" target="_blank" rel="noopener">Instagram</a>
+      <span>Cuenca, Ecuador</span>
     </div>
   </div>
 
-  <footer class="footer">
-    <p class="footer__name">Aimeri Baddouh Photography</p>
-    <div class="footer__links">
-      <a href="/portraits">Portraits</a>
-      <a href="/moody">Moody</a>
-      <a href="/color">Color</a>
-      <a href="/about">About</a>
-      <a href="https://instagram.com/aimeribaddouh" target="_blank" rel="noopener">Instagram</a>
+  <main id="main">
+    <div class="about wrap">
+      <div class="about__media">
+        <figure class="ph reveal" data-w="1920" data-h="1920" style="--avg:#45352A;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIDBAEG/8QAJRAAAgICAQIGAwAAAAAAAAAAAQMAAgQRIQUxEhMiI2FxQUKx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwAB/8QAGREAAgMBAAAAAAAAAAAAAAAAAAECERIh/9oADAMBAAIRAxEAPwDy+DjBrBUnQ7ma8lS0gitCDUb3riWXsvC6YllQLNv3Fe+j8/Uhg3PU6sVZaxfjwkbAA5HOoMrbtPg8MpZa6UlQtQWHYjcSWM5bFlQ0Lq9Nh9cbHxEUAw+apuaqp9xa6gbP7aE7RgwXXtQFirA6BOiD+P7ESotOzOq7sX3gOLHRBiImkf/Z)">
+    <span class="ph__frame"><img src="/images/opt/about/photographer-960.webp" srcset="/images/opt/about/photographer-480.webp 480w, /images/opt/about/photographer-960.webp 960w, /images/opt/about/photographer-1440.webp 1440w, /images/opt/about/photographer-1920.webp 1920w" sizes="(min-width: 900px) 40vw, 100vw" width="1920" height="1920" alt="Aimeri Baddouh holding a Canon AE-1 film camera" loading="eager" fetchpriority="high" decoding="async"></span>
+  </figure>
+        <figure class="ph ph--second reveal" data-w="1920" data-h="1920" style="--avg:#55463B;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAUCBAb/xAAoEAABBAEDAgUFAAAAAAAAAAABAAIDBBEFEiEiMQYUQVJxYYGx0fD/xAAWAQEBAQAAAAAAAAAAAAAAAAACAwT/xAAcEQACAgIDAAAAAAAAAAAAAAABAgARAyESIjH/2gAMAwEAAhEDEQA/AINWPOFWp12Od1kAfU4H3KjOvR1WdIEkntz2+VUbfdVpTM1GqGl+1xj3jJaew/aD+UIsS225hqr30LDctbszggHOeeUUyg/z9sSW5nOjiwSO4AzwPhEF6irlXXkbAkcHK6N0jdW0qATgGSFpbv8AUD+CIrVcyuxUamj4etipqEjWgESxlrcjPI5H4REUXG5qxk1P/9k=) --d:160ms">
+    <span class="ph__frame"><img src="/images/opt/about/headshot-960.webp" srcset="/images/opt/about/headshot-480.webp 480w, /images/opt/about/headshot-960.webp 960w, /images/opt/about/headshot-1440.webp 1440w, /images/opt/about/headshot-1920.webp 1920w" sizes="(min-width: 900px) 18vw, 46vw" width="1920" height="1920" alt="Aimeri Baddouh, portrait" loading="lazy" decoding="async"></span>
+  </figure>
+      </div>
+
+      <div class="about__body">
+        <h1 class="about__name reveal">Aimeri <em>Baddouh</em></h1>
+        <p class="eyebrow eyebrow--accent about__role reveal" style="--d:80ms">Photographer &middot; Cuenca, Ecuador</p>
+
+        <p class="about__quote reveal" style="--d:140ms">All of it comes back to controlling light and shadow. It&rsquo;s like an oil painting, but made with a camera and the eye.</p>
+
+        <p class="reveal" style="--d:200ms">I photograph people and products. I got into it through the optics &mdash; once I started reading about how lenses actually work, I really lost myself in the technical side. My paid work is product photography and studio portraiture. The nature shots in the portrait gallery are personal; that&rsquo;s where I started.</p>
+
+        <p class="reveal">My work splits into three areas. <strong>Portraits</strong> &mdash; studio sittings and on-location work around Cuenca. <strong>Product photography</strong> in two modes: dark single-light studio shots, and flat-lays on saturated paper backdrops.</p>
+
+        <p class="reveal">I work with local artisans and small businesses, expat families, international e-commerce brands, and visitors who want portraits while they&rsquo;re in town. I speak <strong>English, Spanish, and Portuguese</strong>.</p>
+
+        <p class="reveal">Most of my paid work has been product photography. Small businesses tend to find me on Instagram. Before I say yes, I look at the products and the brand and see if I can come up with an idea for the shoot &mdash; if nothing comes to mind, I&rsquo;ll pass. From there it&rsquo;s a few emails back and forth: brand, timeline, what you actually want from it.</p>
+
+        <div class="about__block reveal">
+          <h2>At a glance</h2>
+          <dl class="about__facts">
+            <div><dt>Based in</dt><dd>Cuenca, Ecuador</dd></div>
+            <div><dt>Languages</dt><dd>English, Spanish, Portuguese</dd></div>
+            <div><dt>Work</dt><dd>Portraits &middot; Product &middot; Brand</dd></div>
+          </dl>
+        </div>
+
+        <div class="about__block reveal">
+          <h2>Selected clients</h2>
+          <div class="about__logos">
+            <img src="/images/clients/firebelly-farms.jpg" alt="Firebelly Farms" loading="lazy" decoding="async">
+            <img src="/images/clients/silvia-jane.jpg" alt="Silvia Jane" loading="lazy" decoding="async">
+            <img src="/images/clients/mariah-oller.jpg" alt="Mariah Oller Studio" loading="lazy" decoding="async">
+          </div>
+          <p><a class="inline" href="/selected-work">Read the case studies &rarr;</a></p>
+        </div>
+
+        <div class="about__block reveal">
+          <h2>Why Cuenca</h2>
+          <p>We left the U.S. because of the escalating persecution of latinos there. I&rsquo;m Brazilian. Getting out was the goal &mdash; anywhere we could move to as a family would have worked. My wife did the research and Ecuador came out on top: dollar economy, most cities are pretty safe in spite of the cartel reputation. Cuenca specifically because the city carries old European, Ca&ntilde;ari, and Inca culture all at once. It&rsquo;s affordable, beautiful, and safe. We were falling in love with it before we even moved. The Ca&ntilde;ari side of it has hit me hardest.</p>
+        </div>
+
+        <div class="about__block reveal" id="contact">
+          <h2>Get in touch</h2>
+          <form class="form" name="contact" method="POST" action="/thanks" data-netlify="true" netlify-honeypot="bot-field">
+            <p class="hp"><label>Leave this empty: <input name="bot-field"></label></p>
+            <label class="field">
+              <span>Your name</span>
+              <input type="text" name="name" autocomplete="name" required>
+            </label>
+            <label class="field">
+              <span>Email</span>
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+            <label class="field field--full">
+              <span>Tell me about the project</span>
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <div class="form__actions">
+              <button type="submit" class="btn btn--solid">Send</button>
+              <p class="form__note">Or write to <a class="inline" href="mailto:aimeri@baddouh.me">aimeri@baddouh.me</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
-    <p class="footer__copy">&copy; 2026 Aimeri Baddouh &middot; Cuenca, Ecuador</p>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p class="footer__name">Aimeri Baddouh <small>Photography</small></p>
+      <ul class="footer__links">
+        <li><a href="/portraits">Portraits</a></li>
+        <li><a href="/moody">Moody</a></li>
+        <li><a href="/color">Color</a></li>
+        <li><a href="/selected-work">Selected Work</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="https://instagram.com/aimeribaddouh" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+      <p class="footer__copy"><span>&copy; 2026 Aimeri Baddouh &middot; Cuenca, Ecuador</span><a href="mailto:aimeri@baddouh.me">aimeri@baddouh.me</a></p>
+    </div>
   </footer>
 
+  <script src="/site.js" defer></script>
 </body>
 </html>
