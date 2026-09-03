@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="paper">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product &middot; Color — Aimeri Baddouh Photography</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Product · Color — Aimeri Baddouh Photography</title>
   <meta name="description" content="Bright, bold product photography by Aimeri Baddouh. Vibrant flat-lays and pop-color compositions.">
+  <meta name="theme-color" content="#fbf9f4">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="canonical" href="https://aimeribaddouh.com/color">
 
@@ -20,121 +21,139 @@
   <meta name="twitter:title" content="Product · Color — Aimeri Baddouh Photography">
   <meta name="twitter:description" content="Saturated paper backdrops and flat-lay composition. Built for e-commerce and editorial.">
   <meta name="twitter:image" content="https://aimeribaddouh.com/images/product-pop/tarot-sun.jpeg">
-  <link rel="stylesheet" href="styles.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=Inter:opsz,wght@14..32,300..600&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+  <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 
-  <nav class="nav">
-    <a href="/" class="nav__logo">
-      Aimeri Baddouh
-      <span>Photography</span>
-    </a>
-    <input type="checkbox" id="nav-toggle" class="nav__toggle sr-only">
-    <label for="nav-toggle" class="nav__toggle-label"><span></span></label>
-    <ul class="nav__links">
-      <li><a href="/portraits">Portraits</a></li>
-      <li><a href="/moody">Product &middot; Moody</a></li>
-      <li><a href="/color" class="active">Product &middot; Color</a></li>
-      <li><a href="/selected-work">Selected Work</a></li>
-      <li><a href="/about">About</a></li>
-    </ul>
-  </nav>
+  <a class="skip" href="#main">Skip to content</a>
 
-  <header class="page-header">
-    <p class="page-header__eyebrow">Gallery III</p>
-    <h1 class="page-header__title">Product &middot; Color</h1>
-    <p class="page-header__desc">Saturated paper backdrops and flat-lay composition. Built for e-commerce and editorial.</p>
-    <div class="page-header__divider"></div>
+  <header class="nav">
+    <a href="/" class="nav__logo">Aimeri Baddouh <small>Photography</small></a>
+    <nav aria-label="Primary">
+      <ul class="nav__links">
+        <li><a href="/portraits">Portraits</a></li>
+        <li><a href="/moody">Product&nbsp;&middot; Moody</a></li>
+        <li><a href="/color" aria-current="page">Product&nbsp;&middot; Color</a></li>
+        <li><a href="/selected-work">Selected Work</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+    <button type="button" class="nav__menu" aria-expanded="false" aria-controls="menu">
+      <span class="label-closed">Menu</span><span class="label-open">Close</span><i aria-hidden="true"></i>
+    </button>
   </header>
 
-  <div class="gallery-grid gallery-grid--pop">
-    <div class="gallery-item"><a href="#c1"><img src="images/product-pop/tarot-lovers.jpeg" alt="Tarot card The Lovers on blue background with pink hearts"></a></div>
-    <div class="gallery-item"><a href="#c2"><img src="images/product-pop/flower-earrings.jpeg" alt="White flower earrings on split pink background"></a></div>
-    <div class="gallery-item"><a href="#c3"><img src="images/product-pop/bubblegum.jpeg" alt="Dubble Bubble gum on teal and pink stripes"></a></div>
-    <div class="gallery-item"><a href="#c4"><img src="images/product-pop/tarot-sun.jpeg" alt="Tarot card The Sun on yellow and blue rays"></a></div>
-    <div class="gallery-item"><a href="#c5"><img src="images/product-pop/fan-earrings.jpeg" alt="Purple fan earrings on pink circles composition"></a></div>
-    <div class="gallery-item"><a href="#c6"><img src="images/product-pop/beer.jpeg" alt="Sycamore Drippy IPA with glass on red and pink"></a></div>
-    <div class="gallery-item"><a href="#c7"><img src="images/product-pop/device.jpeg" alt="Coral device on blue and pink geometric background"></a></div>
-    <div class="gallery-item"><a href="#c8"><img src="images/product-pop/cookie.jpeg" alt="Cookie on split blue background"></a></div>
-    <div class="gallery-item"><a href="#c9"><img src="images/product-pop/chocolate-milk.jpeg" alt="Chocolate milk with cocoa crescent on marble"></a></div>
-    <div class="gallery-item"><a href="#c10"><img src="images/product-pop/hotsauce-flatlay.jpeg" alt="Hot sauce flat lay with fresh peppers"></a></div>
-    <div class="gallery-item"><a href="#c11"><img src="images/product-pop/strawberries.jpeg" alt="Fresh strawberries on white plate, wooden surface"></a></div>
+  <div class="menu" id="menu" aria-hidden="true">
+    <ul class="menu__list">
+      <li><a class="menu__link" href="/portraits" style="--i:0"><small>01</small>Portraits<img class="menu__thumb" src="/images/opt/portraits/dark-coat-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/moody" style="--i:1"><small>02</small>Product&nbsp;&middot; Moody<img class="menu__thumb" src="/images/opt/product-moody/pocket-watch-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/color" style="--i:2"><small>03</small>Product&nbsp;&middot; Color<img class="menu__thumb" src="/images/opt/product-pop/tarot-sun-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/selected-work" style="--i:3"><small>04</small>Selected Work<img class="menu__thumb" src="/images/opt/product-pop/fan-earrings-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/about" style="--i:4"><small>05</small>About<img class="menu__thumb" src="/images/opt/about/photographer-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+    </ul>
+    <div class="menu__foot">
+      <a href="mailto:aimeri@baddouh.me">aimeri@baddouh.me</a>
+      <a href="https://instagram.com/aimeribaddouh" target="_blank" rel="noopener">Instagram</a>
+      <span>Cuenca, Ecuador</span>
+    </div>
   </div>
 
-  <!-- Lightboxes -->
-  <div id="c1" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-pop/tarot-lovers.jpeg" alt="Tarot card The Lovers">
-    <div class="lightbox__nav"><a href="#c11">&larr; Prev</a><a href="#c2">Next &rarr;</a></div>
-  </div>
-  <div id="c2" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-pop/flower-earrings.jpeg" alt="Flower earrings on pink">
-    <div class="lightbox__nav"><a href="#c1">&larr; Prev</a><a href="#c3">Next &rarr;</a></div>
-  </div>
-  <div id="c3" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-pop/bubblegum.jpeg" alt="Bubblegum on teal and pink">
-    <div class="lightbox__nav"><a href="#c2">&larr; Prev</a><a href="#c4">Next &rarr;</a></div>
-  </div>
-  <div id="c4" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-pop/tarot-sun.jpeg" alt="Tarot card The Sun">
-    <div class="lightbox__nav"><a href="#c3">&larr; Prev</a><a href="#c5">Next &rarr;</a></div>
-  </div>
-  <div id="c5" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-pop/fan-earrings.jpeg" alt="Fan earrings on pink circles">
-    <div class="lightbox__nav"><a href="#c4">&larr; Prev</a><a href="#c6">Next &rarr;</a></div>
-  </div>
-  <div id="c6" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-pop/beer.jpeg" alt="Drippy IPA on red and pink">
-    <div class="lightbox__nav"><a href="#c5">&larr; Prev</a><a href="#c7">Next &rarr;</a></div>
-  </div>
-  <div id="c7" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-pop/device.jpeg" alt="Coral device on geometric background">
-    <div class="lightbox__nav"><a href="#c6">&larr; Prev</a><a href="#c8">Next &rarr;</a></div>
-  </div>
-  <div id="c8" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-pop/cookie.jpeg" alt="Cookie on blue background">
-    <div class="lightbox__nav"><a href="#c7">&larr; Prev</a><a href="#c9">Next &rarr;</a></div>
-  </div>
-  <div id="c9" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-pop/chocolate-milk.jpeg" alt="Chocolate milk on marble">
-    <div class="lightbox__nav"><a href="#c8">&larr; Prev</a><a href="#c10">Next &rarr;</a></div>
-  </div>
-  <div id="c10" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-pop/hotsauce-flatlay.jpeg" alt="Hot sauce flat lay">
-    <div class="lightbox__nav"><a href="#c9">&larr; Prev</a><a href="#c11">Next &rarr;</a></div>
-  </div>
-  <div id="c11" class="lightbox">
-    <a href="#" class="lightbox__close">&times;</a>
-    <img src="images/product-pop/strawberries.jpeg" alt="Strawberries on white plate">
-    <div class="lightbox__nav"><a href="#c10">&larr; Prev</a><a href="#c1">Next &rarr;</a></div>
-  </div>
+  <main id="main">
+    <header class="ghead wrap">
+      <div class="ghead__top">
+        <p class="eyebrow eyebrow--accent">Gallery III</p>
+        <p class="ghead__count mono">11 photographs</p>
+      </div>
+      <h1 class="ghead__title">Product&nbsp;&middot; <em>Color</em></h1>
+      <div class="ghead__row">
+        <p class="ghead__desc">Saturated paper backdrops and flat-lay composition. Built for e-commerce and editorial.</p>
+        <a class="btn" href="/about#contact">Book a session <span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </div>
+    </header>
 
-  <div style="text-align:center; padding: 2rem;">
-    <a href="/" class="back-link">Back to galleries</a>
-  </div>
+    <section class="gallery wrap" data-lightbox aria-label="Product · Color — Aimeri Baddouh Photography gallery">
+      <div class="justified" data-rows="0.5,0.42">
+<figure class="ph ph--lead" data-w="1920" data-h="1920" style="--avg:#D0B757;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAEDBAX/xAAlEAACAQMDAwUBAAAAAAAAAAABAgADESESEzEEBTJRYXGRocH/xAAYAQACAwAAAAAAAAAAAAAAAAADBAECBf/EACERAAICAQMFAQAAAAAAAAAAAAECABExAxIhBCJBoeHR/9oADAMBAAIRAxEAPwDsgbT48GP0Zfsvu3xxbmZqW8rqHKutx8zP0ydwXurrWOumx1KwAsueL88WmWED2SbNVYOfsMhoUAQLwRj5NYBqVSzeK4A9TEio9XWwRABc5JiAdXc8OFA4A3fnuSrql9pJOTUA5Ev1UD1ArWfUMflv7ERTQ6l9C9nmOvpq+ZUTck+8REWJs3Lz/9k=)">
+    <a class="ph__link" href="/images/opt/product-pop/tarot-sun-1920.webp" data-srcset="/images/opt/product-pop/tarot-sun-480.webp 480w, /images/opt/product-pop/tarot-sun-960.webp 960w, /images/opt/product-pop/tarot-sun-1440.webp 1440w, /images/opt/product-pop/tarot-sun-1920.webp 1920w" data-caption="The Sun, Tarot of Life, on marigold and cyan rays" aria-label="Open: The Sun, Tarot of Life, on marigold and cyan rays"><img src="/images/opt/product-pop/tarot-sun-960.webp" srcset="/images/opt/product-pop/tarot-sun-480.webp 480w, /images/opt/product-pop/tarot-sun-960.webp 960w, /images/opt/product-pop/tarot-sun-1440.webp 1440w, /images/opt/product-pop/tarot-sun-1920.webp 1920w" sizes="(max-width: 719px) 100vw, 45vw" width="1920" height="1920" alt="The Sun, Tarot of Life, on marigold and cyan rays" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>The Sun, Tarot of Life, on marigold and cyan rays</span><span class="mono">01 / 11</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1920" style="--avg:#F65D8C;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDBP/EACIQAAICAgAGAwAAAAAAAAAAAAECABEDEhMhMUFRYSIjcf/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAgb/xAAXEQEBAQEAAAAAAAAAAAAAAAAAARFB/9oADAMBAAIRAxEAPwDr1K4yVKhhz+XiFONNydtWNg3d+YytjSrQFmFX6k/XlwqyaUOVE9fcOuh0YK6bL0iThVcXExl7a7160P3vEW5aHXKBZojvM2UDIMYQlCbLeYiFUk3VZGxq5dVAY94iJF//2Q==)">
+    <a class="ph__link" href="/images/opt/product-pop/fan-earrings-1920.webp" data-srcset="/images/opt/product-pop/fan-earrings-480.webp 480w, /images/opt/product-pop/fan-earrings-960.webp 960w, /images/opt/product-pop/fan-earrings-1440.webp 1440w, /images/opt/product-pop/fan-earrings-1920.webp 1920w" data-caption="Silvia Jane fan earrings on pink circles" aria-label="Open: Silvia Jane fan earrings on pink circles"><img src="/images/opt/product-pop/fan-earrings-960.webp" srcset="/images/opt/product-pop/fan-earrings-480.webp 480w, /images/opt/product-pop/fan-earrings-960.webp 960w, /images/opt/product-pop/fan-earrings-1440.webp 1440w, /images/opt/product-pop/fan-earrings-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1920" alt="Silvia Jane fan earrings on pink circles" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Silvia Jane fan earrings on pink circles</span><span class="mono">02 / 11</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1536" data-h="1920" style="--avg:#F7617A;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABMDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMEBv/EACYQAAEEAQIEBwAAAAAAAAAAAAEAAgMRBBITITFRUwUUI0GBkZL/xAAYAQACAwAAAAAAAAAAAAAAAAACBAMFBv/EAB0RAAICAQUAAAAAAAAAAAAAAAECABEDEiExQXH/2gAMAwEAAhEDEQA/AINIPIrQI4jhGXdfvbZkDfag6qVPC8PDyMXdzPMCTWW03gAPpWGK9uLsNcL2nNaSer7F/CVqzS7zTZMoul6IvyYdR6ORQ1S9mT8lEWkxihOjeyQ1TS6+duHBRlx5JJNTnllCuFFETq41Viw5MqVcgyvqd16IikhT/9k=)">
+    <a class="ph__link" href="/images/opt/product-pop/beer-1536.webp" data-srcset="/images/opt/product-pop/beer-480.webp 480w, /images/opt/product-pop/beer-960.webp 960w, /images/opt/product-pop/beer-1440.webp 1440w, /images/opt/product-pop/beer-1536.webp 1536w" data-caption="Sycamore Drippy IPA on red and pink" aria-label="Open: Sycamore Drippy IPA on red and pink"><img src="/images/opt/product-pop/beer-960.webp" srcset="/images/opt/product-pop/beer-480.webp 480w, /images/opt/product-pop/beer-960.webp 960w, /images/opt/product-pop/beer-1440.webp 1440w, /images/opt/product-pop/beer-1536.webp 1536w" sizes="(max-width: 719px) 50vw, 45vw" width="1536" height="1920" alt="Sycamore Drippy IPA on red and pink" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Sycamore Drippy IPA on red and pink</span><span class="mono">03 / 11</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1920" style="--avg:#54B7DB;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAECAwT/xAAfEAACAgEEAwAAAAAAAAAAAAABAgARMQMSIXFBYYH/xAAXAQADAQAAAAAAAAAAAAAAAAABBAUG/8QAIxEAAQMDAgcAAAAAAAAAAAAAAQACAwQREmHwBSEiMUFRsf/aAAwDAQACEQMRAD8A71HEtULsCVcSsoZCrYOZRN/CgNDbjLstLbQKsDqJk21QAKAGBEIKcFMHcxE92u2n6ojHaKau/MiKVBOpqtqMfgHQiIMRldKR1EkQ6DbftR2VKsAFuR7iIgabrQQcPZPE2SR7iTqv/9k=)">
+    <a class="ph__link" href="/images/opt/product-pop/bubblegum-1920.webp" data-srcset="/images/opt/product-pop/bubblegum-480.webp 480w, /images/opt/product-pop/bubblegum-960.webp 960w, /images/opt/product-pop/bubblegum-1440.webp 1440w, /images/opt/product-pop/bubblegum-1920.webp 1920w" data-caption="Dubble Bubble on teal and pink stripes" aria-label="Open: Dubble Bubble on teal and pink stripes"><img src="/images/opt/product-pop/bubblegum-960.webp" srcset="/images/opt/product-pop/bubblegum-480.webp 480w, /images/opt/product-pop/bubblegum-960.webp 960w, /images/opt/product-pop/bubblegum-1440.webp 1440w, /images/opt/product-pop/bubblegum-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1920" alt="Dubble Bubble on teal and pink stripes" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Dubble Bubble on teal and pink stripes</span><span class="mono">04 / 11</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1920" style="--avg:#60B2CC;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQCBf/EACYQAAEEAQIEBwAAAAAAAAAAAAEAAgMRBFGRBRIUQRMhMWFxgbH/xAAVAQEBAAAAAAAAAAAAAAAAAAAEBf/EAB8RAAICAgIDAQAAAAAAAAAAAAECAAMRMQQhEhNRcf/aAAwDAQACEQMRAD8Arxo78q+tVb0svaF/xyqXBkqRg1cP1MKbN8Ev6t7i3IJcHtJ5wdD2A0TL7fWwH2TeHSj0ls631+zOTHTiKr2RbzH3I8E+jjW6JSZxJt5U2Hx1I8aUNmYSaAcL3XQx8ZkQdG7iUToi4uoNAok62iI/IrVyMxfDuapWUaMhyZA6aQg2C41uiIkjUAeyTP/Z)">
+    <a class="ph__link" href="/images/opt/product-pop/tarot-lovers-1920.webp" data-srcset="/images/opt/product-pop/tarot-lovers-480.webp 480w, /images/opt/product-pop/tarot-lovers-960.webp 960w, /images/opt/product-pop/tarot-lovers-1440.webp 1440w, /images/opt/product-pop/tarot-lovers-1920.webp 1920w" data-caption="The Lovers, Tarot of Life, with paper hearts" aria-label="Open: The Lovers, Tarot of Life, with paper hearts"><img src="/images/opt/product-pop/tarot-lovers-960.webp" srcset="/images/opt/product-pop/tarot-lovers-480.webp 480w, /images/opt/product-pop/tarot-lovers-960.webp 960w, /images/opt/product-pop/tarot-lovers-1440.webp 1440w, /images/opt/product-pop/tarot-lovers-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1920" alt="The Lovers, Tarot of Life, with paper hearts" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>The Lovers, Tarot of Life, with paper hearts</span><span class="mono">05 / 11</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1920" style="--avg:#EA4A9D;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECBAX/xAAjEAACAgEDBAMBAAAAAAAAAAABAgADEQQSMQUTIUEiQlFh/8QAFwEBAQEBAAAAAAAAAAAAAAAAAgMEBf/EABsRAAMAAwEBAAAAAAAAAAAAAAABAgMRIRIx/9oADAMBAAIRAxEAPwDVskOVrHyYAYJ8/g5M0UVd5nUlwFTOUxmVd0C3KSNLbamK+6D4BIGP7nk/kezuXn0/KW2c7VdQFQKUkFz9vQiU6oan1QCM1jooWywkYdh7GPUS8zw3YpThNr6Tf1Nxcp0x27DkNjkzFZbZaQbHZyONxziIiUpFZxzPUgsREQj/2Q==)">
+    <a class="ph__link" href="/images/opt/product-pop/flower-earrings-1920.webp" data-srcset="/images/opt/product-pop/flower-earrings-480.webp 480w, /images/opt/product-pop/flower-earrings-960.webp 960w, /images/opt/product-pop/flower-earrings-1440.webp 1440w, /images/opt/product-pop/flower-earrings-1920.webp 1920w" data-caption="Silvia Jane flower earrings on split pink" aria-label="Open: Silvia Jane flower earrings on split pink"><img src="/images/opt/product-pop/flower-earrings-960.webp" srcset="/images/opt/product-pop/flower-earrings-480.webp 480w, /images/opt/product-pop/flower-earrings-960.webp 960w, /images/opt/product-pop/flower-earrings-1440.webp 1440w, /images/opt/product-pop/flower-earrings-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1920" alt="Silvia Jane flower earrings on split pink" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Silvia Jane flower earrings on split pink</span><span class="mono">06 / 11</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1920" style="--avg:#808DB8;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMEBf/EACkQAAEDAwICCwAAAAAAAAAAAAEAAgMEBREhMRJBBhMiUWFxcoGRsdH/xAAYAQEAAwEAAAAAAAAAAAAAAAAEAQIDBf/EACERAAEEAgAHAAAAAAAAAAAAAAIAAQQRAwUhJFFxgbHB/9oADAMBAAIRAxEAPwCWEkjIkbGGuc9wyMNJ9lrt1IyrqSySQsaBnQanwWe8GahbwatAfnfXG+hXTlyixELB5QtbrxkAb5OnD6tEFlmk7VQepb3buP4iva+kNJdXmNodFLyY7miKUrKT3dLUYuMWqlO1DL5vSPtdGeGnucQgrGcZbsckEjzCIplteR0qC3KM/f2oU9jttJKJYKZrXt2dkkj5RERVVf/Z)">
+    <a class="ph__link" href="/images/opt/product-pop/device-1920.webp" data-srcset="/images/opt/product-pop/device-480.webp 480w, /images/opt/product-pop/device-960.webp 960w, /images/opt/product-pop/device-1440.webp 1440w, /images/opt/product-pop/device-1920.webp 1920w" data-caption="Coral device on blue and pink blocks" aria-label="Open: Coral device on blue and pink blocks"><img src="/images/opt/product-pop/device-960.webp" srcset="/images/opt/product-pop/device-480.webp 480w, /images/opt/product-pop/device-960.webp 960w, /images/opt/product-pop/device-1440.webp 1440w, /images/opt/product-pop/device-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1920" alt="Coral device on blue and pink blocks" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Coral device on blue and pink blocks</span><span class="mono">07 / 11</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1920" style="--avg:#5AACC3;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMEBQL/xAAjEAACAgEDAwUAAAAAAAAAAAABAgADEQQhMhIxURMiUnGR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwQF/8QAHREAAgMAAgMAAAAAAAAAAAAAAQMAAhEEIRITMv/aAAwDAQACEQMRAD8A2knYtQMFLDqPYSlq7Wq0rsvfH5M82k2BVbmMIPj9yjkvKsAHZmZweKH6SehNXV6kkmpMgDkfMSq7e1A3MZ6jjGd4lqLeaxbM2TPp62Gm7kj1t4KGldyeR8SlQHqYH1OoDYBt8DxERLJXeoFhsNTmK+DknNpJJiIigAdCESSdM//Z)">
+    <a class="ph__link" href="/images/opt/product-pop/cookie-1920.webp" data-srcset="/images/opt/product-pop/cookie-480.webp 480w, /images/opt/product-pop/cookie-960.webp 960w, /images/opt/product-pop/cookie-1440.webp 1440w, /images/opt/product-pop/cookie-1920.webp 1920w" data-caption="Cookie on a split blue background" aria-label="Open: Cookie on a split blue background"><img src="/images/opt/product-pop/cookie-960.webp" srcset="/images/opt/product-pop/cookie-480.webp 480w, /images/opt/product-pop/cookie-960.webp 960w, /images/opt/product-pop/cookie-1440.webp 1440w, /images/opt/product-pop/cookie-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1920" alt="Cookie on a split blue background" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Cookie on a split blue background</span><span class="mono">08 / 11</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1280" data-h="1920" style="--avg:#CC8F64;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EACEQAAICAwACAgMAAAAAAAAAAAECAwQAERIFFCExcYHB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwX/xAAbEQACAgMBAAAAAAAAAAAAAAABAgADEkFRMf/aAAwDAQACEQMRAD8A2bnkY6iM2uuddY9K4Lih0jZY3XpSw0dZn2ofZYxF0VQD0xGwPzi0rslW/BQ6jaILyCuxvY2D/MnVFnXI9lB6x4vJV2s+73GsTQMmmViRs/rIQVJD5d7kyoiqoCKrbG9ffz84YYgOoeR1P//Z)">
+    <a class="ph__link" href="/images/opt/product-pop/hotsauce-flatlay-1280.webp" data-srcset="/images/opt/product-pop/hotsauce-flatlay-480.webp 480w, /images/opt/product-pop/hotsauce-flatlay-960.webp 960w, /images/opt/product-pop/hotsauce-flatlay-1280.webp 1280w" data-caption="Firebelly Farms flat-lay with fresh peppers" aria-label="Open: Firebelly Farms flat-lay with fresh peppers"><img src="/images/opt/product-pop/hotsauce-flatlay-960.webp" srcset="/images/opt/product-pop/hotsauce-flatlay-480.webp 480w, /images/opt/product-pop/hotsauce-flatlay-960.webp 960w, /images/opt/product-pop/hotsauce-flatlay-1280.webp 1280w" sizes="(max-width: 719px) 50vw, 45vw" width="1280" height="1920" alt="Firebelly Farms flat-lay with fresh peppers" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Firebelly Farms flat-lay with fresh peppers</span><span class="mono">09 / 11</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1920" style="--avg:#C2B2AC;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAYDAgX/xAAkEAACAQMFAAEFAAAAAAAAAAABAgMABBEFEiExQVEjMkJx8P/EABYBAQEBAAAAAAAAAAAAAAAAAAACAf/EABkRAAMBAQEAAAAAAAAAAAAAAAABEQIhEv/aAAwDAQACEQMRAD8As3ZQy5IBHOCfPms1ljY7YnVsZ4B7rG++paDkjDAkjsD2sZJUTYxdcqQ27PQHZ/WKl6acLzmqndhqEN2zrGCkifcjd990qd0q5Nzr6yx5Cs7sefx/sUpl1DefL4UUhLRyRhsHw/FR0+mavNM0a7WiZtuUIUHn32lK2Epw93R9JFihLShrlwRuA4XHgpSlFwN3rP/Z)">
+    <a class="ph__link" href="/images/opt/product-pop/chocolate-milk-1920.webp" data-srcset="/images/opt/product-pop/chocolate-milk-480.webp 480w, /images/opt/product-pop/chocolate-milk-960.webp 960w, /images/opt/product-pop/chocolate-milk-1440.webp 1440w, /images/opt/product-pop/chocolate-milk-1920.webp 1920w" data-caption="Chocolate milk with a cocoa crescent, on marble" aria-label="Open: Chocolate milk with a cocoa crescent, on marble"><img src="/images/opt/product-pop/chocolate-milk-960.webp" srcset="/images/opt/product-pop/chocolate-milk-480.webp 480w, /images/opt/product-pop/chocolate-milk-960.webp 960w, /images/opt/product-pop/chocolate-milk-1440.webp 1440w, /images/opt/product-pop/chocolate-milk-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1920" alt="Chocolate milk with a cocoa crescent, on marble" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Chocolate milk with a cocoa crescent, on marble</span><span class="mono">10 / 11</span></figcaption>
+  </figure>
+<figure class="ph" data-w="1920" data-h="1920" style="--avg:#BC827B;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAAAAUBAwQG/8QAKBAAAgEEAQEHBQAAAAAAAAAAAQIDAAQFESExBhITIkFRYSMygZHx/8QAGAEAAwEBAAAAAAAAAAAAAAAAAgMEAAX/xAAeEQACAgICAwAAAAAAAAAAAAABAgARITEDBBITQf/aAAwDAQACEQMRAD8AspiMezMmzI6fd9U7X9dKzdWN5HCzWFwXbWvDn82x7Buo/NeaycAR4XkkdZNFXGiNAen9rZgsrBZ5Mq07raumj3yTpqQrjVVOi/WNEhrI+VLVpcWuXiKOGguIeJFJ0yke1Km9o4RDk4L61dgJ033oj1I9d/IIpR+YGDJPUWyJcymLhyaDxHZHA0GXXT5qbH2bEG44gsgcDzvwVPOzSlEUBmTn5E0Zz59FtmtbC1DOluh2TzyTulKVO+49MizP/9k=)">
+    <a class="ph__link" href="/images/opt/product-pop/strawberries-1920.webp" data-srcset="/images/opt/product-pop/strawberries-480.webp 480w, /images/opt/product-pop/strawberries-960.webp 960w, /images/opt/product-pop/strawberries-1440.webp 1440w, /images/opt/product-pop/strawberries-1920.webp 1920w" data-caption="Strawberries on a white plate" aria-label="Open: Strawberries on a white plate"><img src="/images/opt/product-pop/strawberries-960.webp" srcset="/images/opt/product-pop/strawberries-480.webp 480w, /images/opt/product-pop/strawberries-960.webp 960w, /images/opt/product-pop/strawberries-1440.webp 1440w, /images/opt/product-pop/strawberries-1920.webp 1920w" sizes="(max-width: 719px) 50vw, 45vw" width="1920" height="1920" alt="Strawberries on a white plate" loading="lazy" decoding="async"></a>
+    <figcaption class="ph__cap"><span>Strawberries on a white plate</span><span class="mono">11 / 11</span></figcaption>
+  </figure>
+      </div>
+    </section>
+
+    <section class="gnext wrap">
+      <a class="gnext__link" href="/selected-work">
+        <span class="gnext__text">
+          <span class="eyebrow">Next gallery</span>
+          <span class="gnext__title display">Selected <em>Work</em></span>
+          <span class="btn">View gallery <span class="arrow" aria-hidden="true">&rarr;</span></span>
+        </span>
+        <figure class="ph" data-w="1920" data-h="1280" style="--avg:#5F524A;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAgb/xAAkEAABAwMEAQUAAAAAAAAAAAABAAIRAwQSBRMhMRQiQVFhgf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAGxEAAwACAwAAAAAAAAAAAAAAAAECERJBUWH/2gAMAwEAAhEDEQA/AOdaeU3aecKnGBaeP1PfptWzbuXNMnIHbaJ9RA9/hVdPOOmMoXb3sLmEeOZBjKZ6jr7QdJZ8KTPfJIbTAElC1FS5vCLdpbQcTgXSeEJxSpZROlqf/9k=)">
+    <span class="ph__frame"><img src="/images/opt/product-moody/hotsauce-hero-960.webp" srcset="/images/opt/product-moody/hotsauce-hero-480.webp 480w, /images/opt/product-moody/hotsauce-hero-960.webp 960w, /images/opt/product-moody/hotsauce-hero-1440.webp 1440w, /images/opt/product-moody/hotsauce-hero-1920.webp 1920w" sizes="(min-width: 720px) 50vw, 100vw" width="1920" height="1280" alt="" loading="lazy" decoding="async"></span>
+  </figure>
+      </a>
+    </section>
+  </main>
 
   <footer class="footer">
-    <p class="footer__name">Aimeri Baddouh Photography</p>
-    <div class="footer__links">
-      <a href="/portraits">Portraits</a>
-      <a href="/moody">Moody</a>
-      <a href="/color">Color</a>
-      <a href="/about">About</a>
-      <a href="https://instagram.com/aimeribaddouh" target="_blank" rel="noopener">Instagram</a>
+    <div class="wrap footer__inner">
+      <p class="footer__name">Aimeri Baddouh <small>Photography</small></p>
+      <ul class="footer__links">
+        <li><a href="/portraits">Portraits</a></li>
+        <li><a href="/moody">Moody</a></li>
+        <li><a href="/color">Color</a></li>
+        <li><a href="/selected-work">Selected Work</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="https://instagram.com/aimeribaddouh" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+      <p class="footer__copy"><span>&copy; 2026 Aimeri Baddouh &middot; Cuenca, Ecuador</span><a href="mailto:aimeri@baddouh.me">aimeri@baddouh.me</a></p>
     </div>
-    <p class="footer__copy">&copy; 2026 Aimeri Baddouh &middot; Cuenca, Ecuador</p>
   </footer>
 
+  <script src="/site.js" defer></script>
 </body>
 </html>

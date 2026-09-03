@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="cream" data-hero>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Aimeri Baddouh Photography</title>
   <meta name="description" content="Professional photography by Aimeri Baddouh. Portraits, product photography — moody and pop-color. Based in Cuenca, Ecuador.">
+  <meta name="theme-color" content="#f3ede3">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="canonical" href="https://aimeribaddouh.com/">
 
@@ -20,94 +21,255 @@
   <meta name="twitter:title" content="Aimeri Baddouh Photography">
   <meta name="twitter:description" content="Photographer in Cuenca, Ecuador. Portraits, moody product photography, and saturated paper-backdrop flat-lays.">
   <meta name="twitter:image" content="https://aimeribaddouh.com/images/hero/hero.jpeg">
-  <link rel="stylesheet" href="styles.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=Inter:opsz,wght@14..32,300..600&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="preload" as="image" imagesrcset="/images/opt/hero/hero-480.webp 480w, /images/opt/hero/hero-960.webp 960w, /images/opt/hero/hero-1440.webp 1440w, /images/opt/hero/hero-1536.webp 1536w" imagesizes="(min-width: 900px) 50vw, 100vw">
+  <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 
-  <nav class="nav">
-    <a href="/" class="nav__logo">
-      Aimeri Baddouh
-      <span>Photography</span>
-    </a>
-    <input type="checkbox" id="nav-toggle" class="nav__toggle sr-only">
-    <label for="nav-toggle" class="nav__toggle-label"><span></span></label>
-    <ul class="nav__links">
-      <li><a href="/portraits">Portraits</a></li>
-      <li><a href="/moody">Product &middot; Moody</a></li>
-      <li><a href="/color">Product &middot; Color</a></li>
-      <li><a href="/selected-work">Selected Work</a></li>
-      <li><a href="/about">About</a></li>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <a href="/" class="nav__logo">Aimeri Baddouh <small>Photography</small></a>
+    <nav aria-label="Primary">
+      <ul class="nav__links">
+        <li><a href="/portraits">Portraits</a></li>
+        <li><a href="/moody">Product&nbsp;&middot; Moody</a></li>
+        <li><a href="/color">Product&nbsp;&middot; Color</a></li>
+        <li><a href="/selected-work">Selected Work</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+    <button type="button" class="nav__menu" aria-expanded="false" aria-controls="menu">
+      <span class="label-closed">Menu</span><span class="label-open">Close</span><i aria-hidden="true"></i>
+    </button>
+  </header>
+
+  <div class="menu" id="menu" aria-hidden="true">
+    <ul class="menu__list">
+      <li><a class="menu__link" href="/portraits" style="--i:0"><small>01</small>Portraits<img class="menu__thumb" src="/images/opt/portraits/dark-coat-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/moody" style="--i:1"><small>02</small>Product&nbsp;&middot; Moody<img class="menu__thumb" src="/images/opt/product-moody/pocket-watch-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/color" style="--i:2"><small>03</small>Product&nbsp;&middot; Color<img class="menu__thumb" src="/images/opt/product-pop/tarot-sun-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/selected-work" style="--i:3"><small>04</small>Selected Work<img class="menu__thumb" src="/images/opt/product-pop/fan-earrings-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/about" style="--i:4"><small>05</small>About<img class="menu__thumb" src="/images/opt/about/photographer-480.webp" alt="" loading="lazy" decoding="async"></a></li>
     </ul>
-  </nav>
-
-  <section class="hero">
-    <div class="hero__images">
-      <img class="hero__image" src="images/hero/hero.jpeg" alt="Classical studio portrait of a man with a pipe">
-      <img class="hero__image" src="images/product-moody/pocket-watch.png" alt="Gold pocket watch on dark velvet">
-      <img class="hero__image" src="images/product-pop/tarot-sun.jpeg" alt="Tarot card The Sun on marigold and blue paper">
+    <div class="menu__foot">
+      <a href="mailto:aimeri@baddouh.me">aimeri@baddouh.me</a>
+      <a href="https://instagram.com/aimeribaddouh" target="_blank" rel="noopener">Instagram</a>
+      <span>Cuenca, Ecuador</span>
     </div>
-    <div class="hero__overlay"></div>
-    <div class="hero__content">
-      <p class="hero__subtitle">Aimeri Baddouh &middot; Photographer &middot; Cuenca, Ecuador</p>
-      <h1 class="hero__title">I take pictures.</h1>
-      <a href="#work" class="hero__cta">View the Work</a>
-    </div>
-  </section>
-
-  <div class="intro">
-    <p>I'm a photographer in Cuenca, Ecuador. I shoot <strong>portraits</strong> in studio and on location, and two kinds of <strong>product work</strong>: dark, single-light studio setups and brighter flat-lays on saturated paper.</p>
   </div>
 
-  <section id="work" class="section section--full">
-    <div class="section__header">
-      <h2 class="section__title">The Work</h2>
-      <p class="section__subtitle">Three galleries</p>
-      <div class="section__divider"></div>
-    </div>
+  <main id="main">
 
-    <div class="previews">
-      <a href="/portraits" class="preview-card">
-        <img src="images/portraits/dark-coat.png" alt="Portrait photography" class="preview-card__image">
-        <div class="preview-card__overlay">
-          <span class="preview-card__label">Gallery I</span>
-          <h3 class="preview-card__title">Portraits</h3>
-          <p class="preview-card__count">17 images</p>
-        </div>
-      </a>
+    <section class="hero" aria-label="Three bodies of work">
+      <div class="hero__panels">
+        <a class="hero__panel is-active" href="/portraits" style="--pos:50% 28%">
+          <img class="hero__img" src="/images/opt/hero/hero-1440.webp" srcset="/images/opt/hero/hero-480.webp 480w, /images/opt/hero/hero-960.webp 960w, /images/opt/hero/hero-1440.webp 1440w, /images/opt/hero/hero-1536.webp 1536w" sizes="(min-width: 900px) 50vw, 100vw" width="1536" height="1920" alt="" fetchpriority="high" decoding="async">
+          <span class="hero__tag"><i>I</i> Portraits <span class="arrow" aria-hidden="true">&rarr;</span></span>
+        </a>
+        <a class="hero__panel" href="/moody" style="--pos:50% 50%">
+          <img class="hero__img" src="/images/opt/product-moody/pocket-watch-1440.webp" srcset="/images/opt/product-moody/pocket-watch-480.webp 480w, /images/opt/product-moody/pocket-watch-960.webp 960w, /images/opt/product-moody/pocket-watch-1440.webp 1440w, /images/opt/product-moody/pocket-watch-1920.webp 1920w" sizes="(min-width: 900px) 50vw, 100vw" width="1920" height="1280" alt="" decoding="async">
+          <span class="hero__tag"><i>II</i> Product&nbsp;&middot; Moody <span class="arrow" aria-hidden="true">&rarr;</span></span>
+        </a>
+        <a class="hero__panel" href="/color" style="--pos:50% 50%">
+          <img class="hero__img" src="/images/opt/product-pop/tarot-sun-1440.webp" srcset="/images/opt/product-pop/tarot-sun-480.webp 480w, /images/opt/product-pop/tarot-sun-960.webp 960w, /images/opt/product-pop/tarot-sun-1440.webp 1440w, /images/opt/product-pop/tarot-sun-1920.webp 1920w" sizes="(min-width: 900px) 50vw, 100vw" width="1920" height="1920" alt="" decoding="async">
+          <span class="hero__tag"><i>III</i> Product&nbsp;&middot; Color <span class="arrow" aria-hidden="true">&rarr;</span></span>
+        </a>
+      </div>
+      <div class="hero__scrim" aria-hidden="true"></div>
+      <div class="hero__dots" aria-hidden="true"><span class="is-active"></span><span></span><span></span></div>
+      <div class="hero__content">
+        <p class="hero__eyebrow">Aimeri Baddouh &middot; Photographer &middot; Cuenca, Ecuador</p>
+        <h1 class="hero__title"><span class="word">I</span> <span class="word">take</span> <span class="word"><em>pictures.</em></span></h1>
+      </div>
+      <a class="hero__scroll" href="#intro">Scroll</a>
+    </section>
 
-      <a href="/moody" class="preview-card">
-        <img src="images/product-moody/pipe.png" alt="Moody product photography" class="preview-card__image">
-        <div class="preview-card__overlay">
-          <span class="preview-card__label">Gallery II</span>
-          <h3 class="preview-card__title">Product &middot; Moody</h3>
-          <p class="preview-card__count">14 images</p>
-        </div>
-      </a>
+    <section class="lede wrap" id="intro">
+      <p class="lede__text reveal">I&rsquo;m a photographer in Cuenca, Ecuador. I shoot <strong>portraits</strong> in studio and on location, and two kinds of <strong>product work</strong>: dark, single-light studio setups and brighter flat-lays on saturated paper.</p>
+      <div class="lede__meta reveal" style="--d:160ms">
+        <span class="eyebrow">Studio &amp; on location</span>
+        <span class="eyebrow">English &middot; Espa&ntilde;ol &middot; Portugu&ecirc;s</span>
+        <span class="eyebrow">Three galleries</span>
+      </div>
+    </section>
 
-      <a href="/color" class="preview-card">
-        <img src="images/product-pop/tarot-sun.jpeg" alt="Pop color product photography" class="preview-card__image">
-        <div class="preview-card__overlay">
-          <span class="preview-card__label">Gallery III</span>
-          <h3 class="preview-card__title">Product &middot; Color</h3>
-          <p class="preview-card__count">11 images</p>
+    <section class="chapter" id="portraits" data-theme-trigger="cream">
+      <div class="wrap chapter__inner">
+        <div class="chapter__head">
+          <span class="chapter__num" aria-hidden="true">I</span>
+          <p class="eyebrow eyebrow--accent reveal">Gallery I &middot; 21 photographs</p>
+          <h2 class="chapter__title reveal" style="--d:80ms">Portraits</h2>
+          <p class="chapter__desc reveal" style="--d:160ms">Studio sittings and on-location work around Cuenca and beyond. Single lights, long shadows, and the occasional dog.</p>
+          <a class="btn reveal" style="--d:240ms" href="/portraits">View the gallery <span class="arrow" aria-hidden="true">&rarr;</span></a>
         </div>
-      </a>
-    </div>
-  </section>
+        <div class="collage">
+          <figure class="collage__item reveal" data-speed="0.05" style="--d:0ms">
+            <div class="px">
+              <a class="ph ph--link" href="/portraits" data-w="1280" data-h="1920" style="--avg:#746E68;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAUGAgP/xAAjEAACAAQGAwEAAAAAAAAAAAABAgADBBEFBiExQXETFCRR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAYEQEBAAMAAAAAAAAAAAAAAAAAASExQf/aAAwDAQACEQMRAD8A7+RKSUjMpYswVQCBcw6kygU1UqeQYksw15pVpURVLBjM16I2hlljH/fV6eqb6LllPBH4OomKwlswTzOrZe1llgCMYAxTGKZgbWbXq0EEM0Ov/9k=)" aria-label="Man in a dark coat, dramatic half-light — Portraits gallery">
+                <img src="/images/opt/portraits/dark-coat-960.webp" srcset="/images/opt/portraits/dark-coat-480.webp 480w, /images/opt/portraits/dark-coat-960.webp 960w, /images/opt/portraits/dark-coat-1280.webp 1280w" sizes="(min-width: 900px) 42vw, 66vw" width="1280" height="1920" alt="Man in a dark coat, dramatic half-light" loading="lazy" decoding="async">
+              </a>
+            </div>
+            <figcaption class="collage__cap">Man in a dark coat, dramatic half-light</figcaption>
+          </figure>
+          <figure class="collage__item reveal" data-speed="0.12" style="--d:120ms">
+            <div class="px">
+              <a class="ph ph--link" href="/portraits" data-w="1920" data-h="1280" style="--avg:#3D3C4C;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EAB4QAAICAgIDAAAAAAAAAAAAAAECABEDBAUxEiFR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAD/8QAGBEBAQEBAQAAAAAAAAAAAAAAAQARAlH/2gAMAwEAAhEDEQA/AMHXRTKVUEkAXUyMW4F+x68gVBo99zR5ofZ+yii4SDLt+V2fcIhkbf/Z)" aria-label="Foggy gate at dusk — Portraits gallery">
+                <img src="/images/opt/portraits/foggy-gate-960.webp" srcset="/images/opt/portraits/foggy-gate-480.webp 480w, /images/opt/portraits/foggy-gate-960.webp 960w, /images/opt/portraits/foggy-gate-1440.webp 1440w, /images/opt/portraits/foggy-gate-1920.webp 1920w" sizes="(min-width: 900px) 30vw, 40vw" width="1920" height="1280" alt="Foggy gate at dusk" loading="lazy" decoding="async">
+              </a>
+            </div>
+            <figcaption class="collage__cap">Foggy gate at dusk</figcaption>
+          </figure>
+          <figure class="collage__item reveal" data-speed="0.09" style="--d:240ms">
+            <div class="px">
+              <a class="ph ph--link" href="/portraits" data-w="1280" data-h="1920" style="--avg:#7E6F65;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAACBf/EACcQAAIBBAADCQEAAAAAAAAAAAEDAgAEBRESIWEGExQiMUFRcbHR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwH/xAAYEQEBAAMAAAAAAAAAAAAAAAAAERIhQv/aAAwDAQACEQMRAD8Ax2RyrltetsptgF7ESeQI9P5RM7lbm5YDcpMJaBAB3EDoaSLLwWJu4oHmmsg9aAvGSfjUMWdEw5x3+UWMJzXaY09zMQGzwkAfJ1RsWGqsFpfHhlDcfse1VVIl1H//2Q==)" aria-label="Red dress at golden hour — Portraits gallery">
+                <img src="/images/opt/portraits/red-dress-sunset-960.webp" srcset="/images/opt/portraits/red-dress-sunset-480.webp 480w, /images/opt/portraits/red-dress-sunset-960.webp 960w, /images/opt/portraits/red-dress-sunset-1280.webp 1280w" sizes="(min-width: 900px) 30vw, 40vw" width="1280" height="1920" alt="Red dress at golden hour" loading="lazy" decoding="async">
+              </a>
+            </div>
+            <figcaption class="collage__cap">Red dress at golden hour</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter chapter--flip" id="moody" data-theme-trigger="dark">
+      <div class="wrap chapter__inner">
+        <div class="chapter__head">
+          <span class="chapter__num" aria-hidden="true">II</span>
+          <p class="eyebrow eyebrow--accent reveal">Gallery II &middot; 14 photographs</p>
+          <h2 class="chapter__title reveal" style="--d:80ms">Product&nbsp;&middot; <em>Moody</em></h2>
+          <p class="chapter__desc reveal" style="--d:160ms">Dark backgrounds, a single sculpted light, deep shadow. The kind of product photography that reads like a still life.</p>
+          <a class="btn reveal" style="--d:240ms" href="/moody">View the gallery <span class="arrow" aria-hidden="true">&rarr;</span></a>
+        </div>
+        <div class="collage">
+          <figure class="collage__item reveal" data-speed="0.05" style="--d:0ms">
+            <div class="px">
+              <a class="ph ph--link" href="/moody" data-w="1536" data-h="1920" style="--avg:#6B532C;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABMDASIAAhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAAAAIDAQQFBv/EACQQAAICAgEDBAMAAAAAAAAAAAECAAMEESESEzEFIjJBUWHw/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAIEAQP/xAAYEQADAQEAAAAAAAAAAAAAAAAAARECEv/aAAwDAQACEQMRAD8A89j4ZetXsVV6Tpi5nRqxa+grkUoo15UaOj9gyWFb3KQMilWNblU4+Q/czaWuZ0RT0VH3L+JHrbpQsqHJsxKK7GQ9xtHyNcxLmvLHYpYD64JidLoSIsT1HGuwnS1O0yaC2KNkiQfPSt3WvhreWY/3ERG4VM6ZonDzGO0V3U8hl8GIiHTDk//Z)" aria-label="Watch movement macro — Product · Moody gallery">
+                <img src="/images/opt/product-moody/watch-macro-960.webp" srcset="/images/opt/product-moody/watch-macro-480.webp 480w, /images/opt/product-moody/watch-macro-960.webp 960w, /images/opt/product-moody/watch-macro-1440.webp 1440w, /images/opt/product-moody/watch-macro-1536.webp 1536w" sizes="(min-width: 900px) 42vw, 66vw" width="1536" height="1920" alt="Watch movement macro" loading="lazy" decoding="async">
+              </a>
+            </div>
+            <figcaption class="collage__cap">Watch movement macro</figcaption>
+          </figure>
+          <figure class="collage__item reveal" data-speed="0.12" style="--d:120ms">
+            <div class="px">
+              <a class="ph ph--link" href="/moody" data-w="1920" data-h="1280" style="--avg:#382D1E;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAUGAv/EACUQAAIBAgUDBQAAAAAAAAAAAAECAwAEBQYRIUESMVETFCJhcf/EABQBAQAAAAAAAAAAAAAAAAAAAAP/xAAYEQADAQEAAAAAAAAAAAAAAAAAARECEv/aAAwDAQACEQMRAD8AiLSxnvEneFQVgTrfU8U3uss4icMS/ESBViHWgPyH3p+aUuwq6W2lcSsVRhvp5HYVSXGaLRbKf2vqmaZQCjbKp535om9dSCJZhGsCraMCD4NFbmlknkMkrl3Pck0UoZ//2Q==)" aria-label="Gold pocket watch on velvet — Product · Moody gallery">
+                <img src="/images/opt/product-moody/pocket-watch-960.webp" srcset="/images/opt/product-moody/pocket-watch-480.webp 480w, /images/opt/product-moody/pocket-watch-960.webp 960w, /images/opt/product-moody/pocket-watch-1440.webp 1440w, /images/opt/product-moody/pocket-watch-1920.webp 1920w" sizes="(min-width: 900px) 30vw, 40vw" width="1920" height="1280" alt="Gold pocket watch on velvet" loading="lazy" decoding="async">
+              </a>
+            </div>
+            <figcaption class="collage__cap">Gold pocket watch on velvet</figcaption>
+          </figure>
+          <figure class="collage__item reveal" data-speed="0.09" style="--d:240ms">
+            <div class="px">
+              <a class="ph ph--link" href="/moody" data-w="1536" data-h="1920" style="--avg:#422A2C;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABMDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMEAQb/xAAkEAACAgICAQMFAAAAAAAAAAABAgADBBESITEFE1IUQVFhgf/EABkBAAIDAQAAAAAAAAAAAAAAAAMFAAECBP/EAB0RAAIBBAMAAAAAAAAAAAAAAAABAgMREiFB0vD/2gAMAwEAAhEDEQA/APNelYi5mUtVtwrQjZIXZlMj05qLLWNypSuwlhXRY/Ya8zLhEpkowQBl7B3ruVz67a7k51d672Dx3/ZKkpZpJmqGHK2VS8KgH1tnXxXqJNbbAoHvVr+gPEQ9x6p692M+JlmiqxOKtz/KAzltrWIA1jEfHXQiJzNK9xJBJkfEREsJkz//2Q==)" aria-label="The Little Prince, gelled light — Product · Moody gallery">
+                <img src="/images/opt/product-moody/petit-prince-960.webp" srcset="/images/opt/product-moody/petit-prince-480.webp 480w, /images/opt/product-moody/petit-prince-960.webp 960w, /images/opt/product-moody/petit-prince-1440.webp 1440w, /images/opt/product-moody/petit-prince-1536.webp 1536w" sizes="(min-width: 900px) 30vw, 40vw" width="1536" height="1920" alt="The Little Prince, gelled light" loading="lazy" decoding="async">
+              </a>
+            </div>
+            <figcaption class="collage__cap">The Little Prince, gelled light</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter" id="color" data-theme-trigger="marigold">
+      <div class="wrap chapter__inner">
+        <div class="chapter__head">
+          <span class="chapter__num" aria-hidden="true">III</span>
+          <p class="eyebrow eyebrow--accent reveal">Gallery III &middot; 11 photographs</p>
+          <h2 class="chapter__title reveal" style="--d:80ms">Product&nbsp;&middot; <em>Color</em></h2>
+          <p class="chapter__desc reveal" style="--d:160ms">Saturated paper backdrops and flat-lay composition. Built for e-commerce and editorial, and for scrolling thumbs.</p>
+          <a class="btn reveal" style="--d:240ms" href="/color">View the gallery <span class="arrow" aria-hidden="true">&rarr;</span></a>
+        </div>
+        <div class="collage">
+          <figure class="collage__item reveal" data-speed="0.05" style="--d:0ms">
+            <div class="px">
+              <a class="ph ph--link" href="/color" data-w="1920" data-h="1920" style="--avg:#60B2CC;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQCBf/EACYQAAEEAQIEBwAAAAAAAAAAAAEAAgMRBFGRBRIUQRMhMWFxgbH/xAAVAQEBAAAAAAAAAAAAAAAAAAAEBf/EAB8RAAICAgIDAQAAAAAAAAAAAAECAAMRMQQhEhNRcf/aAAwDAQACEQMRAD8Arxo78q+tVb0svaF/xyqXBkqRg1cP1MKbN8Ev6t7i3IJcHtJ5wdD2A0TL7fWwH2TeHSj0ls631+zOTHTiKr2RbzH3I8E+jjW6JSZxJt5U2Hx1I8aUNmYSaAcL3XQx8ZkQdG7iUToi4uoNAok62iI/IrVyMxfDuapWUaMhyZA6aQg2C41uiIkjUAeyTP/Z)" aria-label="The Lovers, Tarot of Life — Product · Color gallery">
+                <img src="/images/opt/product-pop/tarot-lovers-960.webp" srcset="/images/opt/product-pop/tarot-lovers-480.webp 480w, /images/opt/product-pop/tarot-lovers-960.webp 960w, /images/opt/product-pop/tarot-lovers-1440.webp 1440w, /images/opt/product-pop/tarot-lovers-1920.webp 1920w" sizes="(min-width: 900px) 42vw, 66vw" width="1920" height="1920" alt="The Lovers, Tarot of Life" loading="lazy" decoding="async">
+              </a>
+            </div>
+            <figcaption class="collage__cap">The Lovers, Tarot of Life</figcaption>
+          </figure>
+          <figure class="collage__item reveal" data-speed="0.12" style="--d:120ms">
+            <div class="px">
+              <a class="ph ph--link" href="/color" data-w="1920" data-h="1920" style="--avg:#F65D8C;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDBP/EACIQAAICAgAGAwAAAAAAAAAAAAECABEDEhMhMUFRYSIjcf/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAgb/xAAXEQEBAQEAAAAAAAAAAAAAAAAAARFB/9oADAMBAAIRAxEAPwDr1K4yVKhhz+XiFONNydtWNg3d+YytjSrQFmFX6k/XlwqyaUOVE9fcOuh0YK6bL0iThVcXExl7a7160P3vEW5aHXKBZojvM2UDIMYQlCbLeYiFUk3VZGxq5dVAY94iJF//2Q==)" aria-label="Silvia Jane fan earrings — Product · Color gallery">
+                <img src="/images/opt/product-pop/fan-earrings-960.webp" srcset="/images/opt/product-pop/fan-earrings-480.webp 480w, /images/opt/product-pop/fan-earrings-960.webp 960w, /images/opt/product-pop/fan-earrings-1440.webp 1440w, /images/opt/product-pop/fan-earrings-1920.webp 1920w" sizes="(min-width: 900px) 30vw, 40vw" width="1920" height="1920" alt="Silvia Jane fan earrings" loading="lazy" decoding="async">
+              </a>
+            </div>
+            <figcaption class="collage__cap">Silvia Jane fan earrings</figcaption>
+          </figure>
+          <figure class="collage__item reveal" data-speed="0.09" style="--d:240ms">
+            <div class="px">
+              <a class="ph ph--link" href="/color" data-w="1536" data-h="1920" style="--avg:#F7617A;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABMDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMEBv/EACYQAAEEAQIEBwAAAAAAAAAAAAEAAgMRBBITITFRUwUUI0GBkZL/xAAYAQACAwAAAAAAAAAAAAAAAAACBAMFBv/EAB0RAAICAQUAAAAAAAAAAAAAAAECABEDEiExQXH/2gAMAwEAAhEDEQA/AINIPIrQI4jhGXdfvbZkDfag6qVPC8PDyMXdzPMCTWW03gAPpWGK9uLsNcL2nNaSer7F/CVqzS7zTZMoul6IvyYdR6ORQ1S9mT8lEWkxihOjeyQ1TS6+duHBRlx5JJNTnllCuFFETq41Viw5MqVcgyvqd16IikhT/9k=)" aria-label="Sycamore Drippy IPA — Product · Color gallery">
+                <img src="/images/opt/product-pop/beer-960.webp" srcset="/images/opt/product-pop/beer-480.webp 480w, /images/opt/product-pop/beer-960.webp 960w, /images/opt/product-pop/beer-1440.webp 1440w, /images/opt/product-pop/beer-1536.webp 1536w" sizes="(min-width: 900px) 30vw, 40vw" width="1536" height="1920" alt="Sycamore Drippy IPA" loading="lazy" decoding="async">
+              </a>
+            </div>
+            <figcaption class="collage__cap">Sycamore Drippy IPA</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="strip wrap" data-theme-trigger="cream" aria-labelledby="strip-title">
+      <div class="strip__head">
+        <div>
+          <p class="eyebrow eyebrow--accent reveal">Selected work</p>
+          <h2 class="strip__title reveal" id="strip-title" style="--d:80ms">A few projects <em>worth talking about.</em></h2>
+        </div>
+        <a class="btn reveal" style="--d:160ms" href="/selected-work">Read the case studies <span class="arrow" aria-hidden="true">&rarr;</span></a>
+      </div>
+      <div class="strip__grid">
+        <a class="card reveal" href="/selected-work#mariah-oller" style="--d:0ms">
+          <figure class="ph" style="--avg:#D0B757;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAEDBAX/xAAlEAACAQMDAwUBAAAAAAAAAAABAgADESESEzEEBTJRYXGRocH/xAAYAQACAwAAAAAAAAAAAAAAAAADBAECBf/EACERAAICAQMFAQAAAAAAAAAAAAECABExAxIhBCJBoeHR/9oADAMBAAIRAxEAPwDsgbT48GP0Zfsvu3xxbmZqW8rqHKutx8zP0ydwXurrWOumx1KwAsueL88WmWED2SbNVYOfsMhoUAQLwRj5NYBqVSzeK4A9TEio9XWwRABc5JiAdXc8OFA4A3fnuSrql9pJOTUA5Ev1UD1ArWfUMflv7ERTQ6l9C9nmOvpq+ZUTck+8REWJs3Lz/9k=)">
+            <span class="ph__frame"><img src="/images/opt/product-pop/tarot-sun-960.webp" srcset="/images/opt/product-pop/tarot-sun-480.webp 480w, /images/opt/product-pop/tarot-sun-960.webp 960w, /images/opt/product-pop/tarot-sun-1440.webp 1440w, /images/opt/product-pop/tarot-sun-1920.webp 1920w" sizes="(min-width: 900px) 33vw, 78vw" width="1920" height="1920" alt="" loading="lazy" decoding="async"></span>
+          </figure>
+          <span class="card__meta"><span class="card__client">Mariah Oller Studio</span><span class="card__what">Tarot deck</span></span>
+        </a>
+        <a class="card reveal" href="/selected-work#firebelly-farms" style="--d:110ms">
+          <figure class="ph" style="--avg:#5F524A;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAgb/xAAkEAABAwMEAQUAAAAAAAAAAAABAAIRAwQSBRMhMRQiQVFhgf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAGxEAAwACAwAAAAAAAAAAAAAAAAECERJBUWH/2gAMAwEAAhEDEQA/AOdaeU3aecKnGBaeP1PfptWzbuXNMnIHbaJ9RA9/hVdPOOmMoXb3sLmEeOZBjKZ6jr7QdJZ8KTPfJIbTAElC1FS5vCLdpbQcTgXSeEJxSpZROlqf/9k=)">
+            <span class="ph__frame"><img src="/images/opt/product-moody/hotsauce-hero-960.webp" srcset="/images/opt/product-moody/hotsauce-hero-480.webp 480w, /images/opt/product-moody/hotsauce-hero-960.webp 960w, /images/opt/product-moody/hotsauce-hero-1440.webp 1440w, /images/opt/product-moody/hotsauce-hero-1920.webp 1920w" sizes="(min-width: 900px) 33vw, 78vw" width="1920" height="1280" alt="" loading="lazy" decoding="async"></span>
+          </figure>
+          <span class="card__meta"><span class="card__client">Firebelly Farms</span><span class="card__what">Hot sauce</span></span>
+        </a>
+        <a class="card reveal" href="/selected-work#silvia-jane" style="--d:220ms">
+          <figure class="ph" style="--avg:#EA4A9D;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECBAX/xAAjEAACAgEDBAMBAAAAAAAAAAABAgADEQQSMQUTIUEiQlFh/8QAFwEBAQEBAAAAAAAAAAAAAAAAAgMEBf/EABsRAAMAAwEBAAAAAAAAAAAAAAABAgMRIRIx/9oADAMBAAIRAxEAPwDVskOVrHyYAYJ8/g5M0UVd5nUlwFTOUxmVd0C3KSNLbamK+6D4BIGP7nk/kezuXn0/KW2c7VdQFQKUkFz9vQiU6oan1QCM1jooWywkYdh7GPUS8zw3YpThNr6Tf1Nxcp0x27DkNjkzFZbZaQbHZyONxziIiUpFZxzPUgsREQj/2Q==)">
+            <span class="ph__frame"><img src="/images/opt/product-pop/flower-earrings-960.webp" srcset="/images/opt/product-pop/flower-earrings-480.webp 480w, /images/opt/product-pop/flower-earrings-960.webp 960w, /images/opt/product-pop/flower-earrings-1440.webp 1440w, /images/opt/product-pop/flower-earrings-1920.webp 1920w" sizes="(min-width: 900px) 33vw, 78vw" width="1920" height="1920" alt="" loading="lazy" decoding="async"></span>
+          </figure>
+          <span class="card__meta"><span class="card__client">Silvia Jane</span><span class="card__what">Jewelry</span></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="cta" data-theme-trigger="cream">
+      <div class="wrap cta__inner">
+        <h2 class="cta__title reveal">Have a project in mind? <em>Tell me about it.</em></h2>
+        <div class="cta__side reveal" style="--d:120ms">
+          <p>A few emails back and forth: brand, timeline, what you actually want from it.</p>
+          <a class="btn btn--solid" href="/about#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
 
   <footer class="footer">
-    <p class="footer__name">Aimeri Baddouh Photography</p>
-    <div class="footer__links">
-      <a href="/portraits">Portraits</a>
-      <a href="/moody">Moody</a>
-      <a href="/color">Color</a>
-      <a href="/about">About</a>
-      <a href="https://instagram.com/aimeribaddouh" target="_blank" rel="noopener">Instagram</a>
+    <div class="wrap footer__inner">
+      <p class="footer__name">Aimeri Baddouh <small>Photography</small></p>
+      <ul class="footer__links">
+        <li><a href="/portraits">Portraits</a></li>
+        <li><a href="/moody">Moody</a></li>
+        <li><a href="/color">Color</a></li>
+        <li><a href="/selected-work">Selected Work</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="https://instagram.com/aimeribaddouh" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+      <p class="footer__copy"><span>&copy; 2026 Aimeri Baddouh &middot; Cuenca, Ecuador</span><a href="mailto:aimeri@baddouh.me">aimeri@baddouh.me</a></p>
     </div>
-    <p class="footer__copy">&copy; 2026 Aimeri Baddouh &middot; Cuenca, Ecuador</p>
   </footer>
 
+  <script src="/site.js" defer></script>
 </body>
 </html>

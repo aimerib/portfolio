@@ -1,0 +1,1358 @@
+{
+  "hero/hero": {
+    "w": 1536,
+    "h": 1920,
+    "avg": "#3B3B3B",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/wAALCAAYABMBAREA/8QAGQAAAgMBAAAAAAAAAAAAAAAAAwQBAgUG/8QAIxAAAgIBAwMFAAAAAAAAAAAAAQIDBAAREiETIkEFFDFxgf/aAAgBAQAAPwDlqdVpCqopZjwAPJxuWrJXlEVmHpM3C9wOp/MC1buPGNeltGkiPIWCjklTocpNZS1dqhmYyb9X3tqAQTwMYcDccx68jzMIgxAbQaDB2IjFYIZl3D5Knzk+9mHHWJ+8/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 600,
+        "src": "images/opt/hero/hero-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1200,
+        "src": "images/opt/hero/hero-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1800,
+        "src": "images/opt/hero/hero-1440.webp"
+      },
+      {
+        "w": 1536,
+        "h": 1920,
+        "src": "images/opt/hero/hero-1536.webp"
+      }
+    ],
+    "original": "images/hero/hero.jpeg"
+  },
+  "portraits/IMG_4087": {
+    "w": 1280,
+    "h": 1920,
+    "avg": "#4C4C53",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAQL/xAAhEAABBAEEAwEAAAAAAAAAAAABAgMEEQAFEhMhIjFBcf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AJ2nxlOtKS0UhyvEq9X7zsKRLh8qUbDZBSfhxMOUGozpBo7SAf3rMhvJGmpoUVEk397zQjImDi20R2O8YiYG2A2QTV1RwwyD/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 720,
+        "src": "images/opt/portraits/IMG_4087-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1440,
+        "src": "images/opt/portraits/IMG_4087-960.webp"
+      },
+      {
+        "w": 1280,
+        "h": 1920,
+        "src": "images/opt/portraits/IMG_4087-1280.webp"
+      }
+    ],
+    "original": "images/portraits/IMG_4087.jpg"
+  },
+  "portraits/aimeri-pixie": {
+    "w": 1920,
+    "h": 1920,
+    "avg": "#534A48",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQDAQb/xAAkEAABBAEEAgIDAAAAAAAAAAABAAIDEQQFEiExIlETJEFhcf/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/8QAGBEBAQEBAQAAAAAAAAAAAAAAABEBITH/2gAMAwEAAhEDEQA/APM4sHjYbZA69q0YmRE+JuREwCTjxu2mrANrumROmeI2VuI7KpnEsOfjR5kgbM1rjJu5sg00gftqmlkm1HkYu0HhFRJkMn+UN6Y6gfaKix0jLlgd9eLfJW6+OuvysNX1zImJYYRE/ouPLiP6iIy+nZnEWDM5rJNzr3UUREgf/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 480,
+        "src": "images/opt/portraits/aimeri-pixie-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 960,
+        "src": "images/opt/portraits/aimeri-pixie-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1440,
+        "src": "images/opt/portraits/aimeri-pixie-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1920,
+        "src": "images/opt/portraits/aimeri-pixie-1920.webp"
+      }
+    ],
+    "original": "images/portraits/aimeri-pixie.jpeg"
+  },
+  "portraits/cyberpunk": {
+    "w": 1536,
+    "h": 1920,
+    "avg": "#442031",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABMDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAUEBgH/xAAiEAACAgEEAQUAAAAAAAAAAAABAgADEQQSITFBBQYTMoH/xAAXAQADAQAAAAAAAAAAAAAAAAACBAUA/8QAHBEAAgMAAwEAAAAAAAAAAAAAAAECAxExMmFx/9oADAMBAAIRAxEAPwDnrqmWtin2xxJ9d1i2gMSQTggy/rmq0abrfPAXy05tzmxmBHeeJo8+DV+RaxlQ0c9RNmnsqt09bvYgZlyRuHcSgqItbo8qYNbph9xWb/VXXGPjAXvvjP53JkRJ1XRfCRN7JnkREME//9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 600,
+        "src": "images/opt/portraits/cyberpunk-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1200,
+        "src": "images/opt/portraits/cyberpunk-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1800,
+        "src": "images/opt/portraits/cyberpunk-1440.webp"
+      },
+      {
+        "w": 1536,
+        "h": 1920,
+        "src": "images/opt/portraits/cyberpunk-1536.webp"
+      }
+    ],
+    "original": "images/portraits/cyberpunk.jpg"
+  },
+  "portraits/dark-coat": {
+    "w": 1280,
+    "h": 1920,
+    "avg": "#746E68",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAUGAgP/xAAjEAACAAQGAwEAAAAAAAAAAAABAgADBBEFBiExQXETFCRR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAYEQEBAAMAAAAAAAAAAAAAAAAAASExQf/aAAwDAQACEQMRAD8A7+RKSUjMpYswVQCBcw6kygU1UqeQYksw15pVpURVLBjM16I2hlljH/fV6eqb6LllPBH4OomKwlswTzOrZe1llgCMYAxTGKZgbWbXq0EEM0Ov/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 720,
+        "src": "images/opt/portraits/dark-coat-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1440,
+        "src": "images/opt/portraits/dark-coat-960.webp"
+      },
+      {
+        "w": 1280,
+        "h": 1920,
+        "src": "images/opt/portraits/dark-coat-1280.webp"
+      }
+    ],
+    "original": "images/portraits/dark-coat.png"
+  },
+  "portraits/evening-gown": {
+    "w": 1280,
+    "h": 1920,
+    "avg": "#825C34",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBAwQG/8QAJxAAAgEDAgMJAAAAAAAAAAAAAQIDAAUSESEEMUETFiJRUpGhscH/xAAVAQEBAAAAAAAAAAAAAAAAAAADBP/EABcRAQEBAQAAAAAAAAAAAAAAAAARIUH/2gAMAwEAAhEDEQA/AFlm4ooihpURYwTv18h8Vp7yNIxgkjAiO2W+QFK4rbcDC2MIw9TMF+zULZLgfEIQSDyDg/tSZVOunm4mF4iFnXmANWqlnhK9nxMmkRYaHLTFuh29qKKOG4//2Q==",
+    "variants": [
+      {
+        "w": 480,
+        "h": 720,
+        "src": "images/opt/portraits/evening-gown-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1440,
+        "src": "images/opt/portraits/evening-gown-960.webp"
+      },
+      {
+        "w": 1280,
+        "h": 1920,
+        "src": "images/opt/portraits/evening-gown-1280.webp"
+      }
+    ],
+    "original": "images/portraits/evening-gown.jpg"
+  },
+  "portraits/foggy-gate": {
+    "w": 1920,
+    "h": 1280,
+    "avg": "#3D3C4C",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EAB4QAAICAgIDAAAAAAAAAAAAAAECABEDBAUxEiFR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAD/8QAGBEBAQEBAQAAAAAAAAAAAAAAAQARAlH/2gAMAwEAAhEDEQA/AMHXRTKVUEkAXUyMW4F+x68gVBo99zR5ofZ+yii4SDLt+V2fcIhkbf/Z",
+    "variants": [
+      {
+        "w": 480,
+        "h": 320,
+        "src": "images/opt/portraits/foggy-gate-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 640,
+        "src": "images/opt/portraits/foggy-gate-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 960,
+        "src": "images/opt/portraits/foggy-gate-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1280,
+        "src": "images/opt/portraits/foggy-gate-1920.webp"
+      }
+    ],
+    "original": "images/portraits/foggy-gate.jpg"
+  },
+  "portraits/foliage": {
+    "w": 1280,
+    "h": 1920,
+    "avg": "#2B2A0D",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAGQAAAQUAAAAAAAAAAAAAAAAAAAIDBAUG/8QAIRAAAgEEAgIDAAAAAAAAAAAAAQIDABESIQQxEyJBYYH/xAAWAQEBAQAAAAAAAAAAAAAAAAACAwT/xAAYEQADAQEAAAAAAAAAAAAAAAAAAREhMf/aAAwDAQACEQMRAD8AyJUKD966vQ0eIAvSllMckUi45K4Pt1381N5skLczk2Maqqr4/AoKtrrX7us+wS5SraVhZlVTiNg00s5Y2Ki5ooqqSgT/2Q==",
+    "variants": [
+      {
+        "w": 480,
+        "h": 720,
+        "src": "images/opt/portraits/foliage-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1440,
+        "src": "images/opt/portraits/foliage-960.webp"
+      },
+      {
+        "w": 1280,
+        "h": 1920,
+        "src": "images/opt/portraits/foliage-1280.webp"
+      }
+    ],
+    "original": "images/portraits/foliage.jpg"
+  },
+  "portraits/leather-jacket": {
+    "w": 1920,
+    "h": 1280,
+    "avg": "#908684",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFBAf/xAAjEAACAgIBBAIDAAAAAAAAAAABAgMEABEFEiExQQYiMpHB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/EABcRAQEBAQAAAAAAAAAAAAAAAAAhATH/2gAMAwEAAhEDEQA/AN13lUo6URl2PrF0eQsWr8kot9MSuqrXCbBU68n95D5u8tixqL8B9er2cTx0CO80LNIBIpCkNob898NOZ10XesMg/HLsk3GtHO5aWByhJPfXr+4Yhf/Z",
+    "variants": [
+      {
+        "w": 480,
+        "h": 320,
+        "src": "images/opt/portraits/leather-jacket-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 640,
+        "src": "images/opt/portraits/leather-jacket-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 960,
+        "src": "images/opt/portraits/leather-jacket-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1280,
+        "src": "images/opt/portraits/leather-jacket-1920.webp"
+      }
+    ],
+    "original": "images/portraits/leather-jacket.jpeg"
+  },
+  "portraits/mother-child": {
+    "w": 1280,
+    "h": 1920,
+    "avg": "#96876C",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAXgBeAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAQT/xAAjEAACAQQBAwUAAAAAAAAAAAABAgMABBEhBhIxQSIjJGHB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwEE/8QAGREAAwEBAQAAAAAAAAAAAAAAAAERAgMh/9oADAMBAAIRAxEAPwDsuy1iFMkTAkEAAY1rP5WCzhliIERZVPle1I5JLLFdG39IQRjp1sE990ji13ffIDSu0IbAJOcGsz5xWi1FTk3uQwsoUtvYHiptjdRpauwJjUMB9k+aKKV5TyS+n//Z",
+    "variants": [
+      {
+        "w": 480,
+        "h": 720,
+        "src": "images/opt/portraits/mother-child-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1440,
+        "src": "images/opt/portraits/mother-child-960.webp"
+      },
+      {
+        "w": 1280,
+        "h": 1920,
+        "src": "images/opt/portraits/mother-child-1280.webp"
+      }
+    ],
+    "original": "images/portraits/mother-child.png"
+  },
+  "portraits/pixie-held": {
+    "w": 1536,
+    "h": 1920,
+    "avg": "#D5C8C5",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABMDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMEBQb/xAAkEAABBAEDAwUAAAAAAAAAAAABAAIDBBETIUEFEiIjMVFx8P/EABcBAAMBAAAAAAAAAAAAAAAAAAECAwD/xAAYEQADAQEAAAAAAAAAAAAAAAAAAREhEv/aAAwDAQACEQMRAD8A9B1Oa3C6BtfTZEXgPe/J2+Ary6sMoyctO4I5Vb9V9qqWRuDXg5aT7ZWGjO51ltO/GRMMiJ/76QujzDsMeCwFFEzhh7dNxxsiNQvLKQyCRviuX1iGzFPXs1h3PicduDkclEUmyixmVtmTBJrbkkn1OScoiJoan//Z",
+    "variants": [
+      {
+        "w": 480,
+        "h": 600,
+        "src": "images/opt/portraits/pixie-held-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1200,
+        "src": "images/opt/portraits/pixie-held-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1800,
+        "src": "images/opt/portraits/pixie-held-1440.webp"
+      },
+      {
+        "w": 1536,
+        "h": 1920,
+        "src": "images/opt/portraits/pixie-held-1536.webp"
+      }
+    ],
+    "original": "images/portraits/pixie-held.png"
+  },
+  "portraits/red-dress-studio": {
+    "w": 1280,
+    "h": 1920,
+    "avg": "#A48287",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EACQQAAIBBAEEAgMAAAAAAAAAAAECAwAEERIhBQYxURMUQWGx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQID/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECESEiMv/aAAwDAQACEQMRAD8Ao9WlvIfhisSyto8rlY9ttcYXn2TTEVx9qMkxtGfyrDBFK9y3FxFZxPaTtGUyZAp51PAJHrP9rLpErGOLZizPCjEnyTii8mzjrZH7junh6hb3CNnMWMHxgE5B/RzTdjclb1FKCPUahAchRjgUUUMt8I//2Q==",
+    "variants": [
+      {
+        "w": 480,
+        "h": 720,
+        "src": "images/opt/portraits/red-dress-studio-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1440,
+        "src": "images/opt/portraits/red-dress-studio-960.webp"
+      },
+      {
+        "w": 1280,
+        "h": 1920,
+        "src": "images/opt/portraits/red-dress-studio-1280.webp"
+      }
+    ],
+    "original": "images/portraits/red-dress-studio.jpg"
+  },
+  "portraits/red-dress-sunset": {
+    "w": 1280,
+    "h": 1920,
+    "avg": "#7E6F65",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAACBf/EACcQAAIBBAADCQEAAAAAAAAAAAEDAgAEBRESIWEGExQiMUFRcbHR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwH/xAAYEQEBAAMAAAAAAAAAAAAAAAAAERIhQv/aAAwDAQACEQMRAD8Ax2RyrltetsptgF7ESeQI9P5RM7lbm5YDcpMJaBAB3EDoaSLLwWJu4oHmmsg9aAvGSfjUMWdEw5x3+UWMJzXaY09zMQGzwkAfJ1RsWGqsFpfHhlDcfse1VVIl1H//2Q==",
+    "variants": [
+      {
+        "w": 480,
+        "h": 720,
+        "src": "images/opt/portraits/red-dress-sunset-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1440,
+        "src": "images/opt/portraits/red-dress-sunset-960.webp"
+      },
+      {
+        "w": 1280,
+        "h": 1920,
+        "src": "images/opt/portraits/red-dress-sunset-1280.webp"
+      }
+    ],
+    "original": "images/portraits/red-dress-sunset.jpg"
+  },
+  "portraits/soft-light": {
+    "w": 1280,
+    "h": 1920,
+    "avg": "#8F8984",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQGBf/EACIQAAICAQMEAwAAAAAAAAAAAAECAxEABAUSEyExcRRBYf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABcRAAMBAAAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/AGykOiSFAgaWZuCKTVn9x9tGGBjmjVXq6U2KxDe4w+2/IVQXgIcevBzWingkWJlZA8iclXl3I8+8zXRizSS3Xemi0cMMDW7d39fWT0Wpmj1Kzh26isDd4YYoj//Z",
+    "variants": [
+      {
+        "w": 480,
+        "h": 720,
+        "src": "images/opt/portraits/soft-light-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1440,
+        "src": "images/opt/portraits/soft-light-960.webp"
+      },
+      {
+        "w": 1280,
+        "h": 1920,
+        "src": "images/opt/portraits/soft-light-1280.webp"
+      }
+    ],
+    "original": "images/portraits/soft-light.png"
+  },
+  "portraits/street-portrait": {
+    "w": 1246,
+    "h": 1920,
+    "avg": "#7B7B7B",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/wAALCAAYABABAREA/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgMFBP/EACQQAAIBAwMDBQAAAAAAAAAAAAEDAgAEEQUiMRIhUQYTQmGR/9oACAEBAAA/AJtveWlojqg1hcZHaJnBHkit6dRldtgtM8LMgBs74zSdRsbSzEWqRFnUSBHg5803R7L2EOnMGKIyiYiR3A8EftUY+nAuRZeOa1uc89qNl7a6W1AahZDScTl8fviv/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 740,
+        "src": "images/opt/portraits/street-portrait-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1479,
+        "src": "images/opt/portraits/street-portrait-960.webp"
+      },
+      {
+        "w": 1246,
+        "h": 1920,
+        "src": "images/opt/portraits/street-portrait-1246.webp"
+      }
+    ],
+    "original": "images/portraits/street-portrait.png"
+  },
+  "portraits/sunflowers": {
+    "w": 1920,
+    "h": 1280,
+    "avg": "#363504",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAXgBeAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEBQb/xAAhEAABBAEDBQAAAAAAAAAAAAABAAIDESESE1EEFCIxYf/EABYBAQEBAAAAAAAAAAAAAAAAAAIDBP/EABcRAQEBAQAAAAAAAAAAAAAAAAECABH/2gAMAwEAAhEDEQA/AOc7Iu6cTsNk3qHHJU0sOlzTkggHBtWQTNawB0lA4Ir2EuTRvtcwVtmz9ysU1Qo50HDmz5Y3AkEVmkJs0jDZq/KyLQryvMN//9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 320,
+        "src": "images/opt/portraits/sunflowers-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 640,
+        "src": "images/opt/portraits/sunflowers-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 960,
+        "src": "images/opt/portraits/sunflowers-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1280,
+        "src": "images/opt/portraits/sunflowers-1920.webp"
+      }
+    ],
+    "original": "images/portraits/sunflowers.png"
+  },
+  "portraits/windmill-silhouette": {
+    "w": 1920,
+    "h": 1920,
+    "avg": "#7E775D",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAXgBeAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAYHAv/EACQQAAICAQMCBwAAAAAAAAAAAAECAAMhBAYREjEFBxMUQYHx/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAMEAf/EABgRAQEBAQEAAAAAAAAAAAAAAAABAgMS/9oADAMBAAIRAxEAPwC3UTrHPGOZMpvXwi+q1TfZSTyqt0nnt3kuu6Eq14tZ79QK2BFrsOpgPjGP2S5xTLWmMsTObvMHX+5ZqaafRJwjDI+4mXloekdERKyyIiAf/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 480,
+        "src": "images/opt/portraits/windmill-silhouette-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 960,
+        "src": "images/opt/portraits/windmill-silhouette-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1440,
+        "src": "images/opt/portraits/windmill-silhouette-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1920,
+        "src": "images/opt/portraits/windmill-silhouette-1920.webp"
+      }
+    ],
+    "original": "images/portraits/windmill-silhouette.png"
+  },
+  "product-moody/candle-bokeh": {
+    "w": 1920,
+    "h": 1280,
+    "avg": "#23201D",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAQb/xAAiEAACAQMEAgMAAAAAAAAAAAABAgMABBESITFRQXEFQmH/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A4YAkHAzjn8qpZ/GwNbLdXcwjgYkFhuQR4x3UyN9DZ5B2IzzTrXNsYRGUl0eUVxjPe4oJe5a3a4Y2yOsX1DHJ9mismkikAEcKwgdEsT7JopD/2Q==",
+    "variants": [
+      {
+        "w": 480,
+        "h": 320,
+        "src": "images/opt/product-moody/candle-bokeh-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 640,
+        "src": "images/opt/product-moody/candle-bokeh-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 960,
+        "src": "images/opt/product-moody/candle-bokeh-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1280,
+        "src": "images/opt/product-moody/candle-bokeh-1920.webp"
+      }
+    ],
+    "original": "images/product-moody/candle-bokeh.png"
+  },
+  "product-moody/candle-flowers": {
+    "w": 1920,
+    "h": 1280,
+    "avg": "#2C221A",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQDBQb/xAAfEAACAgMAAgMAAAAAAAAAAAABAgADBBExIUEFEmH/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAwDAQACEQMRAD8AxCqW4DLBPhrvoHvtqx0PuxtRJbSAFPBz8jOXk15Tq7EgqoXXdwu7MChvxLKQG8Oh4y8MIPkMCwSxirDzv3CU2Ll//9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 320,
+        "src": "images/opt/product-moody/candle-flowers-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 640,
+        "src": "images/opt/product-moody/candle-flowers-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 960,
+        "src": "images/opt/product-moody/candle-flowers-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1280,
+        "src": "images/opt/product-moody/candle-flowers-1920.webp"
+      }
+    ],
+    "original": "images/product-moody/candle-flowers.png"
+  },
+  "product-moody/flower-vase": {
+    "w": 1280,
+    "h": 1920,
+    "avg": "#404B4D",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQAD/8QAIxAAAgEDAgcBAAAAAAAAAAAAAQIDAAQREiEFEyIxQVFhMv/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREAAwADAAAAAAAAAAAAAAAAAAERAhIh/9oADAMBAAIRAxEAPwAeYg46hk+KynsJ4wxlCriPmfoHbx291vJBrAHNKAN1APjI+UWutUK5Glh3B7jNLYKC9nfW1rLAWDyzMcyOwISMYOwHk/aO4tdNcXjGNiyDYehVVTeQhYran//Z",
+    "variants": [
+      {
+        "w": 480,
+        "h": 720,
+        "src": "images/opt/product-moody/flower-vase-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1440,
+        "src": "images/opt/product-moody/flower-vase-960.webp"
+      },
+      {
+        "w": 1280,
+        "h": 1920,
+        "src": "images/opt/product-moody/flower-vase-1280.webp"
+      }
+    ],
+    "original": "images/product-moody/flower-vase.jpg"
+  },
+  "product-moody/hotsauce-hero": {
+    "w": 1920,
+    "h": 1280,
+    "avg": "#5F524A",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAgb/xAAkEAABAwMEAQUAAAAAAAAAAAABAAIRAwQSBRMhMRQiQVFhgf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAGxEAAwACAwAAAAAAAAAAAAAAAAECERJBUWH/2gAMAwEAAhEDEQA/AOdaeU3aecKnGBaeP1PfptWzbuXNMnIHbaJ9RA9/hVdPOOmMoXb3sLmEeOZBjKZ6jr7QdJZ8KTPfJIbTAElC1FS5vCLdpbQcTgXSeEJxSpZROlqf/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 320,
+        "src": "images/opt/product-moody/hotsauce-hero-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 640,
+        "src": "images/opt/product-moody/hotsauce-hero-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 960,
+        "src": "images/opt/product-moody/hotsauce-hero-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1280,
+        "src": "images/opt/product-moody/hotsauce-hero-1920.webp"
+      }
+    ],
+    "original": "images/product-moody/hotsauce-hero.jpeg"
+  },
+  "product-moody/hotsauce-lineup": {
+    "w": 1920,
+    "h": 1280,
+    "avg": "#695855",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYDBAX/xAAkEAACAgIBAwQDAAAAAAAAAAABAgMRAAQhEhMxBQYiQWFxof/EABYBAQEBAAAAAAAAAAAAAAAAAAIBA//EABkRAQEBAAMAAAAAAAAAAAAAAAEAEQIhMf/aAAwDAQACEQMRAD8AWINWXYin7SliiBjQJPkZJJpzxsnUp+QLABTdcfj94z6Pt+f05pQzSy9aqbhWhw115ByxtCaOSMk7jHt8x9tjR6r+jX9w+2mAdyh2XQsJFIN/YrDNPdh2JXiVdbbYKOXdDYs345wyjHkZf//Z",
+    "variants": [
+      {
+        "w": 480,
+        "h": 320,
+        "src": "images/opt/product-moody/hotsauce-lineup-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 640,
+        "src": "images/opt/product-moody/hotsauce-lineup-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 960,
+        "src": "images/opt/product-moody/hotsauce-lineup-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1280,
+        "src": "images/opt/product-moody/hotsauce-lineup-1920.webp"
+      }
+    ],
+    "original": "images/product-moody/hotsauce-lineup.jpeg"
+  },
+  "product-moody/origami": {
+    "w": 1920,
+    "h": 1280,
+    "avg": "#26221B",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAb/xAAhEAACAgEDBQEAAAAAAAAAAAABAgARAyExQQQSE1Jikf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8AxePtunujyOIzxDYOpvY3pIxMBoTUcGT2H7M7qwjJjCbOrH5uEs4+oTGWBohhUIpH/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 320,
+        "src": "images/opt/product-moody/origami-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 640,
+        "src": "images/opt/product-moody/origami-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 960,
+        "src": "images/opt/product-moody/origami-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1280,
+        "src": "images/opt/product-moody/origami-1920.webp"
+      }
+    ],
+    "original": "images/product-moody/origami.png"
+  },
+  "product-moody/parfait": {
+    "w": 1920,
+    "h": 1920,
+    "avg": "#312A29",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQGAf/EACUQAAEDAwQABwAAAAAAAAAAAAEAAgMEESEFEjFRBhMyQWGh8P/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAECEf/aAAwDAQACEQMRAD8AxMIGFZLTuYfQQCSBj92pIXWselpa/wAR+dqxaIWhjLAG3PZRTGckbhF2VwJJ+USF0egTlp21EJ9hzn6XanT5xXbhA4AWBcERCprkSTUFQwEuYQL24RESl//Z",
+    "variants": [
+      {
+        "w": 480,
+        "h": 480,
+        "src": "images/opt/product-moody/parfait-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 960,
+        "src": "images/opt/product-moody/parfait-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1440,
+        "src": "images/opt/product-moody/parfait-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1920,
+        "src": "images/opt/product-moody/parfait-1920.webp"
+      }
+    ],
+    "original": "images/product-moody/parfait.jpeg"
+  },
+  "product-moody/peppers": {
+    "w": 1920,
+    "h": 1280,
+    "avg": "#914B2A",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAlEAACAgEDAwQDAAAAAAAAAAABAgMEABESIQUxQhRBUWFxgaH/xAAWAQEBAQAAAAAAAAAAAAAAAAAABAX/xAAfEQACAQMFAQAAAAAAAAAAAAABAgADESEEFDFhkfD/2gAMAwEAAhEDEQA/AE0HTrNkbq8Lug43kaD+5MUpEjZ5BtVTp3HJ+vnG9mal0+vLvkkneUhirED24Gg7LiB70tyUsUZ1TwUHao/XbIkrO2RxNLbKLM+Opq9FMFDNE6ofIrx94Zb02/UeJ69qOR92uhRn0P55wwa7LgiE0YYXB+9n/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 320,
+        "src": "images/opt/product-moody/peppers-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 640,
+        "src": "images/opt/product-moody/peppers-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 960,
+        "src": "images/opt/product-moody/peppers-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1280,
+        "src": "images/opt/product-moody/peppers-1920.webp"
+      }
+    ],
+    "original": "images/product-moody/peppers.jpeg"
+  },
+  "product-moody/petit-prince": {
+    "w": 1536,
+    "h": 1920,
+    "avg": "#422A2C",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABMDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMEAQb/xAAkEAACAgICAQMFAAAAAAAAAAABAgADBBESITEFE1IUQVFhgf/EABkBAAIDAQAAAAAAAAAAAAAAAAMFAAECBP/EAB0RAAIBBAMAAAAAAAAAAAAAAAABAgMREiFB0vD/2gAMAwEAAhEDEQA/APNelYi5mUtVtwrQjZIXZlMj05qLLWNypSuwlhXRY/Ya8zLhEpkowQBl7B3ruVz67a7k51d672Dx3/ZKkpZpJmqGHK2VS8KgH1tnXxXqJNbbAoHvVr+gPEQ9x6p692M+JlmiqxOKtz/KAzltrWIA1jEfHXQiJzNK9xJBJkfEREsJkz//2Q==",
+    "variants": [
+      {
+        "w": 480,
+        "h": 600,
+        "src": "images/opt/product-moody/petit-prince-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1200,
+        "src": "images/opt/product-moody/petit-prince-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1800,
+        "src": "images/opt/product-moody/petit-prince-1440.webp"
+      },
+      {
+        "w": 1536,
+        "h": 1920,
+        "src": "images/opt/product-moody/petit-prince-1536.webp"
+      }
+    ],
+    "original": "images/product-moody/petit-prince.jpeg"
+  },
+  "product-moody/pipe": {
+    "w": 1536,
+    "h": 1920,
+    "avg": "#131313",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABMDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAMCBAb/xAAcEAEBAAICAwAAAAAAAAAAAAABAAIRAyETQVH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A4XDCo8Q4LOPsD7U16g1HHuVcg2yDHjzRNOkqeQB73JBJy2ySD//Z",
+    "variants": [
+      {
+        "w": 480,
+        "h": 600,
+        "src": "images/opt/product-moody/pipe-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1200,
+        "src": "images/opt/product-moody/pipe-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1800,
+        "src": "images/opt/product-moody/pipe-1440.webp"
+      },
+      {
+        "w": 1536,
+        "h": 1920,
+        "src": "images/opt/product-moody/pipe-1536.webp"
+      }
+    ],
+    "original": "images/product-moody/pipe.png"
+  },
+  "product-moody/pocket-watch": {
+    "w": 1920,
+    "h": 1280,
+    "avg": "#382D1E",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAUGAv/EACUQAAIBAgUDBQAAAAAAAAAAAAECAwAEBQYRIUESMVETFCJhcf/EABQBAQAAAAAAAAAAAAAAAAAAAAP/xAAYEQADAQEAAAAAAAAAAAAAAAAAARECEv/aAAwDAQACEQMRAD8AiLSxnvEneFQVgTrfU8U3uss4icMS/ESBViHWgPyH3p+aUuwq6W2lcSsVRhvp5HYVSXGaLRbKf2vqmaZQCjbKp535om9dSCJZhGsCraMCD4NFbmlknkMkrl3Pck0UoZ//2Q==",
+    "variants": [
+      {
+        "w": 480,
+        "h": 320,
+        "src": "images/opt/product-moody/pocket-watch-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 640,
+        "src": "images/opt/product-moody/pocket-watch-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 960,
+        "src": "images/opt/product-moody/pocket-watch-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1280,
+        "src": "images/opt/product-moody/pocket-watch-1920.webp"
+      }
+    ],
+    "original": "images/product-moody/pocket-watch.png"
+  },
+  "product-moody/silhouette-red": {
+    "w": 1536,
+    "h": 1920,
+    "avg": "#490911",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABMDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwb/xAAjEAACAgECBgMAAAAAAAAAAAABAgAREgMhBBMUIzEyQVFx/8QAGQEAAgMBAAAAAAAAAAAAAAAAAQIAAwQF/8QAHREAAwACAgMAAAAAAAAAAAAAAAECERIDITFBUf/aAAwDAQACEQMRAD8A4tQFXIi5t230Q1USaqFA6ZjV7SODClmtdwPaVt9ZOnEubmF7RkwokfUS+pXMaIUxK4kmzLNsSuRo/EhWZfViPwxEfBh2rzkFifJMREgNn9P/2Q==",
+    "variants": [
+      {
+        "w": 480,
+        "h": 600,
+        "src": "images/opt/product-moody/silhouette-red-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1200,
+        "src": "images/opt/product-moody/silhouette-red-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1800,
+        "src": "images/opt/product-moody/silhouette-red-1440.webp"
+      },
+      {
+        "w": 1536,
+        "h": 1920,
+        "src": "images/opt/product-moody/silhouette-red-1536.webp"
+      }
+    ],
+    "original": "images/product-moody/silhouette-red.jpeg"
+  },
+  "product-moody/watch-macro": {
+    "w": 1536,
+    "h": 1920,
+    "avg": "#6B532C",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEA8ADwAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABMDASIAAhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAAAAIDAQQFBv/EACQQAAICAgEDBAMAAAAAAAAAAAECAAMEESESEzEFIjJBUWHw/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAIEAQP/xAAYEQADAQEAAAAAAAAAAAAAAAAAARECEv/aAAwDAQACEQMRAD8A89j4ZetXsVV6Tpi5nRqxa+grkUoo15UaOj9gyWFb3KQMilWNblU4+Q/czaWuZ0RT0VH3L+JHrbpQsqHJsxKK7GQ9xtHyNcxLmvLHYpYD64JidLoSIsT1HGuwnS1O0yaC2KNkiQfPSt3WvhreWY/3ERG4VM6ZonDzGO0V3U8hl8GIiHTDk//Z",
+    "variants": [
+      {
+        "w": 480,
+        "h": 600,
+        "src": "images/opt/product-moody/watch-macro-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1200,
+        "src": "images/opt/product-moody/watch-macro-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1800,
+        "src": "images/opt/product-moody/watch-macro-1440.webp"
+      },
+      {
+        "w": 1536,
+        "h": 1920,
+        "src": "images/opt/product-moody/watch-macro-1536.webp"
+      }
+    ],
+    "original": "images/product-moody/watch-macro.png"
+  },
+  "product-moody/wine": {
+    "w": 1280,
+    "h": 1920,
+    "avg": "#1C110E",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgAEBv/EACMQAAEDAwIHAAAAAAAAAAAAAAEAAhEDEjEEQQUTFSEiUWH/xAAWAQEBAQAAAAAAAAAAAAAAAAADAQL/xAAYEQEAAwEAAAAAAAAAAAAAAAAAARJBQv/aAAwDAQACEQMRAD8A4FsXCcT3SrBorPsiy4xHpKmyXCcJ6lo5niABa3A+BTWuWvpupFO5tIuI2CbeFaqoy57RTJ2dlSkN5LSH/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 720,
+        "src": "images/opt/product-moody/wine-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1440,
+        "src": "images/opt/product-moody/wine-960.webp"
+      },
+      {
+        "w": 1280,
+        "h": 1920,
+        "src": "images/opt/product-moody/wine-1280.webp"
+      }
+    ],
+    "original": "images/product-moody/wine.jpeg"
+  },
+  "product-pop/beer": {
+    "w": 1536,
+    "h": 1920,
+    "avg": "#F7617A",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABMDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMEBv/EACYQAAEEAQIEBwAAAAAAAAAAAAEAAgMRBBITITFRUwUUI0GBkZL/xAAYAQACAwAAAAAAAAAAAAAAAAACBAMFBv/EAB0RAAICAQUAAAAAAAAAAAAAAAECABEDEiExQXH/2gAMAwEAAhEDEQA/AINIPIrQI4jhGXdfvbZkDfag6qVPC8PDyMXdzPMCTWW03gAPpWGK9uLsNcL2nNaSer7F/CVqzS7zTZMoul6IvyYdR6ORQ1S9mT8lEWkxihOjeyQ1TS6+duHBRlx5JJNTnllCuFFETq41Viw5MqVcgyvqd16IikhT/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 600,
+        "src": "images/opt/product-pop/beer-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1200,
+        "src": "images/opt/product-pop/beer-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1800,
+        "src": "images/opt/product-pop/beer-1440.webp"
+      },
+      {
+        "w": 1536,
+        "h": 1920,
+        "src": "images/opt/product-pop/beer-1536.webp"
+      }
+    ],
+    "original": "images/product-pop/beer.jpeg"
+  },
+  "product-pop/bubblegum": {
+    "w": 1920,
+    "h": 1920,
+    "avg": "#54B7DB",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAECAwT/xAAfEAACAgEEAwAAAAAAAAAAAAABAgARMQMSIXFBYYH/xAAXAQADAQAAAAAAAAAAAAAAAAABBAUG/8QAIxEAAQMDAgcAAAAAAAAAAAAAAQACAwQREmHwBSEiMUFRsf/aAAwDAQACEQMRAD8A71HEtULsCVcSsoZCrYOZRN/CgNDbjLstLbQKsDqJk21QAKAGBEIKcFMHcxE92u2n6ojHaKau/MiKVBOpqtqMfgHQiIMRldKR1EkQ6DbftR2VKsAFuR7iIgabrQQcPZPE2SR7iTqv/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 480,
+        "src": "images/opt/product-pop/bubblegum-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 960,
+        "src": "images/opt/product-pop/bubblegum-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1440,
+        "src": "images/opt/product-pop/bubblegum-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1920,
+        "src": "images/opt/product-pop/bubblegum-1920.webp"
+      }
+    ],
+    "original": "images/product-pop/bubblegum.jpeg"
+  },
+  "product-pop/chocolate-milk": {
+    "w": 1920,
+    "h": 1920,
+    "avg": "#C2B2AC",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAYDAgX/xAAkEAACAQMFAAEFAAAAAAAAAAABAgMABBEFEiExQVEjMkJx8P/EABYBAQEBAAAAAAAAAAAAAAAAAAACAf/EABkRAAMBAQEAAAAAAAAAAAAAAAABEQIhEv/aAAwDAQACEQMRAD8As3ZQy5IBHOCfPms1ljY7YnVsZ4B7rG++paDkjDAkjsD2sZJUTYxdcqQ27PQHZ/WKl6acLzmqndhqEN2zrGCkifcjd990qd0q5Nzr6yx5Cs7sefx/sUpl1DefL4UUhLRyRhsHw/FR0+mavNM0a7WiZtuUIUHn32lK2Epw93R9JFihLShrlwRuA4XHgpSlFwN3rP/Z",
+    "variants": [
+      {
+        "w": 480,
+        "h": 480,
+        "src": "images/opt/product-pop/chocolate-milk-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 960,
+        "src": "images/opt/product-pop/chocolate-milk-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1440,
+        "src": "images/opt/product-pop/chocolate-milk-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1920,
+        "src": "images/opt/product-pop/chocolate-milk-1920.webp"
+      }
+    ],
+    "original": "images/product-pop/chocolate-milk.jpeg"
+  },
+  "product-pop/cookie": {
+    "w": 1920,
+    "h": 1920,
+    "avg": "#5AACC3",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAMEBQL/xAAjEAACAgEDAwUAAAAAAAAAAAABAgADEQQhMhIxURMiUnGR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwQF/8QAHREAAgMAAgMAAAAAAAAAAAAAAQMAAhEEIRITMv/aAAwDAQACEQMRAD8A2knYtQMFLDqPYSlq7Wq0rsvfH5M82k2BVbmMIPj9yjkvKsAHZmZweKH6SehNXV6kkmpMgDkfMSq7e1A3MZ6jjGd4lqLeaxbM2TPp62Gm7kj1t4KGldyeR8SlQHqYH1OoDYBt8DxERLJXeoFhsNTmK+DknNpJJiIigAdCESSdM//Z",
+    "variants": [
+      {
+        "w": 480,
+        "h": 480,
+        "src": "images/opt/product-pop/cookie-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 960,
+        "src": "images/opt/product-pop/cookie-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1440,
+        "src": "images/opt/product-pop/cookie-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1920,
+        "src": "images/opt/product-pop/cookie-1920.webp"
+      }
+    ],
+    "original": "images/product-pop/cookie.jpeg"
+  },
+  "product-pop/device": {
+    "w": 1920,
+    "h": 1920,
+    "avg": "#808DB8",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMEBf/EACkQAAEDAwICCwAAAAAAAAAAAAEAAgMEBREhMRJBBhMiUWFxcoGRsdH/xAAYAQEAAwEAAAAAAAAAAAAAAAAEAQIDBf/EACERAAEEAgAHAAAAAAAAAAAAAAIAAQQRAwUhJFFxgbHB/9oADAMBAAIRAxEAPwCWEkjIkbGGuc9wyMNJ9lrt1IyrqSySQsaBnQanwWe8GahbwatAfnfXG+hXTlyixELB5QtbrxkAb5OnD6tEFlmk7VQepb3buP4iva+kNJdXmNodFLyY7miKUrKT3dLUYuMWqlO1DL5vSPtdGeGnucQgrGcZbsckEjzCIplteR0qC3KM/f2oU9jttJKJYKZrXt2dkkj5RERVVf/Z",
+    "variants": [
+      {
+        "w": 480,
+        "h": 480,
+        "src": "images/opt/product-pop/device-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 960,
+        "src": "images/opt/product-pop/device-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1440,
+        "src": "images/opt/product-pop/device-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1920,
+        "src": "images/opt/product-pop/device-1920.webp"
+      }
+    ],
+    "original": "images/product-pop/device.jpeg"
+  },
+  "product-pop/fan-earrings": {
+    "w": 1920,
+    "h": 1920,
+    "avg": "#F65D8C",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDBP/EACIQAAICAgAGAwAAAAAAAAAAAAECABEDEhMhMUFRYSIjcf/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAgb/xAAXEQEBAQEAAAAAAAAAAAAAAAAAARFB/9oADAMBAAIRAxEAPwDr1K4yVKhhz+XiFONNydtWNg3d+YytjSrQFmFX6k/XlwqyaUOVE9fcOuh0YK6bL0iThVcXExl7a7160P3vEW5aHXKBZojvM2UDIMYQlCbLeYiFUk3VZGxq5dVAY94iJF//2Q==",
+    "variants": [
+      {
+        "w": 480,
+        "h": 480,
+        "src": "images/opt/product-pop/fan-earrings-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 960,
+        "src": "images/opt/product-pop/fan-earrings-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1440,
+        "src": "images/opt/product-pop/fan-earrings-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1920,
+        "src": "images/opt/product-pop/fan-earrings-1920.webp"
+      }
+    ],
+    "original": "images/product-pop/fan-earrings.jpeg"
+  },
+  "product-pop/flower-earrings": {
+    "w": 1920,
+    "h": 1920,
+    "avg": "#EA4A9D",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECBAX/xAAjEAACAgEDBAMBAAAAAAAAAAABAgADEQQSMQUTIUEiQlFh/8QAFwEBAQEBAAAAAAAAAAAAAAAAAgMEBf/EABsRAAMAAwEBAAAAAAAAAAAAAAABAgMRIRIx/9oADAMBAAIRAxEAPwDVskOVrHyYAYJ8/g5M0UVd5nUlwFTOUxmVd0C3KSNLbamK+6D4BIGP7nk/kezuXn0/KW2c7VdQFQKUkFz9vQiU6oan1QCM1jooWywkYdh7GPUS8zw3YpThNr6Tf1Nxcp0x27DkNjkzFZbZaQbHZyONxziIiUpFZxzPUgsREQj/2Q==",
+    "variants": [
+      {
+        "w": 480,
+        "h": 480,
+        "src": "images/opt/product-pop/flower-earrings-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 960,
+        "src": "images/opt/product-pop/flower-earrings-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1440,
+        "src": "images/opt/product-pop/flower-earrings-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1920,
+        "src": "images/opt/product-pop/flower-earrings-1920.webp"
+      }
+    ],
+    "original": "images/product-pop/flower-earrings.jpeg"
+  },
+  "product-pop/hotsauce-flatlay": {
+    "w": 1280,
+    "h": 1920,
+    "avg": "#CC8F64",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EACEQAAICAwACAgMAAAAAAAAAAAECAwQAERIFFCExcYHB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwX/xAAbEQACAgMBAAAAAAAAAAAAAAABAgADEkFRMf/aAAwDAQACEQMRAD8A2bnkY6iM2uuddY9K4Lih0jZY3XpSw0dZn2ofZYxF0VQD0xGwPzi0rslW/BQ6jaILyCuxvY2D/MnVFnXI9lB6x4vJV2s+73GsTQMmmViRs/rIQVJD5d7kyoiqoCKrbG9ffz84YYgOoeR1P//Z",
+    "variants": [
+      {
+        "w": 480,
+        "h": 720,
+        "src": "images/opt/product-pop/hotsauce-flatlay-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1440,
+        "src": "images/opt/product-pop/hotsauce-flatlay-960.webp"
+      },
+      {
+        "w": 1280,
+        "h": 1920,
+        "src": "images/opt/product-pop/hotsauce-flatlay-1280.webp"
+      }
+    ],
+    "original": "images/product-pop/hotsauce-flatlay.jpeg"
+  },
+  "product-pop/strawberries": {
+    "w": 1920,
+    "h": 1920,
+    "avg": "#BC827B",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAAAAUBAwQG/8QAKBAAAgEEAQEHBQAAAAAAAAAAAQIDAAQFESExBhITIkFRYSMygZHx/8QAGAEAAwEBAAAAAAAAAAAAAAAAAgMEAAX/xAAeEQACAgICAwAAAAAAAAAAAAABAgARITEDBBITQf/aAAwDAQACEQMRAD8AspiMezMmzI6fd9U7X9dKzdWN5HCzWFwXbWvDn82x7Buo/NeaycAR4XkkdZNFXGiNAen9rZgsrBZ5Mq07raumj3yTpqQrjVVOi/WNEhrI+VLVpcWuXiKOGguIeJFJ0yke1Km9o4RDk4L61dgJ033oj1I9d/IIpR+YGDJPUWyJcymLhyaDxHZHA0GXXT5qbH2bEG44gsgcDzvwVPOzSlEUBmTn5E0Zz59FtmtbC1DOluh2TzyTulKVO+49MizP/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 480,
+        "src": "images/opt/product-pop/strawberries-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 960,
+        "src": "images/opt/product-pop/strawberries-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1440,
+        "src": "images/opt/product-pop/strawberries-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1920,
+        "src": "images/opt/product-pop/strawberries-1920.webp"
+      }
+    ],
+    "original": "images/product-pop/strawberries.jpeg"
+  },
+  "product-pop/tarot-lovers": {
+    "w": 1920,
+    "h": 1920,
+    "avg": "#60B2CC",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQCBf/EACYQAAEEAQIEBwAAAAAAAAAAAAEAAgMRBFGRBRIUQRMhMWFxgbH/xAAVAQEBAAAAAAAAAAAAAAAAAAAEBf/EAB8RAAICAgIDAQAAAAAAAAAAAAECAAMRMQQhEhNRcf/aAAwDAQACEQMRAD8Arxo78q+tVb0svaF/xyqXBkqRg1cP1MKbN8Ev6t7i3IJcHtJ5wdD2A0TL7fWwH2TeHSj0ls631+zOTHTiKr2RbzH3I8E+jjW6JSZxJt5U2Hx1I8aUNmYSaAcL3XQx8ZkQdG7iUToi4uoNAok62iI/IrVyMxfDuapWUaMhyZA6aQg2C41uiIkjUAeyTP/Z",
+    "variants": [
+      {
+        "w": 480,
+        "h": 480,
+        "src": "images/opt/product-pop/tarot-lovers-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 960,
+        "src": "images/opt/product-pop/tarot-lovers-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1440,
+        "src": "images/opt/product-pop/tarot-lovers-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1920,
+        "src": "images/opt/product-pop/tarot-lovers-1920.webp"
+      }
+    ],
+    "original": "images/product-pop/tarot-lovers.jpeg"
+  },
+  "product-pop/tarot-sun": {
+    "w": 1920,
+    "h": 1920,
+    "avg": "#D0B757",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAEDBAX/xAAlEAACAQMDAwUBAAAAAAAAAAABAgADESESEzEEBTJRYXGRocH/xAAYAQACAwAAAAAAAAAAAAAAAAADBAECBf/EACERAAICAQMFAQAAAAAAAAAAAAECABExAxIhBCJBoeHR/9oADAMBAAIRAxEAPwDsgbT48GP0Zfsvu3xxbmZqW8rqHKutx8zP0ydwXurrWOumx1KwAsueL88WmWED2SbNVYOfsMhoUAQLwRj5NYBqVSzeK4A9TEio9XWwRABc5JiAdXc8OFA4A3fnuSrql9pJOTUA5Ev1UD1ArWfUMflv7ERTQ6l9C9nmOvpq+ZUTck+8REWJs3Lz/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 480,
+        "src": "images/opt/product-pop/tarot-sun-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 960,
+        "src": "images/opt/product-pop/tarot-sun-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1440,
+        "src": "images/opt/product-pop/tarot-sun-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1920,
+        "src": "images/opt/product-pop/tarot-sun-1920.webp"
+      }
+    ],
+    "original": "images/product-pop/tarot-sun.jpeg"
+  },
+  "about/headshot": {
+    "w": 1920,
+    "h": 1920,
+    "avg": "#55463B",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAUCBAb/xAAoEAABBAEDAgUFAAAAAAAAAAABAAIDBBEFEiEiMQYUQVJxYYGx0fD/xAAWAQEBAQAAAAAAAAAAAAAAAAACAwT/xAAcEQACAgIDAAAAAAAAAAAAAAABAgARAyESIjH/2gAMAwEAAhEDEQA/AINWPOFWp12Od1kAfU4H3KjOvR1WdIEkntz2+VUbfdVpTM1GqGl+1xj3jJaew/aD+UIsS225hqr30LDctbszggHOeeUUyg/z9sSW5nOjiwSO4AzwPhEF6irlXXkbAkcHK6N0jdW0qATgGSFpbv8AUD+CIrVcyuxUamj4etipqEjWgESxlrcjPI5H4REUXG5qxk1P/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 480,
+        "src": "images/opt/about/headshot-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 960,
+        "src": "images/opt/about/headshot-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1440,
+        "src": "images/opt/about/headshot-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1920,
+        "src": "images/opt/about/headshot-1920.webp"
+      }
+    ],
+    "original": "images/about/headshot.jpeg"
+  },
+  "about/photographer": {
+    "w": 1920,
+    "h": 1920,
+    "avg": "#45352A",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIDBAEG/8QAJRAAAgICAQIGAwAAAAAAAAAAAQMAAgQRIQUxEhMiI2FxQUKx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwAB/8QAGREAAgMBAAAAAAAAAAAAAAAAAAECERIh/9oADAMBAAIRAxEAPwDy+DjBrBUnQ7ma8lS0gitCDUb3riWXsvC6YllQLNv3Fe+j8/Uhg3PU6sVZaxfjwkbAA5HOoMrbtPg8MpZa6UlQtQWHYjcSWM5bFlQ0Lq9Nh9cbHxEUAw+apuaqp9xa6gbP7aE7RgwXXtQFirA6BOiD+P7ESotOzOq7sX3gOLHRBiImkf/Z",
+    "variants": [
+      {
+        "w": 480,
+        "h": 480,
+        "src": "images/opt/about/photographer-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 960,
+        "src": "images/opt/about/photographer-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 1440,
+        "src": "images/opt/about/photographer-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1920,
+        "src": "images/opt/about/photographer-1920.webp"
+      }
+    ],
+    "original": "images/about/photographer.jpeg"
+  },
+  "portraits/backlit-foliage": {
+    "w": 1600,
+    "h": 2400,
+    "avg": "#6F6744",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADAREAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAwEEBf/EACIQAAICAgEDBQAAAAAAAAAAAAECAxEAEgQFITETIkFhwf/EABgBAAMBAQAAAAAAAAAAAAAAAAECAwAF/8QAGhEAAwEBAQEAAAAAAAAAAAAAAAECESEDEv/aAAwDAQACEQMRAD8AeDlpBEFOqqD5rvf7nNmHbLN4TP1UM40cMoAyzn5WCb0ypuSEEMasqU497+K+bxvKethbK7CMlxx5zK1liSuor6yl4s0QKaaFwnqRu1XVNWGFgzBikovragkVffNQD//Z",
+    "variants": [
+      {
+        "w": 480,
+        "h": 720,
+        "src": "images/opt/portraits/backlit-foliage-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1440,
+        "src": "images/opt/portraits/backlit-foliage-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 2160,
+        "src": "images/opt/portraits/backlit-foliage-1440.webp"
+      },
+      {
+        "w": 1600,
+        "h": 2400,
+        "src": "images/opt/portraits/backlit-foliage-1600.webp"
+      }
+    ],
+    "original": "images/portraits/backlit-foliage.jpg"
+  },
+  "portraits/blue-gown": {
+    "w": 1600,
+    "h": 2400,
+    "avg": "#838082",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADAREAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAQUDBAb/xAAlEAACAAYBAgcAAAAAAAAAAAABAgADBAUREiEGIxMUIiUxQVH/xAAXAQEBAQEAAAAAAAAAAAAAAAACAAMB/8QAHBEAAgIDAQEAAAAAAAAAAAAAAAECEQMhMQQi/9oADAMBAAIRAxEAPwDTY7LasFbU4Y/RgCSti23V3n6buIVnIoEwYxzF0mqKV+q/Z31JBLr8HEb+anPZnltR0RdOzgLczsPWTy37GMtSY1xCGuucyppPB0AGwPGYeCSjK2WSNrQKC4zaSmMoBWGc85gZGnJ0divlWf/Z",
+    "variants": [
+      {
+        "w": 480,
+        "h": 720,
+        "src": "images/opt/portraits/blue-gown-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1440,
+        "src": "images/opt/portraits/blue-gown-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 2160,
+        "src": "images/opt/portraits/blue-gown-1440.webp"
+      },
+      {
+        "w": 1600,
+        "h": 2400,
+        "src": "images/opt/portraits/blue-gown-1600.webp"
+      }
+    ],
+    "original": "images/portraits/blue-gown.jpg"
+  },
+  "portraits/red-dress-road-away": {
+    "w": 1600,
+    "h": 2400,
+    "avg": "#7E7E7A",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQMG/8QAJhAAAQMDAgUFAAAAAAAAAAAAAQIDEQAEBSExBhITQXEUFSJhwf/EABcBAQEBAQAAAAAAAAAAAAAAAAIAAQP/xAAaEQADAAMBAAAAAAAAAAAAAAAAARECITES/9oADAMBAAIRAxEAPwCnCOad9Uu3d+SCgqSABoR38VyxUZUMzWccySuqtEDZMbAeaS30qIYvHe3svLbJLhbInvtT8kgu2x7l7iWXwYWQZTtOp1ovF9RuWmaJDkCmEhYtG0tEMGDyTqB9k/taa3XT/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 720,
+        "src": "images/opt/portraits/red-dress-road-away-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1440,
+        "src": "images/opt/portraits/red-dress-road-away-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 2160,
+        "src": "images/opt/portraits/red-dress-road-away-1440.webp"
+      },
+      {
+        "w": 1600,
+        "h": 2400,
+        "src": "images/opt/portraits/red-dress-road-away-1600.webp"
+      }
+    ],
+    "original": "images/portraits/red-dress-road-away.jpg"
+  },
+  "portraits/red-dress-turn": {
+    "w": 1310,
+    "h": 2400,
+    "avg": "#837875",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYAA0DAREAAhEBAxEB/8QAFgAAAwAAAAAAAAAAAAAAAAAABAUG/8QAJRAAAgEDAwIHAAAAAAAAAAAAAQMCAAQRBRIhBjETIjJBgZGh/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEDAv/EABkRAQEBAAMAAAAAAAAAAAAAAAABEQIhIv/aAAwDAQACEQMRAD8AKvL+Ni9C5pJWziTM+knOOPijTwSNjYiUexoIr1ucDqKLQTkZswBjsMbuT9/lZtUk80wt4+HAryDs4zTlTSWrX8rfqFr1gSksgDd71nOlpl44o9Na64tg9kBAs823PbNGpV//2Q==",
+    "variants": [
+      {
+        "w": 480,
+        "h": 879,
+        "src": "images/opt/portraits/red-dress-turn-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1759,
+        "src": "images/opt/portraits/red-dress-turn-960.webp"
+      },
+      {
+        "w": 1310,
+        "h": 2400,
+        "src": "images/opt/portraits/red-dress-turn-1310.webp"
+      }
+    ],
+    "original": "images/portraits/red-dress-turn.jpg"
+  },
+  "portraits/yellow-dress-roses": {
+    "w": 1600,
+    "h": 2400,
+    "avg": "#3A3938",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgQFBv/EACUQAAIBAgUDBQAAAAAAAAAAAAECAwARBAUhMVEGEiIUgaGx0f/EABcBAQEBAQAAAAAAAAAAAAAAAAECAAP/xAAaEQEBAAIDAAAAAAAAAAAAAAAAAQIRITFB/9oADAMBAAIRAxEAPwDIMO4i1yeAKIu7vNAJQwY21G4vuKWmU9Usiw4xOZqFmaMIpkLAa2H7tRHOdls7g9Jm0ut45PNSdyDz70q3TnTLkT4oqdGjCdvJLafRoA+q1KTQXjCgqfK3xSmV/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 720,
+        "src": "images/opt/portraits/yellow-dress-roses-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 1440,
+        "src": "images/opt/portraits/yellow-dress-roses-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 2160,
+        "src": "images/opt/portraits/yellow-dress-roses-1440.webp"
+      },
+      {
+        "w": 1600,
+        "h": 2400,
+        "src": "images/opt/portraits/yellow-dress-roses-1600.webp"
+      }
+    ],
+    "original": "images/portraits/yellow-dress-roses.jpg"
+  }
+}

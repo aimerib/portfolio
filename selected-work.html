@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="cream">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Selected Work &mdash; Aimeri Baddouh Photography</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Selected Work — Aimeri Baddouh Photography</title>
   <meta name="description" content="A few photography projects worth talking about. Product and brand work by Aimeri Baddouh, based in Cuenca, Ecuador.">
+  <meta name="theme-color" content="#f3ede3">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="canonical" href="https://aimeribaddouh.com/selected-work">
 
@@ -20,91 +21,140 @@
   <meta name="twitter:title" content="Selected Work — Aimeri Baddouh Photography">
   <meta name="twitter:description" content="A few projects worth talking about — product photography case studies.">
   <meta name="twitter:image" content="https://aimeribaddouh.com/images/product-pop/tarot-sun.jpeg">
-  <link rel="stylesheet" href="styles.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=Inter:opsz,wght@14..32,300..600&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+  <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 
-  <nav class="nav">
-    <a href="/" class="nav__logo">
-      Aimeri Baddouh
-      <span>Photography</span>
-    </a>
-    <input type="checkbox" id="nav-toggle" class="nav__toggle sr-only">
-    <label for="nav-toggle" class="nav__toggle-label"><span></span></label>
-    <ul class="nav__links">
-      <li><a href="/portraits">Portraits</a></li>
-      <li><a href="/moody">Product &middot; Moody</a></li>
-      <li><a href="/color">Product &middot; Color</a></li>
-      <li><a href="/selected-work" class="active">Selected Work</a></li>
-      <li><a href="/about">About</a></li>
-    </ul>
-  </nav>
+  <a class="skip" href="#main">Skip to content</a>
 
-  <header class="page-header">
-    <h1 class="page-header__title">Selected Work</h1>
-    <p class="page-header__desc">A few projects worth talking about.</p>
-    <div class="page-header__divider"></div>
+  <header class="nav">
+    <a href="/" class="nav__logo">Aimeri Baddouh <small>Photography</small></a>
+    <nav aria-label="Primary">
+      <ul class="nav__links">
+        <li><a href="/portraits">Portraits</a></li>
+        <li><a href="/moody">Product&nbsp;&middot; Moody</a></li>
+        <li><a href="/color">Product&nbsp;&middot; Color</a></li>
+        <li><a href="/selected-work" aria-current="page">Selected Work</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+    <button type="button" class="nav__menu" aria-expanded="false" aria-controls="menu">
+      <span class="label-closed">Menu</span><span class="label-open">Close</span><i aria-hidden="true"></i>
+    </button>
   </header>
 
-  <div class="cases">
-
-    <article class="case case--featured">
-      <div class="case__images">
-        <img src="images/product-pop/tarot-sun.jpeg" alt="The Sun card from the Tarot of Life on marigold and blue paper">
-        <img src="images/product-pop/tarot-lovers.jpeg" alt="The Lovers card from the Tarot of Life">
-      </div>
-      <div class="case__body">
-        <p class="case__client">Mariah Oller Studio</p>
-        <h2 class="case__title">Shooting the Tarot of Life deck</h2>
-        <p class="case__meta">Hand-illustrated tarot deck &middot; Mexico City</p>
-        <p>Mariah is a cell biologist turned tarot artist working out of Mexico City. Her hand-illustrated Tarot of Life deck funded on Kickstarter in a week, got named to the TODAY Show's beginner-deck list, ran in Oprah Daily and Bustle, and ended up in the Library of Congress's permanent collection. By the time the cards reached me they were already the most interesting thing in any room.</p>
-        <p>Which is the whole point of the shoot: when the artwork is that strong, the photography's job is to stay out of its way. Each card sits on saturated paper pulled from its own palette, lit flat and even so the illustration reads clean to the edges. No props, no styling &mdash; just the card, the color, and enough contrast to let the linework carry it.</p>
-      </div>
-    </article>
-
-    <article class="case">
-      <div class="case__images">
-        <img src="images/product-moody/hotsauce-hero.jpeg" alt="Firebelly Farms hot sauce hero shot with peppers">
-        <img src="images/product-pop/hotsauce-flatlay.jpeg" alt="Firebelly Farms flat-lay with fresh peppers">
-      </div>
-      <div class="case__body">
-        <p class="case__client">Firebelly Farms</p>
-        <h2 class="case__title">Hot sauce hero shots &amp; flat-lays</h2>
-        <p class="case__meta">Small-batch hot sauce &middot; Charlotte, NC</p>
-        <p>Firebelly came to me before they had a clear visual identity. They needed clean shots of the bottles, but anything generic was going to read like every other small-batch hot sauce on the shelf.</p>
-        <p>The peppers ended up doing the work. Using their own ingredients as props meant the line had a visual signature built in from their own product, not borrowed from a stock playbook. The hero shot is still in use on their site years later. The flat-lay became their main background.</p>
-      </div>
-    </article>
-
-    <article class="case case--reversed">
-      <div class="case__images">
-        <img src="images/product-pop/fan-earrings.jpeg" alt="Silvia Jane fan earrings on pink-circle composition">
-        <img src="images/product-pop/flower-earrings.jpeg" alt="Silvia Jane flower earrings on split pink background">
-      </div>
-      <div class="case__body">
-        <p class="case__client">Silvia Jane</p>
-        <h2 class="case__title">Earring shots for a seasonal release</h2>
-        <p class="case__meta">Handmade jewelry &middot; Charlotte, NC</p>
-        <p>Silvia Jane is a small Charlotte jewelry brand. The maker is active in advocacy for kids with special needs &mdash; I liked the ethos and the work is genuinely good. She reached out about a new seasonal drop: handmade pieces, mostly white and pale-toned, that needed product shots before launch.</p>
-        <p>The jewelry itself was understated enough that any complex setup would have buried it. So the approach went the other way: each piece sits as negative space inside a saturated paper backdrop. The color carries the frame; the jewelry stays quiet on top.</p>
-      </div>
-    </article>
-
+  <div class="menu" id="menu" aria-hidden="true">
+    <ul class="menu__list">
+      <li><a class="menu__link" href="/portraits" style="--i:0"><small>01</small>Portraits<img class="menu__thumb" src="/images/opt/portraits/dark-coat-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/moody" style="--i:1"><small>02</small>Product&nbsp;&middot; Moody<img class="menu__thumb" src="/images/opt/product-moody/pocket-watch-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/color" style="--i:2"><small>03</small>Product&nbsp;&middot; Color<img class="menu__thumb" src="/images/opt/product-pop/tarot-sun-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/selected-work" style="--i:3"><small>04</small>Selected Work<img class="menu__thumb" src="/images/opt/product-pop/fan-earrings-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+      <li><a class="menu__link" href="/about" style="--i:4"><small>05</small>About<img class="menu__thumb" src="/images/opt/about/photographer-480.webp" alt="" loading="lazy" decoding="async"></a></li>
+    </ul>
+    <div class="menu__foot">
+      <a href="mailto:aimeri@baddouh.me">aimeri@baddouh.me</a>
+      <a href="https://instagram.com/aimeribaddouh" target="_blank" rel="noopener">Instagram</a>
+      <span>Cuenca, Ecuador</span>
+    </div>
   </div>
 
-  <footer class="footer">
-    <p class="footer__name">Aimeri Baddouh Photography</p>
-    <div class="footer__links">
-      <a href="/portraits">Portraits</a>
-      <a href="/moody">Moody</a>
-      <a href="/color">Color</a>
-      <a href="/about">About</a>
-      <a href="https://instagram.com/aimeribaddouh" target="_blank" rel="noopener">Instagram</a>
+  <main id="main">
+    <header class="page-head wrap">
+      <p class="eyebrow eyebrow--accent">Case studies</p>
+      <h1 class="page-head__title">Selected <em>Work</em></h1>
+      <div class="page-head__row">
+        <p class="page-head__desc">A few projects worth talking about.</p>
+        <p class="ghead__count mono">3 projects</p>
+      </div>
+    </header>
+
+    <div class="cases wrap" data-lightbox>
+      <article class="case" id="mariah-oller">
+        <div class="case__images">
+          <figure class="ph reveal" data-w="1920" data-h="1920" style="--avg:#D0B757;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAEDBAX/xAAlEAACAQMDAwUBAAAAAAAAAAABAgADESESEzEEBTJRYXGRocH/xAAYAQACAwAAAAAAAAAAAAAAAAADBAECBf/EACERAAICAQMFAQAAAAAAAAAAAAECABExAxIhBCJBoeHR/9oADAMBAAIRAxEAPwDsgbT48GP0Zfsvu3xxbmZqW8rqHKutx8zP0ydwXurrWOumx1KwAsueL88WmWED2SbNVYOfsMhoUAQLwRj5NYBqVSzeK4A9TEio9XWwRABc5JiAdXc8OFA4A3fnuSrql9pJOTUA5Ev1UD1ArWfUMflv7ERTQ6l9C9nmOvpq+ZUTck+8REWJs3Lz/9k=)">
+    <a class="ph__link" href="/images/opt/product-pop/tarot-sun-1920.webp" data-srcset="/images/opt/product-pop/tarot-sun-480.webp 480w, /images/opt/product-pop/tarot-sun-960.webp 960w, /images/opt/product-pop/tarot-sun-1440.webp 1440w, /images/opt/product-pop/tarot-sun-1920.webp 1920w" data-caption="The Sun card from the Tarot of Life on marigold and cyan paper" aria-label="Open: The Sun card from the Tarot of Life on marigold and cyan paper"><img src="/images/opt/product-pop/tarot-sun-960.webp" srcset="/images/opt/product-pop/tarot-sun-480.webp 480w, /images/opt/product-pop/tarot-sun-960.webp 960w, /images/opt/product-pop/tarot-sun-1440.webp 1440w, /images/opt/product-pop/tarot-sun-1920.webp 1920w" sizes="(min-width: 900px) 38vw, 66vw" width="1920" height="1920" alt="The Sun card from the Tarot of Life on marigold and cyan paper" loading="lazy" decoding="async"></a>
+  </figure>
+          <figure class="ph reveal" data-w="1920" data-h="1920" style="--avg:#60B2CC;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQCBf/EACYQAAEEAQIEBwAAAAAAAAAAAAEAAgMRBFGRBRIUQRMhMWFxgbH/xAAVAQEBAAAAAAAAAAAAAAAAAAAEBf/EAB8RAAICAgIDAQAAAAAAAAAAAAECAAMRMQQhEhNRcf/aAAwDAQACEQMRAD8Arxo78q+tVb0svaF/xyqXBkqRg1cP1MKbN8Ev6t7i3IJcHtJ5wdD2A0TL7fWwH2TeHSj0ls631+zOTHTiKr2RbzH3I8E+jjW6JSZxJt5U2Hx1I8aUNmYSaAcL3XQx8ZkQdG7iUToi4uoNAok62iI/IrVyMxfDuapWUaMhyZA6aQg2C41uiIkjUAeyTP/Z) --d:140ms">
+    <a class="ph__link" href="/images/opt/product-pop/tarot-lovers-1920.webp" data-srcset="/images/opt/product-pop/tarot-lovers-480.webp 480w, /images/opt/product-pop/tarot-lovers-960.webp 960w, /images/opt/product-pop/tarot-lovers-1440.webp 1440w, /images/opt/product-pop/tarot-lovers-1920.webp 1920w" data-caption="The Lovers card from the Tarot of Life" aria-label="Open: The Lovers card from the Tarot of Life"><img src="/images/opt/product-pop/tarot-lovers-960.webp" srcset="/images/opt/product-pop/tarot-lovers-480.webp 480w, /images/opt/product-pop/tarot-lovers-960.webp 960w, /images/opt/product-pop/tarot-lovers-1440.webp 1440w, /images/opt/product-pop/tarot-lovers-1920.webp 1920w" sizes="(min-width: 900px) 28vw, 50vw" width="1920" height="1920" alt="The Lovers card from the Tarot of Life" loading="lazy" decoding="async"></a>
+  </figure>
+        </div>
+        <div class="case__text">
+          <p class="eyebrow eyebrow--accent case__client reveal">Mariah Oller Studio</p>
+          <h2 class="case__title reveal" style="--d:80ms">Shooting the <em>Tarot of Life</em> deck</h2>
+          <p class="case__meta reveal" style="--d:140ms">Hand-illustrated tarot deck &middot; Mexico City</p>
+          <p class="reveal" style="--d:200ms">Mariah is a cell biologist turned tarot artist working out of Mexico City. Her hand-illustrated Tarot of Life deck funded on Kickstarter in a week, got named to the TODAY Show&rsquo;s beginner-deck list, ran in Oprah Daily and Bustle, and ended up in the Library of Congress&rsquo;s permanent collection. By the time the cards reached me they were already the most interesting thing in any room.</p>
+          <p class="reveal" style="--d:260ms">Which is the whole point of the shoot: when the artwork is that strong, the photography&rsquo;s job is to stay out of its way. Each card sits on saturated paper pulled from its own palette, lit flat and even so the illustration reads clean to the edges. No props, no styling &mdash; just the card, the color, and enough contrast to let the linework carry it.</p>
+        </div>
+      </article>
+
+      <article class="case case--flip" id="firebelly-farms">
+        <div class="case__images">
+          <figure class="ph reveal" data-w="1920" data-h="1280" style="--avg:#5F524A;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAgb/xAAkEAABAwMEAQUAAAAAAAAAAAABAAIRAwQSBRMhMRQiQVFhgf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAGxEAAwACAwAAAAAAAAAAAAAAAAECERJBUWH/2gAMAwEAAhEDEQA/AOdaeU3aecKnGBaeP1PfptWzbuXNMnIHbaJ9RA9/hVdPOOmMoXb3sLmEeOZBjKZ6jr7QdJZ8KTPfJIbTAElC1FS5vCLdpbQcTgXSeEJxSpZROlqf/9k=)">
+    <a class="ph__link" href="/images/opt/product-moody/hotsauce-hero-1920.webp" data-srcset="/images/opt/product-moody/hotsauce-hero-480.webp 480w, /images/opt/product-moody/hotsauce-hero-960.webp 960w, /images/opt/product-moody/hotsauce-hero-1440.webp 1440w, /images/opt/product-moody/hotsauce-hero-1920.webp 1920w" data-caption="Firebelly Farms hot sauce hero shot with peppers" aria-label="Open: Firebelly Farms hot sauce hero shot with peppers"><img src="/images/opt/product-moody/hotsauce-hero-960.webp" srcset="/images/opt/product-moody/hotsauce-hero-480.webp 480w, /images/opt/product-moody/hotsauce-hero-960.webp 960w, /images/opt/product-moody/hotsauce-hero-1440.webp 1440w, /images/opt/product-moody/hotsauce-hero-1920.webp 1920w" sizes="(min-width: 900px) 38vw, 66vw" width="1920" height="1280" alt="Firebelly Farms hot sauce hero shot with peppers" loading="lazy" decoding="async"></a>
+  </figure>
+          <figure class="ph reveal" data-w="1280" data-h="1920" style="--avg:#CC8F64;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EACEQAAICAwACAgMAAAAAAAAAAAECAwQAERIFFCExcYHB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwX/xAAbEQACAgMBAAAAAAAAAAAAAAABAgADEkFRMf/aAAwDAQACEQMRAD8A2bnkY6iM2uuddY9K4Lih0jZY3XpSw0dZn2ofZYxF0VQD0xGwPzi0rslW/BQ6jaILyCuxvY2D/MnVFnXI9lB6x4vJV2s+73GsTQMmmViRs/rIQVJD5d7kyoiqoCKrbG9ffz84YYgOoeR1P//Z) --d:140ms">
+    <a class="ph__link" href="/images/opt/product-pop/hotsauce-flatlay-1280.webp" data-srcset="/images/opt/product-pop/hotsauce-flatlay-480.webp 480w, /images/opt/product-pop/hotsauce-flatlay-960.webp 960w, /images/opt/product-pop/hotsauce-flatlay-1280.webp 1280w" data-caption="Firebelly Farms flat-lay with fresh peppers" aria-label="Open: Firebelly Farms flat-lay with fresh peppers"><img src="/images/opt/product-pop/hotsauce-flatlay-960.webp" srcset="/images/opt/product-pop/hotsauce-flatlay-480.webp 480w, /images/opt/product-pop/hotsauce-flatlay-960.webp 960w, /images/opt/product-pop/hotsauce-flatlay-1280.webp 1280w" sizes="(min-width: 900px) 28vw, 50vw" width="1280" height="1920" alt="Firebelly Farms flat-lay with fresh peppers" loading="lazy" decoding="async"></a>
+  </figure>
+        </div>
+        <div class="case__text">
+          <p class="eyebrow eyebrow--accent case__client reveal">Firebelly Farms</p>
+          <h2 class="case__title reveal" style="--d:80ms">Hot sauce hero shots <em>&amp; flat-lays</em></h2>
+          <p class="case__meta reveal" style="--d:140ms">Small-batch hot sauce &middot; Charlotte, NC</p>
+          <p class="reveal" style="--d:200ms">Firebelly came to me before they had a clear visual identity. They needed clean shots of the bottles, but anything generic was going to read like every other small-batch hot sauce on the shelf.</p>
+          <p class="reveal" style="--d:260ms">The peppers ended up doing the work. Using their own ingredients as props meant the line had a visual signature built in from their own product, not borrowed from a stock playbook. The hero shot is still in use on their site years later. The flat-lay became their main background.</p>
+        </div>
+      </article>
+
+      <article class="case" id="silvia-jane">
+        <div class="case__images">
+          <figure class="ph reveal" data-w="1920" data-h="1920" style="--avg:#F65D8C;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDBP/EACIQAAICAgAGAwAAAAAAAAAAAAECABEDEhMhMUFRYSIjcf/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAgb/xAAXEQEBAQEAAAAAAAAAAAAAAAAAARFB/9oADAMBAAIRAxEAPwDr1K4yVKhhz+XiFONNydtWNg3d+YytjSrQFmFX6k/XlwqyaUOVE9fcOuh0YK6bL0iThVcXExl7a7160P3vEW5aHXKBZojvM2UDIMYQlCbLeYiFUk3VZGxq5dVAY94iJF//2Q==)">
+    <a class="ph__link" href="/images/opt/product-pop/fan-earrings-1920.webp" data-srcset="/images/opt/product-pop/fan-earrings-480.webp 480w, /images/opt/product-pop/fan-earrings-960.webp 960w, /images/opt/product-pop/fan-earrings-1440.webp 1440w, /images/opt/product-pop/fan-earrings-1920.webp 1920w" data-caption="Silvia Jane fan earrings on pink-circle composition" aria-label="Open: Silvia Jane fan earrings on pink-circle composition"><img src="/images/opt/product-pop/fan-earrings-960.webp" srcset="/images/opt/product-pop/fan-earrings-480.webp 480w, /images/opt/product-pop/fan-earrings-960.webp 960w, /images/opt/product-pop/fan-earrings-1440.webp 1440w, /images/opt/product-pop/fan-earrings-1920.webp 1920w" sizes="(min-width: 900px) 38vw, 66vw" width="1920" height="1920" alt="Silvia Jane fan earrings on pink-circle composition" loading="lazy" decoding="async"></a>
+  </figure>
+          <figure class="ph reveal" data-w="1920" data-h="1920" style="--avg:#EA4A9D;background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECBAX/xAAjEAACAgEDBAMBAAAAAAAAAAABAgADEQQSMQUTIUEiQlFh/8QAFwEBAQEBAAAAAAAAAAAAAAAAAgMEBf/EABsRAAMAAwEBAAAAAAAAAAAAAAABAgMRIRIx/9oADAMBAAIRAxEAPwDVskOVrHyYAYJ8/g5M0UVd5nUlwFTOUxmVd0C3KSNLbamK+6D4BIGP7nk/kezuXn0/KW2c7VdQFQKUkFz9vQiU6oan1QCM1jooWywkYdh7GPUS8zw3YpThNr6Tf1Nxcp0x27DkNjkzFZbZaQbHZyONxziIiUpFZxzPUgsREQj/2Q==) --d:140ms">
+    <a class="ph__link" href="/images/opt/product-pop/flower-earrings-1920.webp" data-srcset="/images/opt/product-pop/flower-earrings-480.webp 480w, /images/opt/product-pop/flower-earrings-960.webp 960w, /images/opt/product-pop/flower-earrings-1440.webp 1440w, /images/opt/product-pop/flower-earrings-1920.webp 1920w" data-caption="Silvia Jane flower earrings on split pink background" aria-label="Open: Silvia Jane flower earrings on split pink background"><img src="/images/opt/product-pop/flower-earrings-960.webp" srcset="/images/opt/product-pop/flower-earrings-480.webp 480w, /images/opt/product-pop/flower-earrings-960.webp 960w, /images/opt/product-pop/flower-earrings-1440.webp 1440w, /images/opt/product-pop/flower-earrings-1920.webp 1920w" sizes="(min-width: 900px) 28vw, 50vw" width="1920" height="1920" alt="Silvia Jane flower earrings on split pink background" loading="lazy" decoding="async"></a>
+  </figure>
+        </div>
+        <div class="case__text">
+          <p class="eyebrow eyebrow--accent case__client reveal">Silvia Jane</p>
+          <h2 class="case__title reveal" style="--d:80ms">Earring shots for a <em>seasonal release</em></h2>
+          <p class="case__meta reveal" style="--d:140ms">Handmade jewelry &middot; Charlotte, NC</p>
+          <p class="reveal" style="--d:200ms">Silvia Jane is a small Charlotte jewelry brand. The maker is active in advocacy for kids with special needs &mdash; I liked the ethos and the work is genuinely good. She reached out about a new seasonal drop: handmade pieces, mostly white and pale-toned, that needed product shots before launch.</p>
+          <p class="reveal" style="--d:260ms">The jewelry itself was understated enough that any complex setup would have buried it. So the approach went the other way: each piece sits as negative space inside a saturated paper backdrop. The color carries the frame; the jewelry stays quiet on top.</p>
+        </div>
+      </article>
     </div>
-    <p class="footer__copy">&copy; 2026 Aimeri Baddouh &middot; Cuenca, Ecuador</p>
+
+    <section class="cta">
+      <div class="wrap cta__inner">
+        <h2 class="cta__title reveal">Working on something? <em>Tell me about it.</em></h2>
+        <div class="cta__side reveal" style="--d:120ms">
+          <p>Before I say yes, I look at the products and the brand and see if I can come up with an idea for the shoot.</p>
+          <a class="btn btn--solid" href="/about#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p class="footer__name">Aimeri Baddouh <small>Photography</small></p>
+      <ul class="footer__links">
+        <li><a href="/portraits">Portraits</a></li>
+        <li><a href="/moody">Moody</a></li>
+        <li><a href="/color">Color</a></li>
+        <li><a href="/selected-work">Selected Work</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="https://instagram.com/aimeribaddouh" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+      <p class="footer__copy"><span>&copy; 2026 Aimeri Baddouh &middot; Cuenca, Ecuador</span><a href="mailto:aimeri@baddouh.me">aimeri@baddouh.me</a></p>
+    </div>
   </footer>
 
+  <script src="/site.js" defer></script>
 </body>
 </html>
