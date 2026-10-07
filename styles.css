@@ -761,14 +761,19 @@ html.js .reveal--clip.is-in { clip-path: inset(0); }
 .strip__title em { font-style: italic; color: var(--accent); transition: color var(--t-theme); }
 .strip__grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: var(--gap);
 }
-.card { display: block; }
+.card { display: block; container-type: inline-size; }
 .card .ph { aspect-ratio: 4 / 5; }
-.card__meta { padding: 1rem 0 0; display: flex; justify-content: space-between; gap: 1rem; align-items: baseline; }
+.card__meta { padding: 1rem 0 0; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .25rem 1rem; align-items: baseline; }
 .card__client { font-family: var(--font-display); font-size: 1.35rem; font-variation-settings: "opsz" 24, "SOFT" 30; }
 .card__what { font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--fg-3); transition: color var(--t-theme); text-align: right; }
+/* All cards share a width, so they stack name-over-type together instead of wrapping one by one */
+@container (max-width: 320px) {
+  .card__meta { flex-direction: column; align-items: flex-start; }
+  .card__what { text-align: left; }
+}
 
 @media (max-width: 899px) {
   .strip__head { flex-direction: column; align-items: flex-start; gap: 1rem; }
@@ -1038,8 +1043,8 @@ html.lb-open { overflow: hidden; }
 .about__logos { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem 2.25rem; margin: .25rem 0 1.25rem; }
 .about__logos img { height: 58px; width: auto; max-width: 150px; object-fit: contain; mix-blend-mode: multiply; filter: grayscale(1) contrast(1.05); opacity: .8; transition: filter .4s, opacity .4s; }
 .about__logos img:hover { filter: none; opacity: 1; }
-.about__block a.inline { color: var(--accent); border-bottom: 1px solid transparent; transition: border-color .3s; }
-.about__block a.inline:hover { border-color: currentColor; }
+.about__block a.inline, .case__text a.inline { color: var(--accent); border-bottom: 1px solid transparent; transition: border-color .3s; }
+.about__block a.inline:hover, .case__text a.inline:hover { border-color: currentColor; }
 .about__facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1.5rem 2rem; list-style: none; }
 .about__facts dt { font-size: .68rem; letter-spacing: .16em; text-transform: uppercase; color: var(--fg-3); margin-bottom: .35rem; }
 .about__facts dd { font-size: .98rem; color: var(--fg); }
