@@ -1354,5 +1354,150 @@
       }
     ],
     "original": "images/portraits/yellow-dress-roses.jpg"
+  },
+  "product-pop/suspiro": {
+    "w": 3967,
+    "h": 2649,
+    "avg": "#D17A9A",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAADBf/EACMQAAIBBAEDBQAAAAAAAAAAAAECAAMREiEEBRNhFCIxMkH/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAIRIQEDEv/aAAwDAQACEQMRAD8AQlPNrD5i+V070/HR7szsfqo8QlJirg5W8x9XqS1Epl6dymxv9jNTbl65OMO4xvj7DcCU35FTM6GOrESgUSYs/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 321,
+        "src": "images/opt/product-pop/suspiro-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 641,
+        "src": "images/opt/product-pop/suspiro-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 962,
+        "src": "images/opt/product-pop/suspiro-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1282,
+        "src": "images/opt/product-pop/suspiro-1920.webp"
+      }
+    ],
+    "original": "images/product-pop/suspiro.jpg"
+  },
+  "about/chakana-altar": {
+    "w": 2400,
+    "h": 1600,
+    "avg": "#8B8B84",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAABA//EACMQAAIBAwMEAwAAAAAAAAAAAAECAwAEEQUSIRMxMlEUQWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABYRAQEBAAAAAAAAAAAAAAAAAAABIf/aAAwDAQACEQMRAD8AbEbaO7a0jtZGZFyZGTK+/I0TUDJcQsFnMR45jYDAz6zWamusCRRao8igbjtwAfzJrjBDfwxbp7bqSMck48R9CppDdNjkWEp8hpQrEFjwcnnmqm23EW6QAMR271Ug/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 320,
+        "src": "images/opt/about/chakana-altar-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 640,
+        "src": "images/opt/about/chakana-altar-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 960,
+        "src": "images/opt/about/chakana-altar-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1280,
+        "src": "images/opt/about/chakana-altar-1920.webp"
+      }
+    ],
+    "original": "images/about/chakana-altar.jpg"
+  },
+  "product-pop/gabmary-brown-vessel": {
+    "w": 2400,
+    "h": 1600,
+    "avg": "#9D8386",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUBBAb/xAAjEAACAQQBBAMBAAAAAAAAAAABAgMABAURIRITQVEGFCJh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAESH/2gAMAwEAAhEDEQA/AJ+T39zB9RoZpY1JYMEYjfqm2HvnmxNvJM5dyp2x88kUoz8MlzDGiIfwwYNyR/dgVWsLTI3MfaeQw20fC8a6hvwKN1eY0UuSgB6e4u/W6KXpjYYF8u3tqKQv/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 320,
+        "src": "images/opt/product-pop/gabmary-brown-vessel-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 640,
+        "src": "images/opt/product-pop/gabmary-brown-vessel-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 960,
+        "src": "images/opt/product-pop/gabmary-brown-vessel-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1280,
+        "src": "images/opt/product-pop/gabmary-brown-vessel-1920.webp"
+      }
+    ],
+    "original": "images/product-pop/gabmary-brown-vessel.jpg"
+  },
+  "product-pop/gabmary-tapered-vessel": {
+    "w": 2400,
+    "h": 1600,
+    "avg": "#9C727A",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQL/xAAgEAABBAICAwEAAAAAAAAAAAABAAIDEQQhEkEFEyJx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQIE/8QAFxEBAQEBAAAAAAAAAAAAAAAAABEBIf/aAAwDAQACEQMRAD8AYJD6yBo1oqbxuRPJjF+SeRcfmx0rGtHEgjpIOFETFd1ENNHf6p61RzM9pvQQtmYKKEiY/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 320,
+        "src": "images/opt/product-pop/gabmary-tapered-vessel-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 640,
+        "src": "images/opt/product-pop/gabmary-tapered-vessel-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 960,
+        "src": "images/opt/product-pop/gabmary-tapered-vessel-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1280,
+        "src": "images/opt/product-pop/gabmary-tapered-vessel-1920.webp"
+      }
+    ],
+    "original": "images/product-pop/gabmary-tapered-vessel.jpg"
+  },
+  "product-pop/gabmary-two-vessels": {
+    "w": 2400,
+    "h": 1600,
+    "avg": "#885C60",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDBP/EACEQAQABBAEEAwAAAAAAAAAAAAECAAMEESESEzFBInGR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgT/xAAYEQEBAAMAAAAAAAAAAAAAAAAAARIhQf/aAAwDAQACEQMRAD8AnHJQ5aWRk9nfe1EPex2evFMtRnBioCedbrPPFhcx8u3OHSzkNp3yABz+ULlxXqJ3b8Z71KL9NFQMO3jnxFl7k0Ugf//Z",
+    "variants": [
+      {
+        "w": 480,
+        "h": 320,
+        "src": "images/opt/product-pop/gabmary-two-vessels-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 640,
+        "src": "images/opt/product-pop/gabmary-two-vessels-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 960,
+        "src": "images/opt/product-pop/gabmary-two-vessels-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1280,
+        "src": "images/opt/product-pop/gabmary-two-vessels-1920.webp"
+      }
+    ],
+    "original": "images/product-pop/gabmary-two-vessels.jpg"
   }
 }
