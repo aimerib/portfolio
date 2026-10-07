@@ -1354,5 +1354,63 @@
       }
     ],
     "original": "images/portraits/yellow-dress-roses.jpg"
+  },
+  "product-pop/suspiro": {
+    "w": 3967,
+    "h": 2649,
+    "avg": "#D17A9A",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAADBf/EACMQAAIBBAEDBQAAAAAAAAAAAAECAAMREiEEBRNhFCIxMkH/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAIRIQEDEv/aAAwDAQACEQMRAD8AQlPNrD5i+V070/HR7szsfqo8QlJirg5W8x9XqS1Epl6dymxv9jNTbl65OMO4xvj7DcCU35FTM6GOrESgUSYs/9k=",
+    "variants": [
+      {
+        "w": 480,
+        "h": 321,
+        "src": "images/opt/product-pop/suspiro-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 641,
+        "src": "images/opt/product-pop/suspiro-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 962,
+        "src": "images/opt/product-pop/suspiro-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1282,
+        "src": "images/opt/product-pop/suspiro-1920.webp"
+      }
+    ],
+    "original": "images/product-pop/suspiro.jpg"
+  },
+  "about/chakana-altar": {
+    "w": 6240,
+    "h": 4160,
+    "avg": "#8B8B84",
+    "lqip": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAQABgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwQF/8QAIxAAAgEDAwQDAAAAAAAAAAAAAQIDAAQRBRIhEzEyURRBYf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABwRAAICAwEBAAAAAAAAAAAAAAABAiERMUFRYf/aAAwDAQACEQMRAD8AtiNtHdtaR2sjMi5MjJlffkajlgqjRJqBkuImCzmI8cxsBgZ9ZqXoiqxtNjkWEp8hpQrEFjwcnnmkZcew4vaA1NdYEii1R5FA3HbgA/mTVlh1wzHKeQYIdQhi3T23UkY5Jx4j6FMfTTfhtW3EW6QAMR270SXEL6z/2Q==",
+    "variants": [
+      {
+        "w": 480,
+        "h": 320,
+        "src": "images/opt/about/chakana-altar-480.webp"
+      },
+      {
+        "w": 960,
+        "h": 640,
+        "src": "images/opt/about/chakana-altar-960.webp"
+      },
+      {
+        "w": 1440,
+        "h": 960,
+        "src": "images/opt/about/chakana-altar-1440.webp"
+      },
+      {
+        "w": 1920,
+        "h": 1280,
+        "src": "images/opt/about/chakana-altar-1920.webp"
+      }
+    ],
+    "original": "images/about/chakana-altar.jpg"
   }
 }
